@@ -183,555 +183,433 @@ plt.ylabel("Route")
 plt.show()
 ```
 
----
+---1️⃣ Dataset Structure
 
-# ⏱️ 2. Delay Analysis
+The first step was to inspect the dataset columns and identify numerical and categorical features.
 
-Analyzed traffic delays across routes and travel conditions.
+Numerical Columns
+   
+     int_columns = df.select_dtypes(
+    include=np.number
+    ).columns.tolist()
 
-```python
-plt.figure(figsize=(8, 5))
+    print(int_columns)
+    Categorical Columns
+    target_columns = df.select_dtypes(
+    include="object"
+     ).columns.tolist()
 
-sns.histplot(
-    df["delay_min"],
-    bins=30,
-    kde=True
-)
+    print(target_columns)
 
-plt.title("Traffic Delay Distribution")
-plt.xlabel("Delay (Minutes)")
-plt.ylabel("Frequency")
+This helps separate numerical variables from categorical variables for further analysis.
 
-plt.show()
-```
+2️⃣ Risk Level Analysis
 
-### Average Delay by Route
+The risk_level column was analyzed using descriptive statistics and grouping.
 
-```python
-plt.figure(figsize=(10, 6))
-
-df.groupby("route_name")["delay_min"].mean().sort_values(
-    ascending=False
-).plot(kind="bar")
-
-plt.title("Average Delay by Route")
-plt.xlabel("Route")
-plt.ylabel("Average Delay (Minutes)")
-
-plt.xticks(rotation=45)
-
-plt.show()
-```
-
----
-
-# 🛣️ 3. Distance Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-sns.histplot(
-    df["distance_km"],
-    bins=30,
-    kde=True
-)
-
-plt.title("Route Distance Distribution")
-plt.xlabel("Distance (KM)")
-plt.ylabel("Frequency")
-
-plt.show()
-```
-
----
-
-# 🏎️ 4. Average Speed Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-sns.histplot(
-    df["avg_speed_kmph"],
-    bins=30,
-    kde=True
-)
-
-plt.title("Average Speed Distribution")
-plt.xlabel("Average Speed (KM/H)")
-plt.ylabel("Frequency")
-
-plt.show()
-```
-
-### Speed by Route
-
-```python
-plt.figure(figsize=(10, 6))
-
-df.groupby("route_name")["avg_speed_kmph"].mean().sort_values(
-    ascending=False
-).plot(kind="bar")
-
-plt.title("Average Speed by Route")
-plt.xlabel("Route")
-plt.ylabel("Average Speed (KM/H)")
-
-plt.xticks(rotation=45)
-
-plt.show()
-```
-
----
-
-# 👥 5. Passenger Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-sns.histplot(
-    df["passenger_count"],
-    bins=30,
-    kde=True
-)
-
-plt.title("Passenger Count Distribution")
-plt.xlabel("Passenger Count")
-plt.ylabel("Frequency")
-
-plt.show()
-```
-
-### Passenger Count by Route
-
-```python
-plt.figure(figsize=(10, 6))
-
-df.groupby("route_name")["passenger_count"].sum().sort_values(
-    ascending=False
-).plot(kind="bar")
-
-plt.title("Passenger Demand by Route")
-plt.xlabel("Route")
-plt.ylabel("Total Passengers")
-
-plt.xticks(rotation=45)
-
-plt.show()
-```
-
----
-
-# 🚌 6. Bus Occupancy Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-sns.histplot(
-    df["occupancy_percent"],
-    bins=30,
-    kde=True
-)
-
-plt.title("Bus Occupancy Distribution")
-plt.xlabel("Occupancy (%)")
-plt.ylabel("Frequency")
-
-plt.show()
-```
-
-### Occupancy by Bus Type
-
-```python
-plt.figure(figsize=(8, 5))
-
-df.groupby("bus_type")["occupancy_percent"].mean().sort_values(
-    ascending=False
-).plot(kind="bar")
-
-plt.title("Average Occupancy by Bus Type")
-plt.xlabel("Bus Type")
-plt.ylabel("Average Occupancy (%)")
-
-plt.show()
-```
-
----
-
-# 🌦️ 7. Weather Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-sns.countplot(
-    x="weather",
+    df["risk_level"].describe()
+    Number of Records by Risk Level
+    df.groupby("risk_level")["route_id"].count()
+    High Risk Analysis
+    df[df["risk_level"] == "High"].describe()
+    Low Risk Analysis
+    df[df["risk_level"] == "Low"].describe()
+    Medium Risk Analysis
+    df[df["risk_level"] == "Medium"].describe()
+    Risk Level Visualization
+    sns.countplot(
+    x="risk_level",
     data=df
-)
+    )
 
-plt.title("Traffic Records by Weather")
-plt.xlabel("Weather")
-plt.ylabel("Count")
+    plt.title("Risk Level Distribution")
+    plt.show()
+Purpose
 
-plt.xticks(rotation=45)
+This analysis helps identify the distribution of High, Medium, and Low risk traffic conditions.
 
-plt.show()
-```
+3️⃣ Speed and Traffic Performance Analysis
 
-### Weather vs Delay
+Grouped analysis was performed using average speed.
 
-```python
-plt.figure(figsize=(8, 5))
+    df.groupby("avg_speed_kmph").agg({
+    "scheduled_time_min": ["min", "mean", "max"],
+    "actual_time_min": ["min", "mean", "max"],
+    "stop_count": ["min", "mean", "max"],
+    "traffic_signal_count": ["min", "mean", "max"],
+    "speed_reduction_index": ["min", "mean", "max"],
+    "peak_hour_flag": ["min", "mean", "max"],
+    "ticket_price_inr": ["min", "mean", "max"]
+    })
 
-df.groupby("weather")["delay_min"].mean().sort_values(
-    ascending=False
-).plot(kind="bar")
+This helps compare travel time, stops, traffic signals, speed reduction, peak-hour conditions, and ticket prices.
 
-plt.title("Average Delay by Weather")
-plt.xlabel("Weather")
-plt.ylabel("Average Delay (Minutes)")
+4️⃣ Correlation Analysis
 
-plt.show()
-```
+A correlation matrix was created to understand relationships between numerical variables.
 
----
-
-# ⚠️ 8. Risk Level Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-df["risk_level"].value_counts().plot(kind="bar")
-
-plt.title("Traffic Risk Level Distribution")
-plt.xlabel("Risk Level")
-plt.ylabel("Number of Records")
-
-plt.show()
-```
-
-### Risk Level by Route
-
-```python
-pd.crosstab(
-    df["route_name"],
-    df["risk_level"]
-).plot(
-    kind="bar",
-    figsize=(12, 6)
-)
-
-plt.title("Risk Level by Route")
-plt.xlabel("Route")
-plt.ylabel("Count")
-
-plt.xticks(rotation=45)
-
-plt.show()
-```
-
----
-
-# 🕐 9. Peak Hour Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-df["peak_hour_flag"].value_counts().plot(kind="bar")
-
-plt.title("Peak Hour Distribution")
-plt.xlabel("Peak Hour")
-plt.ylabel("Number of Records")
-
-plt.show()
-```
-
-### Peak Hour vs Delay
-
-```python
-plt.figure(figsize=(8, 5))
-
-df.groupby("peak_hour_flag")["delay_min"].mean().plot(
-    kind="bar"
-)
-
-plt.title("Average Delay: Peak vs Non-Peak")
-plt.xlabel("Peak Hour Flag")
-plt.ylabel("Average Delay (Minutes)")
-
-plt.show()
-```
-
----
-
-# 📅 10. Day of Week Analysis
-
-```python
-plt.figure(figsize=(10, 5))
-
-df["day_of_week"].value_counts().plot(
-    kind="bar"
-)
-
-plt.title("Traffic Records by Day of Week")
-plt.xlabel("Day")
-plt.ylabel("Count")
-
-plt.show()
-```
-
----
-
-# 🕒 11. Time of Day Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-df["time_of_day"].value_counts().plot(
-    kind="bar"
-)
-
-plt.title("Traffic by Time of Day")
-plt.xlabel("Time of Day")
-plt.ylabel("Count")
-
-plt.show()
-```
-
----
-
-# 🚦 12. Traffic Signal Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-sns.scatterplot(
-    data=df,
-    x="traffic_signal_count",
-    y="delay_min"
-)
-
-plt.title("Traffic Signals vs Delay")
-plt.xlabel("Traffic Signal Count")
-plt.ylabel("Delay (Minutes)")
-
-plt.show()
-```
-
----
-
-# 🛑 13. Stop Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-sns.scatterplot(
-    data=df,
-    x="stop_count",
-    y="actual_time_min"
-)
-
-plt.title("Number of Stops vs Actual Travel Time")
-plt.xlabel("Stop Count")
-plt.ylabel("Actual Travel Time (Minutes)")
-
-plt.show()
-```
-
----
-
-# ⛽ 14. Fuel Consumption Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-sns.histplot(
-    df["fuel_consumption_liters"],
-    bins=30,
-    kde=True
-)
-
-plt.title("Fuel Consumption Distribution")
-plt.xlabel("Fuel Consumption (Liters)")
-plt.ylabel("Frequency")
-
-plt.show()
-```
-
-### Distance vs Fuel Consumption
-
-```python
-plt.figure(figsize=(8, 5))
-
-sns.scatterplot(
-    data=df,
-    x="distance_km",
-    y="fuel_consumption_liters"
-)
-
-plt.title("Distance vs Fuel Consumption")
-plt.xlabel("Distance (KM)")
-plt.ylabel("Fuel Consumption (Liters)")
-
-plt.show()
-```
-
----
-
-# 📢 15. Complaint Analysis
-
-```python
-plt.figure(figsize=(8, 5))
-
-sns.histplot(
-    df["complaint_count"],
-    bins=30,
-    kde=True
-)
-
-plt.title("Complaint Distribution")
-plt.xlabel("Complaint Count")
-plt.ylabel("Frequency")
-
-plt.show()
-```
-
-### Complaints by Route
-
-```python
-plt.figure(figsize=(10, 6))
-
-df.groupby("route_name")["complaint_count"].sum().sort_values(
-    ascending=False
-).plot(kind="bar")
-
-plt.title("Complaints by Route")
-plt.xlabel("Route")
-plt.ylabel("Total Complaints")
-
-plt.xticks(rotation=45)
-
-plt.show()
-```
-
----
-
-# 🔗 16. Correlation Analysis
-
-```python
-plt.figure(figsize=(14, 10))
-
-corr = df.select_dtypes(
+    corr_df = df.select_dtypes(
     include="number"
-).corr()
+    )
 
-sns.heatmap(
-    corr,
+    plt.figure(figsize=(12, 8))
+
+     sns.heatmap(
+    corr_df.corr(),
     annot=True,
     cmap="coolwarm",
     fmt=".2f"
-)
+    )
 
-plt.title("Pune Traffic Correlation Heatmap")
+    plt.title("Correlation Matrix")
 
-plt.show()
-```
+    plt.show()
+Important Variables
 
----
+The following variables were particularly useful for traffic analysis:
 
-# 📈 17. Important Relationships
+    positive_correlation_columns = [
+    "distance_km",
+    "scheduled_time_min",
+    "actual_time_min",
+    "avg_speed_kmph",
+    "passenger_count",
+    "delay_min"
+     ]
 
-### Distance vs Delay
+The correlation analysis helps identify relationships between distance, travel time, speed, passengers, and delays.
 
-```python
-plt.figure(figsize=(8, 5))
+5️⃣ Numerical Variable Scatter Analysis
 
-sns.scatterplot(
-    data=df,
-    x="distance_km",
-    y="delay_min"
-)
+Scatter plots were created to examine relationships between numerical variables.
 
-plt.title("Distance vs Delay")
-plt.xlabel("Distance (KM)")
-plt.ylabel("Delay (Minutes)")
+     int_columns = df.select_dtypes(
+    include=np.number
+    ).columns.tolist()
 
-plt.show()
-```
+    for i in range(len(int_columns) - 1):
 
-### Passenger Count vs Occupancy
+    plt.figure(figsize=(7, 5))
 
-```python
-plt.figure(figsize=(8, 5))
+    plt.scatter(
+        df[int_columns[i]],
+        df[int_columns[i + 1]]
+    )
 
-sns.scatterplot(
-    data=df,
-    x="passenger_count",
-    y="occupancy_percent"
-)
+    plt.xlabel(int_columns[i])
+    plt.ylabel(int_columns[i + 1])
 
-plt.title("Passenger Count vs Occupancy")
-plt.xlabel("Passenger Count")
-plt.ylabel("Occupancy (%)")
+    plt.title(
+        f"{int_columns[i]} vs {int_columns[i + 1]}"
+    )
 
-plt.show()
-```
+    plt.show()
 
-### Speed Reduction vs Delay
+This provides a visual understanding of relationships between numerical traffic variables.
 
-```python
-plt.figure(figsize=(8, 5))
+6️⃣ Start Stop Analysis
 
-sns.scatterplot(
-    data=df,
-    x="speed_reduction_index",
-    y="delay_min"
-)
-
-plt.title("Speed Reduction Index vs Delay")
-plt.xlabel("Speed Reduction Index")
-plt.ylabel("Delay (Minutes)")
-
-plt.show()
-```
-
----
-
-# 📊 18. Outlier Analysis
-
-```python
-numeric_columns = df.select_dtypes(
-    include="number"
-).columns
-
-for col in numeric_columns:
+The frequency of starting bus stops was analyzed.
 
     plt.figure(figsize=(8, 4))
+
+    sns.countplot(
+    y="start_stop",
+    data=df
+      )
+
+    plt.title("Start Stop Distribution")
+
+    plt.show()
+
+This helps identify frequently used starting locations.
+
+7️⃣ End Stop Analysis
+   
+    plt.figure(figsize=(8, 4))
+
+    sns.countplot(
+    y="end_stop",
+    data=df
+    )
+
+    plt.title("End Stop Distribution")
+
+    plt.show()
+
+This identifies frequently used destination stops.
+
+8️⃣ Driver Experience Analysis
+
+    plt.figure(figsize=(8, 5))
+
+    sns.histplot(
+    df["driver_experience_years"],
+    bins=30,
+    kde=True
+    )
+
+    plt.title("Driver Experience Distribution")
+
+    plt.xlabel("Driver Experience (Years)")
+    plt.ylabel("Count")
+
+     plt.show()
+
+This analysis shows the distribution of driver experience.
+
+9️⃣ Bus Type Analysis
+
+    sns.countplot(
+    x="bus_type",
+    data=df
+    )
+
+    plt.title("Bus Type Distribution")
+
+    plt.show()
+
+Bus types were analyzed to understand the composition of the transportation fleet.
+
+🔟 Ticket Price Analysis
+
+    plt.hist(
+    df["ticket_price_inr"],
+    bins=20
+    )
+
+    plt.title("Ticket Price Distribution")
+
+    plt.xlabel("Ticket Price (INR)")
+    plt.ylabel("Count")
+
+    plt.show()
+
+This helps understand the distribution of ticket prices.
+
+1️⃣1️⃣ Route Name Analysis
+
+    df["route_name"].value_counts().plot(
+    kind="bar",
+    figsize=(10, 5)
+     )
+
+    plt.title("Route Distribution")
+    plt.xlabel("Route")
+     plt.ylabel("Count")
+
+    plt.show()
+
+This identifies routes with the highest number of records.
+
+1️⃣2️⃣ Complaint Analysis
+
+    df["complaint_count"].value_counts().plot(
+    kind="bar",
+    figsize=(8, 5)
+      )
+
+    plt.title("Complaint Count Distribution")
+    plt.xlabel("Complaint Count")
+    plt.ylabel("Frequency")
+
+     plt.show()
+
+This helps understand the distribution of passenger complaints.
+
+1️⃣3️⃣ Distance vs Delay Analysis
+
+One of the important traffic relationships analyzed was distance versus delay.
+
+    plt.figure(figsize=(8, 5))
+
+    plt.scatter(
+    df["distance_km"],
+    df["delay_min"]
+    )
+
+    plt.xlabel("Distance (KM)")
+    plt.ylabel("Delay (Minutes)")
+
+    plt.title("Distance vs Delay")
+
+    plt.show()
+
+This visualization helps investigate whether longer routes are associated with higher delays.
+
+1️⃣4️⃣ Average Delay by Day
+
+    df.groupby(
+    "day_of_week"
+    )["delay_min"].mean().plot(
+    kind="bar",
+    figsize=(8, 5)
+    )
+
+    plt.title("Average Delay by Day of Week")
+
+    plt.xlabel("Day")
+    plt.ylabel("Average Delay (Minutes)")
+
+    plt.show()
+
+This helps identify days with higher average traffic delays.
+
+1️⃣5️⃣ Peak Hour Analysis
+
+    df["peak_hour_flag"].value_counts().plot(
+    kind="pie",
+    autopct="%1.1f%%"
+    )
+
+     plt.title("Peak Hour Distribution")
+
+    plt.show()
+
+This shows the proportion of peak-hour and non-peak-hour traffic records.
+
+1️⃣6️⃣ Risk Level Percentage
+
+    df["risk_level"].value_counts().plot(
+    kind="pie",
+    autopct="%1.1f%%"
+    )
+
+    plt.title("Risk Level Distribution")
+
+    plt.show()
+
+This provides a percentage-based view of traffic risk.
+
+1️⃣7️⃣ Day of Week Distribution
+
+    df["day_of_week"].value_counts().plot(
+    kind="pie",
+    autopct="%1.1f%%"
+    )
+
+    plt.title("Day of Week Distribution")
+
+    plt.show()
+1️⃣8️⃣ Bus Type Distribution
+     
+     df["bus_type"].value_counts().plot(
+    kind="pie",
+    autopct="%1.1f%%"
+    )
+
+    plt.title("Bus Type Distribution")
+
+    plt.show()
+1️⃣9️⃣ Weather Distribution
+
+    df["weather"].value_counts().plot(
+    kind="pie",
+    autopct="%1.1f%%"
+    )
+
+    plt.title("Weather Distribution")
+
+    plt.show()
+
+This helps understand the distribution of traffic records under different weather conditions.
+
+2️⃣0️⃣ Weather and Peak Hour vs Delay
+
+    df.groupby(
+    ["weather", "peak_hour_flag"]
+    )["delay_min"].mean().plot(
+    kind="bar",
+    figsize=(10, 5)
+    )
+
+     plt.title("Average Delay by Weather and Peak Hour")
+
+    plt.ylabel("Average Delay (Minutes)")
+
+    plt.show()
+
+This analysis combines weather conditions and peak-hour traffic to compare average delays.
+
+2️⃣1️⃣ Bus Type and Weather vs Occupancy
+
+     df.groupby(
+    ["bus_type", "weather"]
+    )["occupancy_percent"].mean().plot(
+    kind="bar",
+    figsize=(12, 6)
+     )
+
+    plt.title("Average Occupancy by Bus Type and Weather")
+
+    plt.ylabel("Average Occupancy (%)")
+
+    plt.show()
+
+This helps compare passenger occupancy across bus types and weather conditions.
+
+2️⃣2️⃣ Numerical Feature Distributions
+
+Histograms were generated for all numerical variables.
+
+    num_cols = df.select_dtypes(
+    include=np.number
+    ).columns
+
+    df[num_cols].hist(
+    figsize=(18, 14),
+    bins=30
+    )
+
+    plt.suptitle(
+      "Numerical Feature Distributions"
+       )
+
+    plt.tight_layout()
+
+    plt.show()
+
+This provides an overall view of the distributions of numerical traffic variables.
+
+2️⃣3️⃣ Boxplot Analysis
+
+Boxplots were used to identify the spread and potential outliers.
+
+    num_cols = df.select_dtypes(
+    include=np.number
+    ).columns
+
+    for col in num_cols:
+
+    plt.figure(figsize=(6, 4))
 
     sns.boxplot(
         y=df[col]
     )
 
-    plt.title(f"Outlier Analysis - {col}")
+    plt.title(
+        f"Boxplot - {col}"
+    )
 
     plt.show()
-```
+2️⃣4️⃣ Outlier Detection Using IQR
 
----
+The Interquartile Range (IQR) method was used to identify potential outliers.
 
-# 🧮 Outlier Detection Using IQR
+    num_cols = df.select_dtypes(
+    include=np.number
+    ).columns
 
-```python
-num_cols = df.select_dtypes(
-    include="number"
-).columns
-
-for col in num_cols:
+    for col in num_cols:
 
     Q1 = df[col].quantile(0.25)
+
     Q3 = df[col].quantile(0.75)
 
     IQR = Q3 - Q1
 
     lower = Q1 - 1.5 * IQR
+
     upper = Q3 + 1.5 * IQR
 
     outliers = df[
@@ -739,7 +617,107 @@ for col in num_cols:
         (df[col] > upper)
     ]
 
-    print(col, ":", len(outliers))
+    print(
+        col,
+        ":",
+        len(outliers),
+        "outliers"
+    )
+Purpose
+
+The IQR method helps identify unusual values in:
+
+Distance
+Scheduled time
+Actual time
+Speed
+Passenger count
+Traffic signals
+Stop count
+Ticket price
+Occupancy
+Fuel consumption
+Complaints
+Delay
+2️⃣5️⃣ EDA Summary
+
+The EDA helped identify the most important variables for the final dashboard.
+
+Main Analysis Areas
+Analysis	Variables
+Route Performance	route_name, distance_km
+Delay Analysis	scheduled_time_min, actual_time_min, delay_min
+Speed Analysis	avg_speed_kmph, speed_reduction_index
+Passenger Analysis	passenger_count, occupancy_percent
+Risk Analysis	risk_level
+Weather Analysis	weather
+Peak Traffic	peak_hour_flag
+Driver Analysis	driver_experience_years
+Fuel Analysis	fuel_consumption_liters
+Complaint Analysis	complaint_count
+Stop Analysis	start_stop, end_stop, stop_count
+Cost Analysis	ticket_price_inr
+📌 EDA Business Questions
+
+The EDA was designed to answer questions such as:
+
+Which routes experience the highest delays?
+Which routes have the highest passenger demand?
+Does distance affect delay?
+Which days have the highest average delay?
+Does peak-hour traffic increase delays?
+Which weather conditions are associated with higher delays?
+Which routes have high traffic risk?
+Which bus types have higher occupancy?
+Which routes consume more fuel?
+Which routes have more passenger complaints?
+How does traffic signal count relate to delay?
+How does speed reduction relate to delay?
+Which starting and ending stops are most frequently used?
+How is ticket pricing distributed?
+Are there unusual values or outliers in the numerical variables?
+💡 EDA Key Findings
+
+The EDA provides a foundation for the Power BI dashboard by highlighting:
+
+High-delay routes.
+High-demand routes.
+Peak-hour traffic patterns.
+Weather-related delay patterns.
+Risk-level distribution.
+Bus occupancy patterns.
+Fuel-consumption patterns.
+Complaint patterns.
+Route-distance relationships.
+Traffic-signal relationships.
+Speed-reduction relationships.
+Potential numerical outliers.
+
+Note: Exact numerical findings should be added after running the notebook on the final dataset.
+
+📸 EDA Screenshots
+
+After running the notebook, save important charts in the Images folder.
+
+Recommended files:
+
+Images/
+│
+├── EDA_Risk_Level.png
+├── EDA_Start_Stop.png
+├── EDA_End_Stop.png
+├── EDA_Driver_Experience.png
+├── EDA_Bus_Type.png
+├── EDA_Ticket_Price.png
+├── EDA_Route_Distribution.png
+├── EDA_Complaints.png
+├── EDA_Distance_vs_Delay.png
+├── EDA_Delay_by_Day.png
+├── EDA_Peak_Hour.png
+├── EDA_Weather.png
+├── EDA_Correlation_Heatmap.png
+├── EDA_Numerical_Distributions.png
+└── EDA_Outliers.png
 ```
 
 ---
