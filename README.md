@@ -1021,7 +1021,8 @@ Add your Python EDA screenshots inside the `Images` folder.
 Add your Power BI dashboard screenshot:
 
 ```markdown
-<img src="Images/Pune_Traffic_Dashboard.png" width="1000">
+<img width="1009" height="747" alt="Screenshot 2026-08-11 095611" src="https://github.com/user-attachments/assets/715e6fbd-05e3-4c92-952f-d9f2f51b58fa" />
+
 ```
 
 ---
