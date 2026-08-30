@@ -1,0 +1,1002 @@
+route_id,route_name,start_stop,end_stop,distance_km,scheduled_time_min,actual_time_min,avg_speed_kmph,day_of_week,time_of_day,passenger_count,weather,traffic_signal_count,stop_count,speed_reduction_index,risk_level,peak_hour_flag,ticket_price_inr,occupancy_percent,bus_type,driver_experience_years,num_stops_skipped,fuel_consumption_liters,complaint_count,delay_min
+PMPML-19,Express,Hadapsar,Katraj,12.82,42.0,17,22.78,Thu,Morning,48.0,Clear,9.0,13.0,0.58,Low,1.0,36.02,62.96,Non-AC,18.0,4.0,19.66,3,-25
+PMPML-33,Local,Baner,Hadapsar,16.9,72.0,39,11.77,Sun,Morning,78.0,Rainy,10.0,9.0,0.16,Low,0.0,40.54,91.63,Electric,9.0,0.0,14.73,0,-33
+PMPML-25,Local,Kharadi,Shivaji Nagar,18.87,81.0,54,32.78,Sat,Night,5.0,Rainy,0.0,9.0,0.72,Low,1.0,25.24,54.42,AC,8.0,3.0,38.29,5,-27
+PMPML-40,Shuttle,Baner,Aundh,4.31,79.0,18,34.08,Sun,Night,41.0,Clear,10.0,11.0,0.39,Low,0.0,27.14,99.92,Non-AC,3.0,1.0,35.25,0,-61
+PMPML-33,Express,Baner,Kothrud,6.83,82.0,59,40.81,Tue,Night,30.0,Clear,14.0,7.0,0.65,Low,0.0,25.07,66.87,Non-AC,7.0,4.0,5.75,1,-23
+PMPML-17,,Aundh,Hadapsar,24.54,31.0,43,10.13,Sun,Afternoon,45.0,Rainy,5.0,12.0,0.11,Medium,1.0,40.92,47.82,Electric,21.0,4.0,29.01,6,12
+PMPML-13,Local,Katraj,Baner,14.63,57.0,95,10.19,Tue,Evening,40.0,Clear,3.0,4.0,0.31,Medium,1.0,11.48,24.43,Non-AC,5.0,1.0,39.58,9,38
+PMPML-38,Shuttle,Wagholi,Hinjewadi,6.04,60.0,16,43.71,Fri,Afternoon,53.0,Clear,2.0,13.0,0.27,Low,1.0,38.64,54.39,Electric,10.0,1.0,20.15,1,-44
+PMPML-45,Local,Hinjewadi,Katraj,15.03,37.0,80,36.15,Mon,Afternoon,14.0,Rainy,0.0,4.0,0.1,High,1.0,45.46,51.57,Non-AC,9.0,4.0,13.99,1,43
+PMPML-46,Shuttle,Hadapsar,Shivaji Nagar,23.03,60.0,13,28.78,Thu,Morning,8.0,Rainy,3.0,5.0,0.19,High,0.0,11.82,20.21,Non-AC,6.0,4.0,17.69,4,-47
+PMPML-5,Shuttle,Aundh,Kothrud,20.25,50.0,28,42.04,Wed,Morning,46.0,Rainy,2.0,6.0,0.77,Low,0.0,40.08,93.16,Non-AC,15.0,0.0,9.01,0,-22
+PMPML-25,Local,Baner,Katraj,2.34,65.0,63,14.31,Wed,Morning,20.0,Clear,7.0,5.0,0.18,High,0.0,10.38,61.24,Non-AC,1.0,1.0,34.67,6,-2
+PMPML-12,Express,Viman Nagar,Viman Nagar,18.6,60.0,34,39.21,Sat,Morning,30.0,Rainy,12.0,15.0,0.6,Medium,1.0,14.52,28.61,Electric,23.0,4.0,27.39,1,-26
+PMPML-10,Express,Hadapsar,Kothrud,10.16,36.0,51,44.34,Thu,Morning,14.0,Clear,14.0,9.0,0.15,Medium,1.0,46.91,86.87,AC,18.0,3.0,38.71,5,15
+PMPML-46,Shuttle,Shivaji Nagar,Baner,3.57,47.0,38,35.18,Fri,Morning,24.0,Clear,8.0,7.0,0.86,Low,0.0,26.22,62.87,AC,23.0,0.0,6.22,2,-9
+PMPML-14,Local,Hinjewadi,Kothrud,21.2,63.0,66,23.16,Sun,Afternoon,51.0,Clear,12.0,3.0,0.9,High,0.0,36.21,86.89,AC,20.0,4.0,27.09,8,3
+PMPML-38,Express,Kharadi,Shivaji Nagar,6.21,69.0,55,32.04,Thu,Afternoon,38.0,Rainy,14.0,10.0,0.05,Medium,1.0,13.51,74.05,Electric,17.0,0.0,32.14,3,-14
+PMPML-14,Shuttle,Katraj,Kharadi,23.32,49.0,46,15.49,Fri,Night,14.0,Cloudy,10.0,18.0,0.15,Low,0.0,25.67,95.74,Electric,13.0,1.0,24.93,6,-3
+PMPML-40,Express,Aundh,Viman Nagar,22.6,53.0,38,21.86,Tue,Morning,64.0,Rainy,0.0,12.0,0.04,High,1.0,19.69,35.69,AC,4.0,1.0,39.89,6,-15
+PMPML-26,Shuttle,Katraj,Katraj,21.63,20.0,100,25.92,Tue,Night,20.0,Clear,10.0,13.0,0.08,Medium,1.0,10.8,24.97,Electric,0.0,3.0,12.87,9,80
+PMPML-12,Local,Baner,Viman Nagar,19.49,82.0,108,37.53,Wed,Night,62.0,Cloudy,7.0,8.0,0.56,Medium,1.0,39.26,41.21,AC,9.0,2.0,21.8,3,26
+PMPML-9,Local,Hadapsar,Hinjewadi,4.32,76.0,104,18.4,Fri,Morning,26.0,Cloudy,5.0,17.0,0.07,Low,1.0,44.07,64.15,Electric,14.0,2.0,39.69,9,28
+PMPML-23,Shuttle,Kothrud,Baner,17.7,48.0,91,24.11,Tue,Evening,56.0,Clear,8.0,6.0,0.53,Medium,1.0,13.94,38.45,AC,9.0,1.0,14.57,0,43
+PMPML-43,Shuttle,Aundh,Katraj,20.45,51.0,85,39.22,Sat,Evening,8.0,Clear,8.0,12.0,0.63,High,1.0,17.47,28.1,Non-AC,4.0,2.0,22.95,2,34
+PMPML-12,Express,Wagholi,Baner,24.49,80.0,93,10.52,Thu,Afternoon,17.0,Cloudy,4.0,16.0,0.84,Medium,1.0,38.9,74.29,Non-AC,15.0,2.0,30.27,8,13
+PMPML-45,Express,Katraj,Viman Nagar,15.56,77.0,85,28.66,Fri,Afternoon,23.0,Clear,12.0,4.0,0.32,Medium,1.0,20.91,31.42,AC,17.0,2.0,29.25,1,8
+PMPML-40,Local,Viman Nagar,Hadapsar,14.37,89.0,76,40.04,Fri,Afternoon,31.0,Rainy,7.0,13.0,0.62,Medium,1.0,27.28,58.23,Electric,16.0,0.0,12.37,5,-13
+PMPML-12,Local,Kharadi,Kothrud,17.75,89.0,28,30.52,Mon,Afternoon,54.0,Rainy,13.0,8.0,0.65,Medium,1.0,49.84,33.14,Electric,5.0,4.0,12.34,7,-61
+PMPML-30,Shuttle,Hadapsar,Hinjewadi,2.04,31.0,55,10.03,Sun,Evening,42.0,Rainy,3.0,7.0,0.65,Medium,1.0,25.98,23.3,Electric,3.0,3.0,27.5,8,24
+PMPML-47,Local,Kothrud,Hinjewadi,14.29,69.0,111,19.13,Mon,Afternoon,66.0,Clear,5.0,16.0,0.13,Medium,1.0,20.59,78.25,Non-AC,17.0,0.0,29.53,2,42
+PMPML-46,Local,Katraj,Wagholi,15.37,68.0,10,25.57,Sun,Night,63.0,Clear,0.0,11.0,0.23,Low,0.0,44.59,74.51,Electric,13.0,4.0,27.15,3,-58
+PMPML-8,Express,Shivaji Nagar,Kharadi,20.98,88.0,48,11.71,Wed,Morning,67.0,Rainy,3.0,6.0,0.39,Low,0.0,12.93,56.43,AC,6.0,2.0,24.51,5,-40
+PMPML-17,Local,Wagholi,Aundh,5.37,40.0,46,36.29,Thu,Morning,62.0,Cloudy,4.0,16.0,0.55,Low,0.0,26.41,70.69,Electric,15.0,0.0,19.54,0,6
+PMPML-27,Local,Viman Nagar,Kharadi,2.32,74.0,77,14.37,Thu,Night,18.0,Rainy,10.0,6.0,0.68,High,1.0,22.36,51.39,AC,0.0,4.0,20.16,5,3
+PMPML-7,Shuttle,Shivaji Nagar,Aundh,12.86,86.0,43,23.23,Thu,Evening,43.0,Clear,11.0,12.0,0.04,Medium,1.0,17.13,64.45,AC,15.0,4.0,28.37,4,-43
+PMPML-15,Express,Viman Nagar,Kothrud,22.46,78.0,105,26.79,Sun,Morning,13.0,Cloudy,9.0,15.0,0.4,High,1.0,22.88,73.48,AC,22.0,4.0,20.64,9,27
+PMPML-42,Local,Hinjewadi,Kharadi,11.91,42.0,39,33.37,Wed,Morning,35.0,Clear,10.0,4.0,0.84,Low,0.0,22.63,34.13,Non-AC,0.0,3.0,11.74,4,-3
+PMPML-32,Local,Wagholi,Wagholi,16.96,54.0,119,19.53,Fri,Morning,39.0,Cloudy,12.0,6.0,0.86,High,1.0,39.53,94.84,AC,9.0,1.0,18.79,0,65
+PMPML-13,Local,Aundh,Baner,6.25,86.0,62,20.16,Fri,Night,51.0,Clear,14.0,13.0,0.19,Low,0.0,29.63,86.81,Electric,6.0,2.0,26.33,5,-24
+PMPML-44,Express,Viman Nagar,Aundh,14.47,42.0,24,20.93,Thu,Evening,54.0,Cloudy,6.0,16.0,0.62,Medium,1.0,18.68,95.05,Electric,21.0,3.0,22.29,3,-18
+PMPML-48,Local,Viman Nagar,Viman Nagar,5.49,23.0,64,25.07,Fri,Evening,46.0,Cloudy,12.0,14.0,0.32,Medium,1.0,21.66,27.02,Electric,7.0,4.0,25.99,4,41
+PMPML-2,Express,Viman Nagar,Hinjewadi,10.33,16.0,60,14.06,Mon,Evening,78.0,Cloudy,0.0,19.0,0.76,Medium,1.0,26.59,68.17,Electric,17.0,0.0,11.52,6,44
+PMPML-15,Express,Aundh,Baner,7.81,38.0,29,43.36,Thu,Morning,48.0,Cloudy,11.0,10.0,0.95,High,0.0,31.27,60.89,Non-AC,23.0,2.0,34.39,2,-9
+PMPML-6,Express,Wagholi,Hadapsar,24.46,11.0,60,24.81,Mon,Afternoon,24.0,Clear,4.0,18.0,0.5,Low,0.0,38.45,78.63,Non-AC,4.0,3.0,39.82,5,49
+PMPML-31,Express,Shivaji Nagar,Hinjewadi,24.65,14.0,75,19.9,Sun,Morning,9.0,Cloudy,5.0,9.0,0.61,Medium,1.0,40.85,95.49,AC,13.0,1.0,21.04,6,61
+PMPML-17,Express,Kothrud,Wagholi,16.24,81.0,98,15.12,Mon,Morning,34.0,Rainy,14.0,7.0,0.04,High,0.0,34.0,42.57,Electric,4.0,4.0,23.52,6,17
+PMPML-6,Shuttle,Hadapsar,Hinjewadi,9.93,71.0,43,22.54,Mon,Night,8.0,Clear,13.0,19.0,0.39,High,0.0,19.68,72.55,AC,17.0,4.0,29.9,1,-28
+PMPML-34,Express,Katraj,Baner,13.34,59.0,79,21.9,Sun,Afternoon,47.0,Rainy,0.0,17.0,0.57,Low,1.0,10.78,51.82,Non-AC,22.0,0.0,35.83,1,20
+PMPML-13,Local,Hadapsar,Hinjewadi,24.24,42.0,96,25.86,Wed,Afternoon,35.0,Cloudy,11.0,15.0,0.82,Low,1.0,45.98,66.14,Electric,16.0,4.0,7.43,4,54
+PMPML-31,Shuttle,Shivaji Nagar,Shivaji Nagar,17.76,30.0,94,35.74,Mon,Afternoon,65.0,Rainy,11.0,18.0,0.49,Low,0.0,46.25,62.85,AC,5.0,3.0,11.27,2,64
+PMPML-37,Express,Wagholi,Kothrud,11.04,87.0,53,39.22,Wed,Evening,46.0,Cloudy,14.0,13.0,0.15,High,1.0,14.71,45.44,AC,5.0,4.0,5.92,3,-34
+PMPML-46,Local,Kharadi,Hadapsar,24.97,79.0,11,43.51,Sat,Afternoon,18.0,Clear,2.0,19.0,0.15,Low,0.0,17.64,36.66,Electric,10.0,1.0,22.92,8,-68
+PMPML-16,Local,Hinjewadi,Wagholi,16.32,83.0,47,13.97,Mon,Morning,16.0,Clear,8.0,15.0,0.94,Low,0.0,12.33,87.15,Electric,1.0,0.0,10.25,6,-36
+PMPML-16,Express,Shivaji Nagar,Hinjewadi,16.54,18.0,96,30.05,Tue,Night,13.0,Rainy,12.0,12.0,0.0,Low,1.0,25.02,89.37,AC,18.0,3.0,31.34,9,78
+PMPML-8,Shuttle,Shivaji Nagar,Shivaji Nagar,6.14,21.0,90,24.2,Sat,Morning,73.0,Rainy,11.0,18.0,0.04,Low,0.0,49.88,59.59,AC,17.0,2.0,30.02,8,69
+PMPML-34,Shuttle,Kothrud,Baner,23.84,51.0,103,32.37,Tue,Afternoon,29.0,Clear,7.0,11.0,0.04,High,1.0,29.74,46.65,Non-AC,12.0,2.0,14.5,9,52
+PMPML-19,Express,Viman Nagar,Kharadi,7.43,77.0,78,26.34,Tue,Morning,18.0,Rainy,4.0,9.0,0.2,Low,0.0,23.81,69.09,Electric,21.0,3.0,35.25,7,1
+PMPML-38,Shuttle,Kharadi,Kharadi,8.86,38.0,85,20.43,Wed,Evening,38.0,Cloudy,0.0,5.0,0.09,Low,0.0,44.87,86.27,Non-AC,13.0,0.0,23.24,3,47
+PMPML-13,Shuttle,Shivaji Nagar,Hadapsar,18.44,65.0,67,25.66,Mon,Evening,73.0,Rainy,8.0,12.0,0.07,Medium,0.0,27.39,67.98,Non-AC,4.0,2.0,19.03,2,2
+PMPML-8,Local,Kharadi,Shivaji Nagar,20.79,17.0,95,35.44,Wed,Afternoon,38.0,Rainy,4.0,10.0,0.6,Medium,0.0,17.59,51.34,Non-AC,17.0,4.0,20.39,8,78
+PMPML-2,Local,Viman Nagar,Hadapsar,21.67,63.0,109,12.13,Wed,Afternoon,16.0,Rainy,14.0,15.0,0.47,Medium,0.0,18.32,81.9,AC,4.0,4.0,26.4,5,46
+PMPML-41,Express,Kothrud,Katraj,13.0,89.0,30,35.79,Fri,Night,9.0,Cloudy,11.0,7.0,0.68,Low,1.0,36.23,65.58,Electric,18.0,0.0,17.85,6,-59
+PMPML-18,Local,Katraj,Baner,20.01,60.0,36,39.31,Wed,Night,41.0,Cloudy,13.0,7.0,0.95,Low,1.0,21.49,60.15,Non-AC,19.0,4.0,6.3,1,-24
+PMPML-34,Shuttle,Kharadi,Kothrud,9.33,75.0,101,34.09,Wed,Afternoon,39.0,Cloudy,4.0,9.0,0.12,Low,1.0,40.19,93.59,Electric,9.0,2.0,32.72,5,26
+PMPML-47,Express,Kothrud,Kothrud,2.05,24.0,109,42.88,Mon,Evening,10.0,Rainy,6.0,12.0,0.93,Low,0.0,40.68,38.39,Non-AC,21.0,0.0,39.08,1,85
+PMPML-40,Shuttle,Hadapsar,Aundh,8.97,34.0,82,36.05,Mon,Night,11.0,Cloudy,4.0,7.0,0.21,Low,,37.43,85.89,Electric,22.0,3.0,24.5,6,48
+PMPML-32,Local,Viman Nagar,Hinjewadi,6.99,87.0,70,11.22,Wed,Afternoon,58.0,Clear,12.0,19.0,0.13,Low,0.0,19.44,90.15,Electric,15.0,3.0,20.28,4,-17
+PMPML-9,Local,Aundh,Hinjewadi,3.45,22.0,21,25.69,Tue,Afternoon,45.0,Clear,2.0,10.0,0.53,High,0.0,46.15,87.86,Electric,5.0,3.0,21.83,8,-1
+PMPML-5,Shuttle,Hadapsar,Shivaji Nagar,2.98,45.0,57,44.21,Mon,Afternoon,76.0,Clear,10.0,10.0,0.56,High,0.0,19.15,64.73,AC,10.0,3.0,26.2,5,12
+PMPML-13,Express,Shivaji Nagar,Hadapsar,23.9,33.0,53,34.52,Mon,Evening,20.0,Cloudy,7.0,14.0,0.62,Low,0.0,36.33,68.52,Electric,19.0,4.0,11.07,0,20
+PMPML-29,Shuttle,Kharadi,Wagholi,2.54,74.0,83,35.3,Fri,Night,48.0,Cloudy,9.0,14.0,0.2,Medium,1.0,44.54,44.64,AC,7.0,3.0,22.88,0,9
+PMPML-29,Shuttle,Baner,Baner,12.07,85.0,78,33.64,Tue,Afternoon,70.0,Rainy,13.0,13.0,0.03,Medium,1.0,25.87,29.51,Electric,16.0,2.0,10.12,7,-7
+PMPML-4,Shuttle,Hinjewadi,Wagholi,3.25,23.0,118,11.61,Thu,Afternoon,15.0,Clear,14.0,13.0,0.26,Medium,1.0,16.21,82.31,Electric,8.0,2.0,6.74,1,95
+PMPML-16,Local,Kharadi,Hinjewadi,15.83,77.0,105,36.44,Thu,,46.0,Cloudy,5.0,10.0,0.03,High,1.0,13.97,92.73,Non-AC,1.0,4.0,30.69,5,28
+PMPML-23,Local,Katraj,Kharadi,10.46,30.0,15,12.63,Thu,Evening,45.0,Cloudy,3.0,19.0,0.23,Low,0.0,33.87,47.51,Electric,14.0,4.0,39.84,3,-15
+PMPML-40,Local,Aundh,Kharadi,3.16,80.0,27,16.83,Sun,Night,79.0,Clear,9.0,19.0,0.25,Low,1.0,37.57,39.03,AC,14.0,0.0,10.46,4,-53
+PMPML-46,Express,Aundh,Kothrud,21.54,57.0,69,15.09,Fri,Evening,58.0,Rainy,5.0,10.0,0.1,Medium,1.0,37.65,48.14,Non-AC,18.0,2.0,5.08,8,12
+PMPML-8,Shuttle,Shivaji Nagar,Aundh,8.65,72.0,79,17.26,Sun,Morning,50.0,Cloudy,11.0,17.0,0.09,Low,1.0,39.42,82.67,Non-AC,9.0,3.0,5.67,1,7
+PMPML-32,Express,Shivaji Nagar,Wagholi,3.48,38.0,97,33.37,Sun,Afternoon,49.0,Cloudy,13.0,11.0,0.09,Low,1.0,20.67,93.57,AC,9.0,3.0,35.35,5,59
+PMPML-28,Shuttle,Katraj,Hinjewadi,16.96,77.0,79,25.19,Fri,Night,58.0,Cloudy,14.0,16.0,0.56,High,1.0,41.8,91.49,Non-AC,9.0,4.0,27.77,3,2
+PMPML-43,Express,Kothrud,Hadapsar,2.54,80.0,102,19.01,Tue,Evening,12.0,Rainy,3.0,,0.66,Low,1.0,18.42,94.53,AC,7.0,4.0,21.14,8,22
+PMPML-1,Local,Baner,Aundh,21.69,36.0,65,17.57,Sat,Morning,45.0,Cloudy,9.0,4.0,0.83,High,1.0,34.59,21.42,Electric,18.0,0.0,32.95,3,29
+PMPML-3,Local,Wagholi,Kharadi,15.49,23.0,83,17.33,Tue,Evening,67.0,Rainy,3.0,9.0,0.96,Low,0.0,18.7,30.64,Non-AC,6.0,2.0,36.3,1,60
+PMPML-36,Local,Viman Nagar,Hinjewadi,7.01,64.0,69,18.6,Wed,Afternoon,31.0,Rainy,1.0,19.0,0.05,Low,0.0,48.48,61.33,Non-AC,1.0,2.0,6.97,6,5
+PMPML-24,Express,Wagholi,Hadapsar,7.67,27.0,50,24.02,Sun,Night,42.0,Rainy,3.0,4.0,0.13,Medium,0.0,14.97,87.18,Non-AC,1.0,4.0,27.38,4,23
+PMPML-31,Local,Katraj,Baner,2.66,45.0,77,31.64,Wed,Morning,55.0,Cloudy,8.0,14.0,0.48,Medium,0.0,11.03,55.82,AC,21.0,3.0,36.25,6,32
+PMPML-19,Local,Viman Nagar,Viman Nagar,10.24,45.0,88,25.92,Mon,Afternoon,27.0,Rainy,5.0,17.0,0.82,Low,0.0,23.04,38.05,,14.0,2.0,7.32,3,43
+PMPML-30,Express,Aundh,Baner,20.15,75.0,21,23.76,Tue,Evening,50.0,Rainy,13.0,5.0,0.49,Low,1.0,40.98,27.06,Electric,14.0,2.0,22.47,5,-54
+PMPML-6,Local,Wagholi,Viman Nagar,5.7,73.0,12,12.43,Fri,Evening,77.0,Clear,3.0,11.0,0.79,Low,1.0,30.02,55.7,Electric,15.0,2.0,31.25,5,-61
+PMPML-8,Local,Wagholi,Baner,16.92,48.0,48,44.49,Fri,Night,13.0,Clear,4.0,3.0,0.87,Low,0.0,11.87,43.8,AC,6.0,3.0,19.26,9,0
+PMPML-45,Local,Wagholi,Katraj,23.55,39.0,78,13.17,Fri,Afternoon,53.0,Clear,10.0,17.0,0.75,Low,0.0,25.29,81.65,Non-AC,14.0,4.0,19.15,8,39
+PMPML-4,Shuttle,Wagholi,Hadapsar,7.01,37.0,99,30.81,Tue,Evening,18.0,Cloudy,0.0,5.0,0.34,Low,0.0,11.54,53.15,Electric,22.0,3.0,38.88,5,62
+PMPML-28,Local,Kothrud,Katraj,20.21,78.0,31,20.68,Thu,Night,16.0,Cloudy,1.0,12.0,0.26,Low,1.0,49.77,26.26,Electric,10.0,2.0,18.72,1,-47
+PMPML-48,Express,Kothrud,Katraj,12.75,68.0,53,30.5,Sat,Evening,26.0,Cloudy,4.0,12.0,0.45,Low,1.0,41.47,43.7,AC,6.0,0.0,15.28,5,-15
+PMPML-48,Express,Katraj,Kothrud,8.36,21.0,103,20.3,Sat,Afternoon,68.0,Rainy,4.0,10.0,0.11,Low,1.0,30.53,77.16,Non-AC,1.0,2.0,10.59,0,82
+PMPML-30,Shuttle,Hinjewadi,Hadapsar,4.43,76.0,40,33.71,Sat,Afternoon,5.0,Cloudy,14.0,10.0,0.66,Medium,1.0,37.7,35.66,Electric,0.0,3.0,14.88,6,-36
+PMPML-49,Express,Kothrud,Kothrud,12.75,62.0,23,21.81,Sat,Evening,13.0,Clear,1.0,4.0,0.01,Low,1.0,27.06,37.74,AC,11.0,4.0,12.73,3,-39
+PMPML-20,Local,Hadapsar,Viman Nagar,11.13,21.0,68,18.64,Fri,Night,12.0,Clear,8.0,17.0,0.71,Medium,0.0,30.39,67.14,AC,2.0,1.0,14.58,2,47
+PMPML-14,Shuttle,Katraj,Katraj,16.13,69.0,12,25.8,Tue,Morning,60.0,Cloudy,8.0,18.0,0.61,Medium,0.0,24.27,53.88,Non-AC,21.0,4.0,28.6,9,-57
+PMPML-47,Express,Hadapsar,Viman Nagar,9.19,86.0,18,44.95,Sun,Afternoon,78.0,Clear,9.0,13.0,0.55,High,1.0,44.38,70.18,AC,3.0,4.0,22.49,4,-68
+PMPML-41,Local,Hadapsar,Baner,18.81,52.0,106,38.59,Fri,Morning,27.0,Clear,4.0,16.0,0.4,Low,1.0,38.14,76.23,Non-AC,3.0,4.0,6.62,3,54
+PMPML-3,Shuttle,Aundh,Wagholi,18.06,17.0,97,17.8,Thu,Night,46.0,Rainy,14.0,16.0,0.58,Low,0.0,43.72,75.8,Electric,0.0,4.0,30.37,9,80
+PMPML-29,Shuttle,Hadapsar,Aundh,16.83,26.0,20,17.57,Tue,Evening,42.0,Rainy,5.0,14.0,0.88,Medium,0.0,23.12,55.25,Electric,18.0,1.0,28.27,2,-6
+PMPML-23,Shuttle,Aundh,Viman Nagar,3.5,17.0,80,41.05,Sun,Night,38.0,Clear,9.0,11.0,0.43,Low,0.0,49.46,75.17,AC,21.0,1.0,19.23,3,63
+PMPML-5,Shuttle,Kothrud,Baner,23.91,66.0,118,14.86,Wed,Afternoon,35.0,Rainy,5.0,9.0,0.63,High,0.0,30.43,65.99,AC,1.0,4.0,9.11,8,52
+PMPML-29,Local,Kothrud,Baner,4.9,62.0,55,25.7,Wed,Afternoon,58.0,Clear,2.0,18.0,0.99,Low,1.0,48.87,93.37,AC,17.0,2.0,14.67,9,-7
+PMPML-27,Local,Shivaji Nagar,Viman Nagar,9.23,71.0,108,41.4,Tue,Evening,55.0,Cloudy,5.0,13.0,0.1,High,1.0,35.04,68.03,Non-AC,6.0,2.0,36.14,2,37
+PMPML-20,Local,Kharadi,Wagholi,6.42,76.0,20,33.25,Thu,Evening,58.0,Cloudy,2.0,9.0,0.23,Low,0.0,43.43,54.36,Electric,22.0,2.0,7.46,3,-56
+PMPML-7,Shuttle,Kothrud,Wagholi,5.31,23.0,85,28.0,Mon,Evening,47.0,Rainy,6.0,13.0,0.37,High,1.0,25.37,95.85,AC,13.0,4.0,15.6,8,62
+PMPML-5,Local,Hadapsar,Shivaji Nagar,16.84,18.0,98,19.32,Fri,Evening,42.0,Rainy,10.0,17.0,0.7,High,0.0,18.78,80.7,AC,15.0,3.0,5.95,5,80
+PMPML-47,Local,Aundh,Hinjewadi,2.88,,31,17.69,Wed,Night,39.0,Rainy,4.0,8.0,0.5,Low,0.0,35.82,44.44,Non-AC,22.0,3.0,9.96,5,-27
+PMPML-3,Shuttle,Shivaji Nagar,Katraj,17.11,59.0,90,16.81,Thu,Morning,70.0,Cloudy,11.0,19.0,0.13,High,1.0,39.74,70.94,Electric,15.0,0.0,22.1,1,31
+PMPML-50,Express,Katraj,Viman Nagar,9.83,89.0,35,19.18,Thu,Afternoon,15.0,Cloudy,7.0,7.0,0.12,Low,0.0,13.1,43.44,Electric,20.0,2.0,36.1,8,-54
+PMPML-7,Local,Hadapsar,Shivaji Nagar,5.52,35.0,110,19.57,Sun,Afternoon,27.0,Clear,5.0,17.0,0.16,Medium,0.0,36.52,44.39,Electric,18.0,1.0,16.86,8,75
+PMPML-22,Shuttle,Kothrud,Hadapsar,7.6,40.0,51,18.3,Mon,Afternoon,46.0,Cloudy,6.0,4.0,0.69,High,0.0,15.86,91.09,AC,16.0,1.0,15.48,4,11
+PMPML-20,Local,Aundh,Kothrud,7.48,69.0,32,12.7,Wed,Afternoon,63.0,Clear,14.0,3.0,0.52,Low,1.0,46.47,36.72,AC,15.0,0.0,32.88,9,-37
+PMPML-28,Local,Hadapsar,Kothrud,17.84,49.0,94,24.4,Fri,Afternoon,55.0,Cloudy,3.0,15.0,0.35,Low,0.0,10.35,26.05,Non-AC,24.0,4.0,31.28,0,45
+PMPML-39,Express,Hadapsar,Kharadi,4.84,44.0,17,17.29,Sat,Evening,36.0,Rainy,7.0,14.0,0.83,Medium,1.0,38.11,51.62,AC,11.0,2.0,37.72,1,-27
+PMPML-36,Shuttle,Wagholi,Hinjewadi,2.38,13.0,83,42.4,Mon,Afternoon,67.0,Clear,8.0,14.0,0.51,Medium,0.0,,84.38,Non-AC,3.0,1.0,30.75,2,70
+PMPML-28,Local,Hinjewadi,Hinjewadi,23.62,24.0,73,33.05,Sun,Evening,27.0,Clear,6.0,15.0,0.22,Low,0.0,28.87,83.92,Electric,24.0,2.0,19.6,0,49
+PMPML-47,Local,Hadapsar,Shivaji Nagar,14.03,36.0,72,33.77,Fri,Evening,5.0,Cloudy,9.0,18.0,0.14,Medium,1.0,47.93,53.57,Electric,2.0,0.0,25.45,4,36
+PMPML-27,Local,Kharadi,Kharadi,7.24,57.0,84,31.86,Sat,Morning,5.0,Clear,11.0,17.0,0.27,Low,1.0,35.63,47.67,Electric,24.0,0.0,18.59,5,27
+PMPML-41,Shuttle,Hadapsar,Wagholi,6.61,86.0,81,18.75,Mon,Night,21.0,Cloudy,7.0,11.0,0.67,Medium,0.0,39.46,34.27,AC,15.0,4.0,38.31,3,-5
+PMPML-39,Shuttle,Kharadi,Wagholi,5.86,54.0,50,19.7,Tue,Night,72.0,Cloudy,3.0,15.0,0.51,Medium,0.0,39.97,68.77,Non-AC,18.0,2.0,8.22,0,-4
+PMPML-34,Shuttle,Kharadi,Hinjewadi,15.24,68.0,64,26.63,Sun,Evening,25.0,Clear,4.0,12.0,0.72,Low,1.0,19.61,58.33,Electric,14.0,1.0,15.82,2,-4
+PMPML-16,Shuttle,Viman Nagar,Katraj,7.49,89.0,75,32.16,Wed,Morning,18.0,Cloudy,0.0,14.0,0.19,Medium,0.0,17.85,43.84,Non-AC,12.0,1.0,11.91,5,-14
+PMPML-31,Local,Hadapsar,Hinjewadi,12.28,55.0,114,18.2,Tue,Morning,26.0,Rainy,13.0,17.0,0.6,Low,0.0,31.58,38.16,Non-AC,1.0,4.0,39.07,5,59
+PMPML-19,Express,Wagholi,Wagholi,18.13,47.0,78,32.44,Tue,Afternoon,15.0,Clear,13.0,9.0,0.39,High,1.0,14.39,35.98,Electric,6.0,1.0,35.2,5,31
+PMPML-7,Express,Kothrud,Kharadi,18.08,61.0,115,43.24,Sat,Night,69.0,Rainy,2.0,12.0,0.45,Medium,1.0,31.76,63.39,Non-AC,5.0,3.0,5.31,1,54
+PMPML-33,Shuttle,Hinjewadi,Hinjewadi,14.39,73.0,114,15.74,Mon,Night,78.0,Rainy,14.0,4.0,0.85,Low,0.0,45.09,49.3,Non-AC,7.0,1.0,13.71,1,41
+PMPML-42,Local,Hadapsar,Wagholi,2.23,50.0,92,12.33,Tue,Evening,21.0,Rainy,7.0,5.0,0.77,Low,1.0,32.34,20.13,AC,6.0,1.0,21.26,7,42
+PMPML-15,Local,Wagholi,Viman Nagar,4.75,13.0,107,43.31,Fri,Morning,50.0,Rainy,9.0,3.0,0.12,Low,0.0,16.09,97.68,AC,12.0,4.0,31.85,2,94
+PMPML-46,Express,Baner,Katraj,21.48,11.0,70,14.12,Fri,Evening,47.0,Clear,10.0,11.0,0.28,Medium,1.0,26.38,23.98,Electric,16.0,3.0,25.29,3,59
+PMPML-17,Local,Katraj,Viman Nagar,16.79,49.0,89,44.12,Fri,Night,38.0,Rainy,7.0,7.0,0.0,High,0.0,16.78,29.92,Electric,23.0,1.0,15.4,5,40
+PMPML-27,Local,Kothrud,Aundh,5.52,37.0,37,37.51,Sat,Afternoon,58.0,Rainy,7.0,11.0,0.71,Low,1.0,30.24,48.44,AC,0.0,1.0,7.99,1,0
+PMPML-36,Local,Wagholi,Shivaji Nagar,7.81,26.0,29,31.91,Sat,Morning,29.0,Rainy,11.0,10.0,0.01,Low,1.0,40.27,64.53,AC,16.0,2.0,28.35,1,3
+PMPML-42,Shuttle,Aundh,Hadapsar,9.88,61.0,35,30.55,Tue,Evening,49.0,Rainy,1.0,7.0,0.3,Low,1.0,46.62,41.57,Non-AC,0.0,2.0,12.98,2,-26
+PMPML-21,Local,Katraj,Hadapsar,5.76,74.0,78,11.51,Sat,Morning,42.0,Rainy,2.0,18.0,0.85,Low,0.0,26.91,31.57,Electric,5.0,0.0,20.5,1,4
+PMPML-19,Express,Baner,Baner,13.73,59.0,68,44.2,Fri,Night,19.0,Cloudy,0.0,5.0,1.0,Low,0.0,19.71,34.45,Non-AC,24.0,3.0,33.12,3,9
+PMPML-34,Local,Hinjewadi,Viman Nagar,17.88,85.0,66,26.42,Thu,Evening,41.0,Rainy,7.0,16.0,0.37,High,0.0,33.19,78.29,Electric,6.0,3.0,12.08,0,-19
+PMPML-10,Local,Kharadi,Kharadi,7.62,24.0,72,41.86,Tue,Night,78.0,Clear,5.0,19.0,0.55,Low,1.0,26.25,93.65,AC,16.0,3.0,5.11,8,48
+PMPML-42,Express,Aundh,Katraj,13.9,56.0,58,27.56,Tue,Morning,72.0,Cloudy,1.0,3.0,1.0,Medium,1.0,46.08,20.56,Non-AC,11.0,4.0,11.84,3,2
+PMPML-25,Shuttle,Baner,Viman Nagar,6.61,15.0,64,41.67,Wed,Night,79.0,Rainy,11.0,8.0,0.68,Medium,1.0,36.2,53.77,Electric,5.0,2.0,20.18,9,49
+PMPML-27,Express,Hinjewadi,Kothrud,23.52,50.0,32,11.2,Sat,Night,28.0,Cloudy,7.0,17.0,0.66,Low,0.0,44.87,88.1,AC,24.0,0.0,7.07,9,-18
+PMPML-32,Shuttle,Kharadi,Katraj,21.61,43.0,84,22.66,Tue,Night,25.0,Rainy,4.0,10.0,0.14,,0.0,25.47,69.23,AC,5.0,3.0,20.31,9,41
+PMPML-37,Local,Kothrud,Kothrud,18.36,32.0,116,38.54,Sat,Night,48.0,Cloudy,2.0,11.0,0.99,High,0.0,21.04,27.58,Electric,0.0,3.0,18.39,8,84
+PMPML-5,Local,Hinjewadi,Kothrud,15.47,76.0,63,38.25,Tue,Morning,49.0,Clear,2.0,15.0,0.5,Medium,1.0,18.68,75.02,AC,14.0,1.0,37.16,9,-13
+PMPML-48,Local,Wagholi,Baner,19.78,45.0,92,43.1,Sat,Afternoon,65.0,Rainy,14.0,13.0,0.81,Low,1.0,45.41,70.06,AC,16.0,0.0,5.49,1,47
+PMPML-7,Shuttle,Viman Nagar,Kharadi,18.17,34.0,29,19.2,Fri,Night,49.0,Clear,9.0,11.0,0.94,Low,1.0,15.69,99.71,AC,19.0,4.0,9.79,7,-5
+PMPML-21,Express,Shivaji Nagar,Aundh,5.8,23.0,33,29.06,Wed,Morning,77.0,Clear,13.0,10.0,0.47,Low,0.0,16.3,44.71,Electric,7.0,4.0,8.26,1,10
+PMPML-50,Shuttle,Katraj,Kothrud,22.15,81.0,26,28.49,Thu,Night,34.0,Clear,14.0,6.0,0.36,Low,1.0,34.77,24.09,AC,12.0,2.0,25.1,0,-55
+PMPML-39,Express,Kothrud,Baner,4.32,41.0,79,29.82,Tue,Evening,39.0,Clear,3.0,8.0,0.75,Medium,1.0,38.27,47.0,Electric,23.0,0.0,5.0,8,38
+PMPML-9,Express,Aundh,Wagholi,16.43,50.0,87,12.09,Tue,Night,35.0,Clear,12.0,5.0,0.98,Low,0.0,25.07,68.69,AC,19.0,2.0,18.81,8,37
+PMPML-2,Shuttle,Kothrud,Shivaji Nagar,16.86,63.0,110,23.9,Thu,Morning,77.0,Clear,7.0,19.0,0.92,Medium,0.0,43.12,99.9,Electric,24.0,0.0,36.77,0,47
+PMPML-48,Shuttle,Kharadi,Kharadi,21.29,21.0,92,21.98,Tue,Morning,52.0,Rainy,11.0,11.0,0.71,Medium,1.0,14.32,81.66,Electric,16.0,0.0,22.01,0,71
+PMPML-30,Local,Katraj,Hadapsar,4.82,39.0,98,32.4,Thu,Afternoon,8.0,Clear,10.0,4.0,0.57,High,0.0,22.98,54.48,Electric,13.0,4.0,18.31,3,59
+PMPML-18,Shuttle,Viman Nagar,Wagholi,14.45,60.0,71,37.12,Mon,Night,18.0,Rainy,4.0,14.0,0.64,Medium,1.0,22.99,83.04,Electric,20.0,3.0,5.72,6,11
+PMPML-26,Shuttle,Kothrud,Hadapsar,4.01,57.0,109,22.31,Fri,Night,27.0,Rainy,9.0,12.0,0.47,Medium,1.0,11.12,97.99,Electric,2.0,1.0,37.91,2,52
+PMPML-46,Shuttle,Aundh,Hadapsar,15.55,18.0,54,41.31,Tue,Afternoon,76.0,Rainy,6.0,10.0,0.82,Medium,0.0,24.05,46.74,Non-AC,19.0,1.0,27.89,1,36
+PMPML-25,Shuttle,Wagholi,Kharadi,10.31,45.0,74,44.86,Tue,Afternoon,27.0,Clear,8.0,11.0,0.79,Low,1.0,13.53,91.99,Electric,21.0,2.0,31.51,4,29
+PMPML-45,Express,Wagholi,Kharadi,12.31,79.0,21,36.86,Mon,Night,26.0,Clear,12.0,14.0,0.59,Low,0.0,45.66,65.68,AC,16.0,1.0,14.0,7,-58
+PMPML-5,Express,Katraj,Shivaji Nagar,23.56,20.0,78,44.41,Wed,Evening,69.0,Clear,2.0,13.0,0.15,High,0.0,41.58,33.13,AC,8.0,0.0,7.23,0,58
+PMPML-16,Shuttle,Wagholi,Wagholi,4.73,23.0,14,29.95,Sun,Evening,54.0,Cloudy,7.0,5.0,0.77,High,0.0,37.78,47.81,Non-AC,22.0,4.0,31.66,4,-9
+PMPML-34,Shuttle,Viman Nagar,Kharadi,19.25,75.0,43,11.45,Sun,Night,55.0,Cloudy,1.0,15.0,0.94,High,0.0,14.47,42.26,AC,23.0,0.0,28.39,9,-32
+PMPML-16,Local,Kharadi,Aundh,13.34,60.0,53,44.23,Wed,Afternoon,73.0,Cloudy,1.0,15.0,0.91,Medium,1.0,19.64,92.85,Non-AC,10.0,0.0,37.83,9,-7
+PMPML-43,Shuttle,Aundh,Wagholi,22.29,24.0,76,19.87,Sun,Morning,34.0,Cloudy,12.0,14.0,0.46,High,0.0,37.78,64.79,Electric,20.0,4.0,5.87,6,52
+PMPML-1,Shuttle,Katraj,Baner,19.34,19.0,99,12.75,Thu,Evening,29.0,Cloudy,5.0,5.0,0.69,Low,0.0,24.97,82.44,Non-AC,22.0,1.0,27.74,0,80
+PMPML-19,Local,Viman Nagar,Hadapsar,15.09,38.0,32,25.86,Fri,Afternoon,44.0,Clear,7.0,8.0,0.66,Medium,1.0,42.51,97.87,Non-AC,4.0,4.0,19.68,8,-6
+PMPML-28,Local,Katraj,Katraj,13.84,43.0,103,24.7,Sun,Night,73.0,Rainy,1.0,13.0,0.53,High,1.0,10.45,44.33,Non-AC,23.0,4.0,22.61,7,60
+PMPML-23,Local,Wagholi,Kharadi,22.35,58.0,45,44.84,Wed,Morning,46.0,Rainy,10.0,19.0,0.29,Low,1.0,47.22,28.39,AC,23.0,0.0,9.94,3,-13
+PMPML-37,Local,Katraj,Shivaji Nagar,22.87,55.0,108,21.82,Mon,Night,66.0,Cloudy,5.0,15.0,0.49,Low,0.0,34.9,53.3,Electric,23.0,1.0,9.56,7,53
+PMPML-39,Express,Hadapsar,Baner,21.46,83.0,74,19.39,Tue,Night,65.0,Cloudy,12.0,6.0,0.36,Low,0.0,20.07,24.2,Non-AC,14.0,1.0,14.45,4,-9
+PMPML-50,Local,Shivaji Nagar,Viman Nagar,9.45,31.0,50,15.98,Thu,Morning,47.0,Cloudy,10.0,11.0,0.61,Low,1.0,42.14,53.46,Non-AC,4.0,0.0,36.91,4,19
+PMPML-44,Shuttle,Katraj,Hadapsar,9.0,53.0,58,24.02,Fri,Morning,18.0,Cloudy,4.0,17.0,0.31,Low,0.0,30.19,46.03,Non-AC,19.0,0.0,23.54,9,5
+PMPML-14,Local,Aundh,Hadapsar,14.75,87.0,82,21.13,Tue,Afternoon,41.0,Rainy,13.0,17.0,0.66,Low,0.0,39.03,36.52,AC,24.0,2.0,21.8,5,-5
+PMPML-16,Express,Katraj,Hinjewadi,17.49,79.0,34,23.66,Fri,Evening,39.0,Cloudy,10.0,4.0,0.43,High,1.0,28.99,98.89,Non-AC,5.0,3.0,17.65,3,-45
+PMPML-6,Shuttle,Shivaji Nagar,Viman Nagar,22.99,56.0,23,33.9,Wed,Night,9.0,Clear,9.0,7.0,0.88,Low,0.0,34.41,32.55,Non-AC,14.0,3.0,37.15,2,-33
+PMPML-12,Shuttle,Viman Nagar,Hadapsar,11.91,24.0,15,37.34,Sat,Afternoon,29.0,Clear,7.0,11.0,0.35,Medium,0.0,26.06,80.0,Non-AC,15.0,0.0,9.64,8,-9
+PMPML-44,Local,Kharadi,Hinjewadi,5.4,46.0,45,12.75,Sat,Afternoon,36.0,Cloudy,1.0,5.0,0.41,High,1.0,33.15,81.14,AC,20.0,1.0,24.08,7,-1
+PMPML-34,Express,Katraj,Viman Nagar,6.06,40.0,46,24.31,Fri,Evening,45.0,Clear,11.0,12.0,0.36,Low,0.0,21.09,60.81,Electric,24.0,2.0,6.03,4,6
+PMPML-37,Shuttle,Baner,Aundh,21.74,10.0,114,11.39,Wed,Night,23.0,Cloudy,13.0,7.0,0.89,Low,1.0,10.89,90.17,Electric,8.0,2.0,19.72,4,104
+PMPML-45,Shuttle,Kharadi,Hinjewadi,17.36,51.0,91,18.99,Thu,Afternoon,57.0,Clear,1.0,15.0,0.55,Low,0.0,27.77,59.8,Non-AC,11.0,2.0,22.69,2,40
+PMPML-33,Shuttle,Hadapsar,Kothrud,14.55,39.0,56,31.73,Mon,Evening,71.0,Rainy,13.0,15.0,0.15,Medium,1.0,40.71,95.15,Non-AC,19.0,2.0,25.68,8,17
+PMPML-8,Shuttle,Katraj,Shivaji Nagar,6.24,53.0,93,41.0,Sun,Evening,57.0,Rainy,5.0,5.0,0.93,Low,0.0,26.84,76.51,Electric,11.0,4.0,18.1,7,40
+PMPML-16,Express,Wagholi,Shivaji Nagar,12.27,74.0,110,44.73,Mon,Afternoon,79.0,Clear,3.0,9.0,0.98,High,0.0,39.4,91.16,Electric,20.0,1.0,37.89,9,36
+PMPML-2,Local,Kothrud,Hinjewadi,14.27,73.0,64,14.37,Thu,Afternoon,46.0,Rainy,5.0,19.0,0.86,Low,1.0,31.2,72.94,Non-AC,21.0,2.0,24.29,6,-9
+PMPML-37,Local,Viman Nagar,Baner,4.4,14.0,46,38.53,Thu,Morning,62.0,Rainy,2.0,19.0,0.22,High,0.0,27.32,50.0,AC,10.0,0.0,26.35,5,32
+PMPML-5,Express,Kothrud,Wagholi,17.65,32.0,69,40.35,Mon,Night,18.0,Clear,2.0,12.0,0.11,Medium,0.0,14.05,68.03,AC,6.0,2.0,35.79,5,37
+PMPML-11,Shuttle,Shivaji Nagar,Kharadi,23.57,39.0,38,17.9,Sat,Evening,23.0,Rainy,11.0,17.0,0.31,High,0.0,27.62,88.2,Electric,19.0,1.0,31.35,1,-1
+PMPML-27,Express,Viman Nagar,Katraj,13.07,67.0,22,36.87,Thu,Afternoon,46.0,Clear,9.0,15.0,0.92,Low,0.0,10.84,26.49,Electric,6.0,3.0,10.35,1,-45
+PMPML-41,Shuttle,Kothrud,Kharadi,16.81,46.0,74,25.07,Sun,Night,19.0,Cloudy,2.0,3.0,0.16,Low,0.0,30.4,61.38,Non-AC,15.0,2.0,35.01,9,28
+PMPML-33,Local,Kothrud,Kothrud,12.51,63.0,74,36.35,Sat,Morning,14.0,Clear,7.0,3.0,0.56,High,1.0,27.41,82.93,AC,8.0,1.0,11.84,5,11
+PMPML-30,Local,Shivaji Nagar,Aundh,23.93,37.0,13,29.38,Mon,Morning,56.0,Rainy,5.0,15.0,0.6,Low,0.0,16.25,85.57,AC,1.0,1.0,10.63,2,-24
+PMPML-48,Express,Baner,Katraj,2.03,43.0,57,27.76,Mon,Evening,8.0,Cloudy,6.0,16.0,0.84,Low,0.0,18.15,45.62,AC,7.0,2.0,18.48,6,14
+PMPML-23,Express,Hadapsar,Kharadi,15.04,60.0,55,21.62,Sat,Morning,40.0,Cloudy,5.0,5.0,0.91,High,1.0,41.99,89.01,AC,23.0,4.0,34.2,4,-5
+PMPML-28,Shuttle,Kothrud,Aundh,3.63,11.0,118,23.65,Mon,Morning,48.0,Rainy,12.0,7.0,0.95,Low,0.0,48.9,50.33,AC,18.0,1.0,19.06,6,107
+PMPML-35,Local,Katraj,Kharadi,19.42,78.0,103,42.58,Sat,Evening,64.0,Rainy,7.0,17.0,0.46,Low,0.0,16.94,28.45,Electric,3.0,4.0,19.28,1,25
+PMPML-26,Local,Kharadi,Aundh,15.66,29.0,72,25.13,Sat,Morning,32.0,Cloudy,2.0,15.0,0.38,Low,1.0,25.08,63.9,AC,19.0,2.0,27.0,3,43
+PMPML-29,Shuttle,Viman Nagar,Kharadi,3.9,86.0,63,30.8,Thu,Evening,60.0,Cloudy,5.0,10.0,0.65,Low,0.0,11.08,24.16,AC,16.0,1.0,5.12,7,-23
+PMPML-34,Local,Aundh,Aundh,21.25,73.0,67,37.84,Sat,Evening,40.0,Clear,12.0,19.0,0.51,Low,1.0,40.61,69.21,Electric,22.0,2.0,25.87,0,-6
+PMPML-15,Express,Baner,Viman Nagar,15.47,12.0,46,17.63,Mon,Night,43.0,Clear,12.0,8.0,0.05,Low,0.0,32.75,58.48,AC,1.0,4.0,21.37,9,34
+PMPML-4,Shuttle,Viman Nagar,Hinjewadi,12.18,87.0,25,40.82,Sun,Morning,65.0,Clear,3.0,3.0,0.35,High,0.0,35.46,65.16,Non-AC,20.0,1.0,37.57,4,-62
+PMPML-32,Shuttle,Kothrud,Wagholi,19.19,69.0,117,15.02,Wed,Evening,25.0,Clear,5.0,19.0,0.04,Low,0.0,27.41,72.64,Electric,13.0,3.0,12.8,5,48
+PMPML-13,Shuttle,Katraj,Baner,18.88,23.0,71,15.18,Mon,Morning,61.0,Rainy,14.0,16.0,0.02,Low,1.0,23.82,49.2,Electric,7.0,0.0,28.27,7,48
+PMPML-37,Express,Aundh,Wagholi,8.63,29.0,16,18.83,Tue,Night,48.0,Cloudy,2.0,3.0,0.24,Low,0.0,48.21,47.23,AC,14.0,2.0,27.1,3,-13
+PMPML-47,Express,Baner,Hadapsar,5.91,10.0,33,20.23,Sat,Afternoon,73.0,Rainy,,7.0,0.79,Low,1.0,48.23,62.09,Non-AC,17.0,4.0,39.45,7,23
+PMPML-30,Shuttle,Kothrud,Kharadi,18.71,65.0,21,37.2,Sun,Evening,11.0,Clear,1.0,17.0,0.48,High,1.0,34.53,75.04,AC,6.0,2.0,12.42,4,-44
+PMPML-32,Express,Katraj,Baner,23.8,28.0,67,14.42,Wed,Afternoon,37.0,Clear,10.0,9.0,0.18,Low,0.0,40.97,96.59,Electric,23.0,2.0,19.85,1,39
+PMPML-25,Local,Hadapsar,Katraj,9.31,45.0,61,20.84,Sun,Afternoon,6.0,Cloudy,4.0,4.0,0.12,Medium,0.0,32.22,36.04,Electric,20.0,0.0,38.36,7,16
+PMPML-26,Express,Viman Nagar,Hadapsar,13.04,32.0,58,24.4,Sun,Evening,48.0,Rainy,0.0,16.0,0.64,Low,1.0,42.53,84.57,Non-AC,20.0,3.0,22.88,8,26
+PMPML-11,Shuttle,Shivaji Nagar,Shivaji Nagar,8.61,42.0,76,33.38,,Afternoon,79.0,Rainy,7.0,9.0,0.73,Medium,0.0,15.87,30.27,AC,5.0,1.0,22.15,4,34
+PMPML-33,Shuttle,Aundh,Hinjewadi,12.76,47.0,87,32.36,Fri,Evening,21.0,Cloudy,1.0,19.0,0.6,Low,1.0,48.82,37.8,Electric,20.0,0.0,25.47,5,40
+PMPML-45,Express,Aundh,Katraj,6.96,69.0,10,10.78,Thu,Night,18.0,Cloudy,13.0,8.0,0.39,Medium,1.0,40.68,73.78,Non-AC,13.0,0.0,21.58,9,-59
+PMPML-33,Express,Hinjewadi,Viman Nagar,22.55,81.0,20,18.82,Tue,Night,57.0,Rainy,5.0,11.0,0.27,Low,1.0,26.24,60.3,AC,9.0,1.0,37.66,2,-61
+PMPML-42,Shuttle,Katraj,Wagholi,7.69,52.0,16,38.8,Wed,Night,64.0,Rainy,1.0,3.0,0.27,Low,1.0,28.16,35.62,AC,11.0,2.0,14.01,5,-36
+PMPML-8,Shuttle,Hinjewadi,Aundh,3.35,26.0,91,39.41,Fri,Morning,37.0,Clear,14.0,15.0,0.47,Medium,1.0,49.69,42.49,Non-AC,13.0,2.0,24.53,7,65
+PMPML-16,Shuttle,Aundh,Aundh,16.92,52.0,40,33.75,Sat,Afternoon,17.0,Rainy,12.0,8.0,0.6,Medium,1.0,30.22,86.54,AC,11.0,1.0,22.41,6,-12
+PMPML-14,Express,Kharadi,Hadapsar,8.96,72.0,75,22.19,Fri,Afternoon,35.0,Clear,3.0,13.0,0.89,Medium,0.0,11.29,60.19,AC,3.0,0.0,22.33,9,3
+PMPML-25,Shuttle,Hinjewadi,Baner,7.87,55.0,116,34.61,Wed,Evening,54.0,Cloudy,7.0,6.0,0.7,Low,1.0,19.13,20.05,Non-AC,6.0,1.0,28.75,2,61
+PMPML-2,Local,Baner,Viman Nagar,4.55,14.0,65,20.31,Thu,Night,8.0,Clear,6.0,18.0,0.44,Medium,1.0,10.32,44.3,Electric,13.0,2.0,36.75,3,51
+PMPML-3,Shuttle,Shivaji Nagar,Viman Nagar,2.56,57.0,39,20.19,Mon,Afternoon,69.0,Rainy,11.0,3.0,0.42,Low,0.0,15.35,42.74,Non-AC,15.0,2.0,29.39,0,-18
+PMPML-24,Shuttle,Hinjewadi,Shivaji Nagar,24.45,63.0,59,27.6,Wed,Morning,15.0,Clear,4.0,19.0,0.0,Low,0.0,35.42,78.41,Non-AC,12.0,3.0,16.9,1,-4
+PMPML-10,Local,Katraj,Viman Nagar,12.86,27.0,87,19.47,Thu,Night,30.0,Clear,1.0,8.0,0.93,Low,0.0,48.82,46.71,Non-AC,1.0,1.0,10.9,1,60
+PMPML-8,Local,Baner,Kharadi,24.16,70.0,119,10.31,Sun,Evening,28.0,Cloudy,12.0,16.0,0.4,Low,0.0,43.2,39.94,Electric,24.0,4.0,34.82,8,49
+PMPML-29,Local,Viman Nagar,Viman Nagar,24.78,12.0,53,23.56,Sat,Morning,71.0,Rainy,2.0,3.0,0.74,Low,1.0,49.93,61.79,Non-AC,20.0,4.0,30.16,0,41
+PMPML-48,Local,Hadapsar,Katraj,20.8,31.0,20,18.65,Sun,Morning,17.0,Cloudy,8.0,6.0,0.07,Low,1.0,47.14,31.49,AC,20.0,4.0,23.62,3,-11
+PMPML-26,Local,Aundh,Shivaji Nagar,6.99,13.0,47,26.72,Sun,Night,9.0,Cloudy,12.0,12.0,0.55,High,0.0,31.05,82.43,Electric,8.0,4.0,32.32,8,34
+PMPML-21,Express,Hadapsar,Kharadi,16.38,50.0,47,28.35,Wed,Morning,36.0,Cloudy,9.0,19.0,0.79,High,0.0,49.05,52.76,AC,19.0,0.0,33.33,8,-3
+PMPML-50,Local,Wagholi,Wagholi,2.41,19.0,51,11.3,Thu,Afternoon,39.0,Rainy,3.0,8.0,0.19,Medium,1.0,28.74,28.83,Electric,16.0,0.0,9.83,6,32
+PMPML-27,Local,Wagholi,Viman Nagar,11.99,86.0,30,24.59,Sat,Morning,53.0,Rainy,12.0,18.0,0.34,Low,0.0,16.29,26.12,Electric,15.0,4.0,20.18,9,-56
+PMPML-11,Shuttle,Wagholi,Kothrud,20.24,88.0,90,27.13,Sat,Afternoon,33.0,Cloudy,11.0,4.0,0.42,Medium,1.0,32.52,79.63,Electric,4.0,4.0,38.97,2,2
+PMPML-2,Shuttle,Hadapsar,Hadapsar,14.59,77.0,80,12.93,Wed,Afternoon,41.0,Clear,10.0,6.0,0.21,High,0.0,12.82,85.02,Electric,14.0,1.0,26.4,9,3
+PMPML-42,Express,Katraj,Hadapsar,17.9,60.0,86,14.29,Tue,Evening,21.0,Clear,6.0,19.0,0.13,Low,0.0,18.73,71.21,Non-AC,4.0,1.0,5.42,8,26
+PMPML-10,Express,Aundh,Wagholi,8.29,67.0,82,24.93,Thu,Night,6.0,Rainy,14.0,7.0,0.06,Low,0.0,41.43,47.43,AC,22.0,0.0,17.27,1,15
+PMPML-3,Express,Kharadi,Viman Nagar,3.0,76.0,60,44.14,Sun,Night,51.0,Rainy,8.0,6.0,0.37,Medium,1.0,49.7,94.0,AC,10.0,0.0,35.47,0,-16
+PMPML-39,Shuttle,Kothrud,Hinjewadi,9.44,22.0,12,37.12,Sat,Afternoon,78.0,Clear,1.0,17.0,0.16,Low,1.0,36.31,69.12,Electric,19.0,1.0,6.47,5,-10
+PMPML-20,Shuttle,Kothrud,Kothrud,11.95,38.0,44,20.71,Mon,Morning,38.0,Rainy,14.0,18.0,0.41,Low,1.0,47.66,84.17,AC,7.0,3.0,10.31,5,6
+PMPML-44,Express,Kothrud,Aundh,13.33,40.0,24,11.79,Mon,Night,43.0,Rainy,9.0,3.0,0.8,Medium,0.0,26.91,63.04,Non-AC,18.0,4.0,26.92,7,-16
+PMPML-41,Local,Kothrud,Viman Nagar,10.25,27.0,54,38.95,Sat,Night,61.0,Clear,6.0,10.0,0.8,Low,1.0,39.29,84.15,Non-AC,11.0,0.0,17.16,2,27
+PMPML-37,Shuttle,Viman Nagar,Viman Nagar,14.94,53.0,48,34.1,Mon,Afternoon,39.0,Rainy,5.0,8.0,0.79,Low,1.0,12.02,64.53,Non-AC,22.0,1.0,19.22,8,-5
+PMPML-6,Local,Baner,Shivaji Nagar,10.3,51.0,38,32.38,Sun,Night,11.0,Cloudy,6.0,5.0,0.46,Low,0.0,43.08,21.45,AC,4.0,1.0,25.74,3,-13
+PMPML-9,Shuttle,Hinjewadi,Viman Nagar,20.81,24.0,67,39.58,Mon,Evening,25.0,Rainy,12.0,12.0,0.65,Medium,0.0,31.79,98.5,Non-AC,15.0,1.0,14.79,3,43
+PMPML-48,Shuttle,Baner,Shivaji Nagar,21.13,88.0,58,10.81,Fri,Night,79.0,Rainy,1.0,18.0,0.17,High,1.0,20.8,31.38,Electric,13.0,1.0,27.54,9,-30
+PMPML-9,Local,Shivaji Nagar,Hinjewadi,6.92,87.0,117,42.0,Fri,Afternoon,8.0,Clear,11.0,14.0,0.01,Low,1.0,30.16,85.45,Electric,17.0,3.0,34.05,9,30
+PMPML-34,Local,Wagholi,Hadapsar,9.51,89.0,63,22.96,Sat,Evening,79.0,Clear,6.0,9.0,0.62,Medium,1.0,19.99,46.64,AC,23.0,3.0,22.99,0,-26
+PMPML-37,Shuttle,Katraj,Kharadi,19.86,19.0,18,39.23,Wed,Morning,62.0,Cloudy,8.0,3.0,0.69,Low,1.0,27.22,96.84,AC,2.0,0.0,35.89,6,-1
+PMPML-50,Shuttle,Hinjewadi,Katraj,5.41,34.0,113,29.74,Sun,Night,31.0,Clear,0.0,3.0,0.17,Low,0.0,28.9,72.25,AC,17.0,4.0,6.02,7,79
+PMPML-42,Shuttle,Hadapsar,Shivaji Nagar,18.59,51.0,59,41.14,Sat,Afternoon,69.0,Clear,1.0,6.0,0.49,Medium,0.0,30.88,24.72,Non-AC,21.0,0.0,31.73,8,8
+PMPML-16,Express,Baner,Hinjewadi,24.83,18.0,88,35.64,Thu,Afternoon,42.0,Cloudy,3.0,12.0,0.63,Low,1.0,35.92,89.07,Electric,16.0,3.0,32.1,5,70
+PMPML-49,Shuttle,Aundh,Viman Nagar,3.02,51.0,81,39.79,Mon,Afternoon,24.0,Clear,13.0,10.0,0.47,Medium,1.0,22.44,95.25,AC,2.0,4.0,11.64,1,30
+PMPML-38,Local,Shivaji Nagar,Shivaji Nagar,6.6,49.0,69,40.61,Tue,Morning,16.0,Rainy,0.0,19.0,0.68,Medium,0.0,33.34,43.58,Non-AC,9.0,4.0,30.12,9,20
+PMPML-50,Local,Viman Nagar,Kothrud,6.21,82.0,52,34.56,Fri,Afternoon,33.0,Clear,12.0,6.0,0.58,Low,0.0,42.18,96.84,Non-AC,11.0,4.0,8.98,1,-30
+PMPML-20,Shuttle,Shivaji Nagar,Katraj,19.14,31.0,104,16.65,Wed,Night,44.0,Cloudy,4.0,19.0,0.86,Low,1.0,44.62,96.71,AC,7.0,2.0,38.98,8,73
+PMPML-48,Local,Hadapsar,Hadapsar,20.24,78.0,59,26.86,Sun,Evening,23.0,Cloudy,14.0,15.0,0.11,Medium,0.0,25.51,72.2,Electric,3.0,0.0,39.96,5,-19
+PMPML-21,Shuttle,Baner,Wagholi,16.77,70.0,44,43.75,Mon,Afternoon,,Clear,2.0,19.0,0.8,Medium,0.0,12.1,52.83,Electric,19.0,3.0,31.36,5,-26
+PMPML-21,Shuttle,Shivaji Nagar,Hinjewadi,3.53,88.0,119,42.19,Tue,Night,51.0,Cloudy,5.0,18.0,0.97,Low,1.0,43.31,66.01,AC,12.0,3.0,16.73,2,31
+PMPML-22,Shuttle,Aundh,Hadapsar,20.55,67.0,55,20.58,Tue,Evening,40.0,Clear,10.0,16.0,0.67,High,0.0,20.56,92.66,Electric,6.0,3.0,11.68,7,-12
+PMPML-14,Shuttle,Kharadi,Aundh,22.75,77.0,109,34.71,Sat,Evening,46.0,Rainy,5.0,14.0,0.46,Low,0.0,42.35,49.47,Electric,2.0,2.0,27.72,0,32
+PMPML-44,Express,Viman Nagar,Aundh,8.92,59.0,104,10.33,Sat,Night,58.0,Cloudy,12.0,19.0,0.85,Medium,0.0,47.17,72.34,Electric,20.0,1.0,22.13,5,45
+PMPML-44,Express,Aundh,Shivaji Nagar,17.99,49.0,49,38.8,Thu,Morning,65.0,Cloudy,13.0,9.0,0.28,Low,0.0,27.2,64.41,AC,1.0,0.0,12.81,0,0
+PMPML-7,Local,Aundh,Kharadi,3.12,85.0,14,30.11,Tue,Morning,50.0,Cloudy,7.0,8.0,0.88,Low,0.0,19.26,28.97,Non-AC,8.0,4.0,31.01,2,-71
+PMPML-47,Express,Viman Nagar,Shivaji Nagar,10.93,29.0,113,23.52,Wed,Afternoon,35.0,Rainy,8.0,17.0,0.48,Low,0.0,45.81,79.85,Electric,12.0,2.0,34.08,9,84
+PMPML-11,Local,Aundh,Aundh,24.95,76.0,80,20.47,Tue,Evening,68.0,Cloudy,1.0,13.0,0.55,High,0.0,33.52,49.39,AC,0.0,2.0,39.01,4,4
+PMPML-17,Shuttle,Katraj,Wagholi,23.17,49.0,27,35.26,Sat,Night,54.0,Rainy,11.0,6.0,0.4,High,1.0,36.03,49.38,Non-AC,3.0,0.0,5.42,9,-22
+PMPML-47,Express,Viman Nagar,Viman Nagar,3.97,22.0,39,30.98,Sat,Night,7.0,Rainy,7.0,12.0,0.02,Low,1.0,38.38,55.53,AC,12.0,2.0,20.02,0,17
+PMPML-49,Express,Shivaji Nagar,Wagholi,20.76,31.0,31,34.97,Sun,Evening,27.0,Rainy,13.0,4.0,0.25,Medium,0.0,34.27,20.48,AC,0.0,1.0,37.74,3,0
+PMPML-49,Shuttle,Baner,Shivaji Nagar,13.38,82.0,101,13.46,Sat,Afternoon,19.0,Rainy,7.0,3.0,0.06,Medium,1.0,15.44,59.59,Electric,8.0,0.0,17.58,2,19
+PMPML-48,Local,Hadapsar,Wagholi,8.31,17.0,24,42.27,Tue,Night,7.0,Clear,3.0,13.0,0.27,Low,0.0,39.0,37.32,Electric,20.0,2.0,16.97,1,7
+PMPML-11,Shuttle,Wagholi,Viman Nagar,10.87,50.0,31,21.86,Fri,Evening,68.0,Cloudy,12.0,12.0,0.03,Low,1.0,32.84,31.62,Electric,3.0,0.0,36.84,7,-19
+PMPML-49,Local,Shivaji Nagar,Aundh,13.4,51.0,106,15.9,Sat,Afternoon,10.0,Cloudy,10.0,19.0,0.07,Low,0.0,49.27,72.69,Electric,23.0,1.0,14.38,0,55
+PMPML-49,Local,Viman Nagar,Shivaji Nagar,6.16,36.0,77,44.42,Sat,Evening,24.0,Clear,7.0,12.0,0.22,Low,1.0,34.72,40.04,Electric,1.0,1.0,38.47,5,41
+PMPML-27,Local,Baner,Katraj,12.84,65.0,81,32.05,Fri,Night,54.0,Clear,5.0,16.0,0.14,Low,0.0,22.95,69.31,Electric,9.0,4.0,26.82,9,16
+PMPML-45,Express,Katraj,Kothrud,7.64,79.0,60,32.44,Sat,Afternoon,8.0,Clear,14.0,4.0,0.2,Medium,1.0,48.98,25.21,AC,2.0,0.0,11.21,1,-19
+PMPML-23,Shuttle,Viman Nagar,Kothrud,4.2,18.0,117,37.65,Sat,Evening,38.0,Clear,0.0,12.0,0.76,Low,1.0,19.01,42.89,Non-AC,10.0,0.0,5.86,7,99
+PMPML-49,Local,Shivaji Nagar,Wagholi,4.03,70.0,55,18.41,Sun,Night,57.0,Rainy,6.0,7.0,0.51,Low,0.0,49.35,79.43,AC,17.0,2.0,39.14,1,-15
+PMPML-13,Express,Hinjewadi,Katraj,9.14,36.0,47,28.85,Tue,Evening,49.0,Cloudy,10.0,14.0,0.29,Medium,0.0,15.39,92.61,AC,11.0,1.0,33.5,7,11
+PMPML-1,Shuttle,Kharadi,Baner,10.71,32.0,92,17.2,Tue,Morning,78.0,Cloudy,3.0,3.0,0.39,Medium,1.0,11.41,77.58,Electric,6.0,1.0,15.25,9,60
+PMPML-10,Local,Kharadi,Shivaji Nagar,10.97,69.0,78,13.55,Wed,Night,35.0,Clear,11.0,5.0,0.86,Medium,0.0,41.24,80.95,AC,9.0,2.0,34.44,1,9
+PMPML-22,Shuttle,Shivaji Nagar,Kothrud,2.42,51.0,46,12.31,Fri,Night,22.0,Cloudy,6.0,15.0,0.91,Low,0.0,44.35,74.47,Non-AC,12.0,4.0,33.47,8,-5
+PMPML-13,Express,Baner,Kharadi,14.21,40.0,33,12.88,Wed,Evening,17.0,Rainy,8.0,5.0,0.44,Low,0.0,19.76,86.48,Electric,16.0,4.0,19.59,1,-7
+PMPML-19,Local,Baner,Viman Nagar,12.17,19.0,99,28.65,Wed,Night,21.0,Cloudy,0.0,17.0,0.22,Low,0.0,48.64,33.5,AC,19.0,0.0,15.72,6,80
+PMPML-23,Local,Baner,Hinjewadi,23.47,48.0,25,12.69,Mon,Night,55.0,Clear,2.0,4.0,0.25,Low,1.0,14.91,62.9,Electric,2.0,2.0,24.06,5,-23
+PMPML-2,Express,Katraj,Viman Nagar,24.3,59.0,43,22.69,Sun,Afternoon,56.0,Clear,8.0,16.0,0.42,Medium,0.0,31.78,66.91,Non-AC,18.0,1.0,14.51,9,-16
+PMPML-21,Express,Hadapsar,Kharadi,2.27,44.0,26,44.96,Thu,Night,57.0,Rainy,6.0,8.0,0.81,High,0.0,41.01,60.4,AC,16.0,0.0,32.74,9,-18
+PMPML-15,Shuttle,Wagholi,Viman Nagar,18.53,25.0,112,28.02,Sun,Afternoon,60.0,Clear,7.0,10.0,0.51,High,0.0,45.44,21.58,Non-AC,13.0,1.0,18.19,6,87
+PMPML-50,Local,Aundh,Katraj,20.46,55.0,90,30.98,Sat,Morning,24.0,Cloudy,4.0,3.0,0.91,High,0.0,24.7,37.36,Non-AC,21.0,2.0,32.67,7,35
+PMPML-4,Local,Hinjewadi,Kothrud,9.21,15.0,69,34.23,Sat,Morning,70.0,Rainy,13.0,11.0,0.03,Low,0.0,20.51,83.4,Non-AC,13.0,1.0,28.41,7,54
+PMPML-40,Shuttle,Kharadi,Kothrud,21.02,61.0,86,12.63,Fri,Afternoon,54.0,Clear,0.0,8.0,0.3,High,1.0,29.36,92.35,Electric,8.0,0.0,10.44,9,25
+PMPML-10,Shuttle,Shivaji Nagar,Aundh,24.94,60.0,61,39.68,Sat,Night,22.0,Cloudy,13.0,9.0,0.82,High,1.0,28.73,80.91,Electric,24.0,0.0,14.93,6,1
+PMPML-49,Shuttle,Hadapsar,Katraj,21.85,62.0,113,38.1,Mon,Night,30.0,Clear,0.0,10.0,0.56,Medium,0.0,16.01,53.54,Electric,19.0,3.0,34.45,5,51
+PMPML-10,Express,Katraj,Kharadi,16.45,63.0,50,43.92,Thu,Night,6.0,Rainy,11.0,19.0,0.22,Low,0.0,14.22,73.44,Non-AC,22.0,3.0,14.58,9,-13
+PMPML-32,Local,Kothrud,Katraj,9.03,24.0,50,38.21,Thu,Afternoon,53.0,Cloudy,14.0,15.0,0.93,Low,0.0,17.69,22.28,Non-AC,24.0,4.0,37.73,3,26
+PMPML-7,Local,Baner,Wagholi,17.91,69.0,70,23.31,Sat,Evening,75.0,Clear,2.0,17.0,0.06,Medium,1.0,14.7,97.27,Electric,4.0,0.0,21.07,3,1
+PMPML-16,Express,Katraj,Aundh,2.87,37.0,53,21.93,Thu,Night,34.0,Rainy,12.0,10.0,0.58,Medium,0.0,40.71,89.92,AC,21.0,2.0,36.08,4,16
+PMPML-18,Local,Aundh,Aundh,16.92,82.0,112,26.33,Wed,Morning,70.0,Cloudy,7.0,8.0,0.5,Low,0.0,27.05,79.94,Non-AC,3.0,0.0,23.06,7,30
+PMPML-21,Local,Hinjewadi,Katraj,22.78,66.0,23,23.39,Thu,Afternoon,67.0,Clear,14.0,14.0,0.08,Medium,1.0,28.55,69.84,Non-AC,20.0,3.0,13.57,4,-43
+PMPML-37,Local,Hinjewadi,Shivaji Nagar,2.89,40.0,105,28.36,Mon,Morning,18.0,Rainy,6.0,10.0,1.0,High,1.0,38.22,29.68,Electric,4.0,1.0,19.02,5,65
+PMPML-11,Local,Shivaji Nagar,Katraj,3.79,58.0,95,36.35,Mon,Afternoon,31.0,Cloudy,0.0,3.0,0.61,Medium,0.0,29.06,56.14,AC,2.0,0.0,32.83,3,37
+PMPML-6,Express,Viman Nagar,Wagholi,18.66,50.0,34,44.6,Mon,Evening,58.0,Rainy,2.0,15.0,0.07,High,1.0,36.58,45.34,Electric,9.0,4.0,34.48,2,-16
+PMPML-29,Local,Shivaji Nagar,Kharadi,24.52,80.0,109,27.19,Sat,Afternoon,10.0,Cloudy,10.0,6.0,0.6,Low,0.0,29.36,51.06,AC,0.0,3.0,12.72,2,29
+PMPML-2,Local,Shivaji Nagar,Baner,21.38,42.0,14,34.61,Wed,Afternoon,12.0,Cloudy,9.0,13.0,0.57,Low,0.0,13.5,55.8,Non-AC,0.0,1.0,38.9,9,-28
+PMPML-13,Express,Baner,Katraj,15.17,21.0,111,29.84,Fri,Afternoon,39.0,Cloudy,12.0,13.0,0.86,Low,1.0,12.36,24.83,Non-AC,18.0,0.0,22.43,1,90
+PMPML-2,Shuttle,Hinjewadi,Kharadi,19.69,59.0,71,23.75,Mon,Night,8.0,Clear,2.0,17.0,0.96,Low,1.0,29.31,62.61,Electric,16.0,2.0,38.79,1,12
+PMPML-37,Express,Hadapsar,Shivaji Nagar,8.76,73.0,51,40.44,Wed,Night,36.0,Cloudy,6.0,5.0,0.33,High,1.0,11.65,42.8,Electric,22.0,1.0,23.91,0,-22
+PMPML-38,Local,Katraj,Aundh,19.13,12.0,57,13.82,Tue,Afternoon,31.0,Rainy,7.0,8.0,0.35,High,0.0,28.89,72.0,AC,14.0,1.0,34.44,0,45
+PMPML-14,Express,Hadapsar,Katraj,14.64,37.0,108,26.37,Wed,Afternoon,64.0,Clear,5.0,5.0,0.72,Low,1.0,36.69,94.3,AC,14.0,2.0,10.77,2,71
+PMPML-34,Express,Hadapsar,Viman Nagar,14.93,38.0,63,36.08,Fri,Afternoon,50.0,Cloudy,1.0,9.0,0.49,Low,0.0,31.92,21.13,Electric,17.0,3.0,35.49,3,25
+PMPML-45,Express,Kothrud,Kharadi,7.76,31.0,38,27.78,Tue,Evening,68.0,Clear,9.0,4.0,0.97,Low,0.0,39.15,68.82,Electric,20.0,2.0,8.04,6,7
+PMPML-3,Local,Katraj,Katraj,7.04,29.0,40,42.98,Mon,Morning,54.0,Cloudy,6.0,8.0,0.46,High,0.0,17.63,98.35,Non-AC,12.0,4.0,37.82,8,11
+PMPML-25,Local,Viman Nagar,Hadapsar,23.89,87.0,50,39.42,Wed,Morning,8.0,Rainy,14.0,14.0,0.46,Low,1.0,10.49,74.75,Electric,20.0,0.0,7.74,7,-37
+PMPML-21,Shuttle,Viman Nagar,Wagholi,15.88,65.0,111,13.16,Thu,Evening,26.0,Cloudy,12.0,4.0,0.09,Low,0.0,11.83,84.46,AC,15.0,3.0,35.37,4,46
+PMPML-11,Express,Viman Nagar,Wagholi,15.9,45.0,54,18.75,Mon,Afternoon,16.0,Rainy,14.0,7.0,0.79,Low,1.0,40.55,27.81,AC,6.0,4.0,16.49,8,9
+PMPML-34,Shuttle,Shivaji Nagar,Wagholi,13.03,59.0,54,12.87,Mon,Afternoon,76.0,Cloudy,11.0,5.0,0.28,Medium,1.0,27.28,38.47,Electric,16.0,2.0,23.96,6,-5
+PMPML-11,Express,Wagholi,Hinjewadi,9.7,88.0,69,10.07,Tue,Night,5.0,Clear,13.0,3.0,0.94,Medium,1.0,16.91,50.74,AC,21.0,4.0,13.56,5,-19
+PMPML-44,Express,Hinjewadi,Kharadi,21.07,60.0,63,18.35,Fri,Afternoon,26.0,Clear,0.0,6.0,0.99,Medium,1.0,15.23,75.54,Non-AC,16.0,4.0,18.9,2,3
+PMPML-5,Express,Baner,Aundh,10.8,27.0,70,41.47,Sun,Afternoon,19.0,Rainy,13.0,13.0,0.58,Medium,0.0,38.09,75.29,AC,22.0,2.0,13.55,8,43
+PMPML-26,Local,Hadapsar,Baner,4.89,67.0,59,20.73,Thu,Morning,27.0,Cloudy,3.0,3.0,0.62,Low,1.0,21.71,31.94,Electric,11.0,0.0,32.01,2,-8
+PMPML-20,Express,Kothrud,Wagholi,19.56,76.0,119,43.97,Mon,Night,60.0,Clear,13.0,9.0,0.36,Low,1.0,11.95,41.59,Non-AC,20.0,0.0,22.17,5,43
+PMPML-43,Local,Hadapsar,Hinjewadi,15.36,33.0,89,28.82,Sat,Evening,24.0,Clear,11.0,16.0,0.56,Low,1.0,45.86,38.88,AC,0.0,1.0,15.26,8,56
+PMPML-42,Express,Shivaji Nagar,Kharadi,17.23,34.0,63,14.92,Sun,Afternoon,73.0,Cloudy,8.0,12.0,0.8,Low,1.0,49.39,83.83,AC,10.0,0.0,28.43,7,29
+PMPML-45,Shuttle,Shivaji Nagar,Baner,14.39,56.0,109,16.22,Sun,Morning,28.0,Cloudy,2.0,10.0,0.18,Medium,1.0,36.03,85.33,Non-AC,12.0,1.0,33.61,4,53
+PMPML-17,Express,Kharadi,Hadapsar,19.03,28.0,43,26.0,Wed,Night,24.0,Clear,0.0,5.0,0.66,Medium,1.0,36.88,39.66,Non-AC,23.0,1.0,15.16,3,15
+PMPML-16,Express,Katraj,Viman Nagar,10.38,28.0,48,24.86,Sun,Afternoon,48.0,Cloudy,3.0,3.0,0.96,High,0.0,43.83,58.6,Electric,2.0,3.0,7.35,6,20
+PMPML-1,Shuttle,Viman Nagar,Katraj,10.03,37.0,56,34.96,Tue,Night,36.0,Clear,9.0,16.0,0.61,Medium,0.0,43.89,39.56,AC,3.0,2.0,23.44,0,19
+PMPML-34,Express,Shivaji Nagar,Wagholi,13.91,64.0,95,13.14,Sun,Afternoon,74.0,Rainy,11.0,12.0,0.75,Medium,0.0,35.16,21.15,Non-AC,20.0,2.0,17.74,3,31
+PMPML-37,Local,Wagholi,Katraj,23.22,54.0,64,25.16,Mon,Evening,36.0,Rainy,2.0,9.0,0.65,Low,1.0,21.89,69.65,Electric,3.0,3.0,6.48,2,10
+PMPML-38,Local,Baner,Hadapsar,6.27,22.0,24,26.67,Mon,Evening,54.0,Cloudy,6.0,3.0,0.01,Low,0.0,36.02,42.02,Non-AC,22.0,1.0,15.06,6,2
+PMPML-13,Express,Kharadi,Baner,6.02,52.0,75,30.54,Tue,Night,68.0,Cloudy,13.0,14.0,0.3,Medium,1.0,42.8,81.34,Non-AC,5.0,3.0,26.18,8,23
+PMPML-36,Express,Aundh,Katraj,14.11,49.0,31,12.73,Sun,Afternoon,67.0,Cloudy,9.0,17.0,0.53,Medium,1.0,34.98,24.18,Non-AC,14.0,0.0,36.44,0,-18
+PMPML-36,Shuttle,Aundh,Hinjewadi,23.22,25.0,14,24.33,Tue,Night,10.0,Clear,10.0,18.0,0.86,Medium,0.0,30.9,59.82,Electric,12.0,0.0,28.97,9,-11
+PMPML-36,Shuttle,Aundh,Viman Nagar,14.74,51.0,23,38.33,Sat,Afternoon,71.0,Rainy,8.0,12.0,0.28,Low,0.0,36.04,98.57,Electric,21.0,0.0,32.24,0,-28
+PMPML-8,Express,Katraj,Baner,8.51,33.0,52,26.48,Sat,Afternoon,7.0,Clear,9.0,10.0,0.87,Low,0.0,17.65,61.54,AC,16.0,1.0,25.18,4,19
+PMPML-41,Local,Katraj,Shivaji Nagar,9.22,10.0,102,35.98,Sun,Night,74.0,Cloudy,7.0,16.0,0.16,Low,0.0,14.65,55.24,AC,20.0,0.0,10.29,2,92
+PMPML-23,Shuttle,Viman Nagar,Katraj,5.8,24.0,101,25.57,Tue,Night,50.0,Clear,8.0,3.0,0.88,Low,1.0,45.55,63.73,Electric,7.0,3.0,10.32,2,77
+PMPML-13,Shuttle,Viman Nagar,Hadapsar,19.65,78.0,12,44.59,Tue,Morning,58.0,Rainy,5.0,5.0,0.04,Medium,0.0,15.08,83.95,AC,9.0,2.0,9.5,7,-66
+PMPML-30,Local,Kothrud,Kothrud,23.4,25.0,118,39.33,Wed,Night,46.0,Clear,11.0,9.0,0.33,Medium,0.0,22.76,73.01,Non-AC,3.0,2.0,13.49,3,93
+PMPML-29,Local,Wagholi,Aundh,13.54,68.0,98,32.94,Sat,Night,5.0,Cloudy,6.0,12.0,0.19,Low,1.0,15.91,84.17,Electric,14.0,3.0,32.42,8,30
+PMPML-8,Express,Aundh,Viman Nagar,10.9,13.0,32,29.39,Fri,Afternoon,22.0,Rainy,9.0,13.0,0.76,Medium,0.0,27.03,68.9,AC,6.0,2.0,8.11,2,19
+PMPML-32,Shuttle,Hinjewadi,Katraj,16.26,71.0,52,40.61,Wed,Night,7.0,Cloudy,13.0,12.0,0.86,High,1.0,16.83,67.63,Electric,16.0,3.0,7.54,2,-19
+PMPML-38,Local,Baner,Kharadi,15.83,66.0,19,36.28,Wed,Afternoon,79.0,Clear,0.0,16.0,0.66,Low,1.0,31.56,84.46,Electric,14.0,1.0,13.87,4,-47
+PMPML-1,Shuttle,Wagholi,Shivaji Nagar,17.62,32.0,105,22.82,Sat,Afternoon,54.0,Cloudy,8.0,18.0,0.34,Low,1.0,19.97,88.28,Non-AC,8.0,1.0,10.44,8,73
+PMPML-10,Express,Viman Nagar,Kothrud,6.68,37.0,105,21.45,Fri,Evening,64.0,Clear,10.0,5.0,0.4,Medium,0.0,22.8,63.77,AC,2.0,2.0,19.79,3,68
+PMPML-3,Express,Viman Nagar,Viman Nagar,12.66,19.0,107,36.12,Wed,Morning,52.0,Clear,11.0,14.0,0.98,Low,1.0,12.12,83.4,AC,23.0,2.0,13.21,1,88
+PMPML-2,Local,Kharadi,Aundh,18.81,36.0,48,20.92,Tue,Morning,35.0,Clear,14.0,4.0,0.66,Low,0.0,19.98,35.33,Electric,3.0,4.0,14.54,5,12
+PMPML-23,Express,Baner,Viman Nagar,6.8,67.0,25,24.77,Thu,Afternoon,77.0,Cloudy,2.0,12.0,0.65,High,0.0,28.64,35.05,Non-AC,11.0,2.0,20.4,5,-42
+PMPML-5,Local,Hinjewadi,Katraj,16.82,52.0,83,11.21,Tue,Morning,77.0,Cloudy,6.0,19.0,0.34,Low,0.0,11.29,40.62,AC,2.0,3.0,26.89,7,31
+PMPML-38,Local,Baner,Hinjewadi,5.14,70.0,78,44.08,Sun,Evening,62.0,Cloudy,3.0,13.0,0.66,High,0.0,13.99,94.68,Electric,15.0,0.0,39.95,8,8
+PMPML-42,Shuttle,Katraj,Hinjewadi,22.35,12.0,92,27.85,Mon,Afternoon,75.0,Rainy,5.0,7.0,0.14,Medium,1.0,17.84,96.35,AC,21.0,4.0,22.76,5,80
+PMPML-24,Local,Shivaji Nagar,Wagholi,4.03,71.0,107,32.74,Mon,Afternoon,24.0,Rainy,7.0,9.0,0.68,Low,0.0,46.55,70.15,AC,12.0,4.0,6.53,9,36
+PMPML-11,Local,Katraj,Kothrud,12.11,13.0,47,36.36,Mon,Morning,27.0,Clear,12.0,6.0,0.74,High,1.0,34.58,94.73,Non-AC,23.0,4.0,28.09,8,34
+PMPML-34,Local,Hadapsar,Kothrud,12.23,23.0,110,20.17,Mon,Night,14.0,Cloudy,9.0,12.0,0.54,High,0.0,20.37,41.89,AC,12.0,2.0,17.53,3,87
+PMPML-25,Local,Viman Nagar,Baner,13.31,44.0,36,12.92,Mon,Morning,28.0,Clear,2.0,19.0,0.26,High,1.0,25.82,38.67,Electric,11.0,4.0,38.75,6,-8
+PMPML-13,Shuttle,Viman Nagar,Hinjewadi,21.76,29.0,56,35.74,Mon,Evening,34.0,Clear,6.0,19.0,0.59,Low,0.0,46.48,80.23,Non-AC,23.0,4.0,33.43,0,27
+PMPML-10,Local,Hinjewadi,Aundh,5.22,44.0,51,20.88,Tue,Morning,37.0,Clear,0.0,13.0,0.62,Low,0.0,37.37,66.25,Non-AC,20.0,0.0,31.68,1,7
+PMPML-11,Express,Shivaji Nagar,Viman Nagar,10.82,57.0,54,33.86,Thu,Morning,68.0,Rainy,4.0,19.0,0.1,High,0.0,27.5,89.23,AC,7.0,4.0,17.39,2,-3
+PMPML-3,Local,Kharadi,Kothrud,14.66,24.0,85,40.96,Thu,Night,5.0,Cloudy,14.0,17.0,0.74,Low,1.0,35.28,76.07,Non-AC,16.0,3.0,15.18,2,61
+PMPML-20,Express,Katraj,Wagholi,5.04,27.0,82,31.81,Fri,Night,8.0,Rainy,4.0,8.0,0.68,Medium,1.0,42.85,91.97,Electric,4.0,3.0,12.91,6,55
+PMPML-6,Express,Baner,Wagholi,13.19,10.0,17,16.7,Mon,Afternoon,18.0,Clear,14.0,4.0,0.73,High,0.0,40.51,61.46,Non-AC,16.0,0.0,18.35,9,7
+PMPML-21,Local,Hadapsar,Hadapsar,12.83,55.0,77,10.79,Wed,Evening,42.0,Rainy,14.0,5.0,0.87,Medium,0.0,12.41,80.24,Non-AC,16.0,4.0,25.73,5,22
+PMPML-23,Express,Shivaji Nagar,Aundh,6.79,19.0,36,34.37,Sun,Night,40.0,Cloudy,3.0,14.0,0.03,Low,0.0,40.09,31.99,Electric,11.0,4.0,30.39,6,17
+PMPML-32,Express,Katraj,Hinjewadi,22.77,11.0,87,25.03,Mon,Morning,35.0,Cloudy,0.0,16.0,0.72,High,1.0,17.73,99.17,Electric,9.0,0.0,5.74,7,76
+PMPML-16,Express,Baner,Kharadi,19.56,31.0,118,22.74,Fri,Afternoon,45.0,Rainy,4.0,4.0,0.91,Low,0.0,28.0,85.0,AC,23.0,2.0,37.4,6,87
+PMPML-9,Shuttle,Hinjewadi,Shivaji Nagar,22.75,63.0,68,34.49,Thu,Morning,,Cloudy,14.0,10.0,0.14,Low,0.0,31.71,46.73,AC,24.0,2.0,11.73,6,5
+PMPML-27,Shuttle,Hinjewadi,Shivaji Nagar,24.62,51.0,14,10.89,Wed,Evening,66.0,Cloudy,11.0,7.0,0.32,Medium,1.0,27.04,28.52,Electric,17.0,3.0,31.06,6,-37
+PMPML-39,Local,Katraj,Hadapsar,18.38,48.0,66,37.2,Sun,Morning,71.0,Clear,3.0,8.0,0.21,Low,0.0,21.49,52.53,Electric,0.0,3.0,29.84,6,18
+PMPML-22,Shuttle,Hinjewadi,Kothrud,23.44,89.0,17,22.14,Tue,Night,5.0,Cloudy,9.0,10.0,0.49,Medium,1.0,49.7,45.44,Non-AC,13.0,2.0,16.74,8,-72
+PMPML-33,Local,Baner,Shivaji Nagar,9.01,36.0,34,41.97,Tue,Afternoon,39.0,Cloudy,14.0,13.0,0.72,Low,1.0,14.0,30.34,AC,19.0,4.0,13.06,7,-2
+PMPML-6,Local,Kharadi,Katraj,13.09,19.0,32,14.6,Wed,Night,58.0,Rainy,0.0,13.0,0.18,Low,1.0,21.08,47.43,Non-AC,7.0,3.0,35.6,5,13
+PMPML-42,Local,Shivaji Nagar,Hadapsar,5.69,40.0,94,37.52,Sat,Morning,6.0,Cloudy,5.0,7.0,0.87,High,0.0,15.01,68.78,AC,6.0,1.0,17.63,1,54
+PMPML-39,Local,Viman Nagar,Wagholi,14.11,14.0,83,39.63,Thu,Evening,35.0,Clear,9.0,13.0,0.53,High,1.0,32.9,96.42,AC,15.0,1.0,27.3,6,69
+PMPML-31,Local,Shivaji Nagar,Kharadi,6.22,44.0,33,38.3,Fri,Night,50.0,Clear,0.0,3.0,0.54,Medium,1.0,46.9,49.77,Electric,18.0,3.0,12.3,3,-11
+PMPML-24,Local,Hadapsar,Wagholi,13.64,26.0,43,33.44,Sat,Afternoon,36.0,Cloudy,10.0,13.0,0.06,Medium,0.0,27.35,31.78,Non-AC,13.0,0.0,36.73,5,17
+PMPML-21,Local,Hinjewadi,Hadapsar,11.44,17.0,48,16.33,Mon,Evening,50.0,Clear,14.0,3.0,0.58,Medium,0.0,45.7,31.59,Non-AC,5.0,3.0,21.51,7,31
+PMPML-16,Shuttle,Aundh,Katraj,17.13,49.0,32,28.92,Wed,Afternoon,60.0,Clear,4.0,17.0,0.44,Low,0.0,27.59,82.62,Non-AC,19.0,3.0,15.33,9,-17
+PMPML-12,Express,Viman Nagar,Wagholi,23.33,87.0,87,35.78,Wed,Afternoon,56.0,Rainy,5.0,12.0,0.25,Low,0.0,18.53,76.93,Electric,4.0,4.0,25.29,9,0
+PMPML-22,Shuttle,Baner,Kothrud,22.24,69.0,78,23.16,Wed,Evening,43.0,Clear,11.0,18.0,0.22,High,0.0,45.73,24.25,Non-AC,23.0,4.0,27.29,2,9
+PMPML-26,Shuttle,Aundh,Shivaji Nagar,2.33,10.0,82,33.45,Fri,Afternoon,22.0,Rainy,4.0,12.0,0.72,Low,0.0,46.57,95.89,Non-AC,0.0,0.0,23.26,5,72
+PMPML-34,Local,Aundh,Kothrud,7.89,56.0,43,31.72,Tue,Morning,72.0,Rainy,14.0,11.0,0.66,Low,1.0,26.22,91.1,Electric,8.0,3.0,35.9,5,-13
+PMPML-12,Shuttle,Aundh,Shivaji Nagar,16.49,31.0,59,38.7,Sun,Morning,19.0,Cloudy,3.0,11.0,0.85,Medium,0.0,26.8,20.39,Electric,18.0,2.0,37.44,6,28
+PMPML-5,Shuttle,Viman Nagar,Wagholi,3.68,14.0,87,27.99,Mon,Night,53.0,Cloudy,14.0,10.0,0.47,Medium,1.0,30.32,60.78,Electric,18.0,1.0,38.34,9,73
+PMPML-24,Local,Shivaji Nagar,Aundh,8.22,16.0,30,20.13,Fri,Afternoon,8.0,Clear,1.0,12.0,0.91,Low,1.0,35.61,26.58,AC,15.0,4.0,26.0,0,14
+PMPML-11,Express,Hinjewadi,Hadapsar,22.43,65.0,74,42.54,Tue,Evening,52.0,Cloudy,7.0,8.0,0.15,Low,0.0,14.6,92.33,Non-AC,3.0,0.0,32.36,7,9
+PMPML-6,Express,Viman Nagar,Aundh,21.94,24.0,95,18.36,Thu,Afternoon,33.0,Clear,4.0,11.0,0.33,Medium,1.0,20.49,84.67,Non-AC,18.0,1.0,38.11,2,71
+PMPML-31,Shuttle,Aundh,Hinjewadi,22.53,63.0,118,18.0,Sun,Morning,44.0,Cloudy,9.0,12.0,0.8,Low,1.0,43.64,80.55,Non-AC,6.0,3.0,35.33,8,55
+PMPML-13,Local,Wagholi,Kothrud,18.82,12.0,45,39.51,Sat,Night,15.0,Cloudy,11.0,19.0,0.41,Low,1.0,11.0,80.06,Non-AC,3.0,4.0,5.39,5,33
+PMPML-31,Local,Viman Nagar,Baner,16.91,66.0,74,16.11,Tue,Evening,5.0,Clear,6.0,6.0,0.63,Low,1.0,11.04,82.99,Non-AC,24.0,0.0,36.85,4,8
+PMPML-16,Local,Kothrud,Katraj,21.9,28.0,36,23.84,Mon,Morning,72.0,Rainy,2.0,15.0,0.05,Low,0.0,18.54,73.38,Electric,16.0,4.0,13.82,9,8
+PMPML-8,Express,Shivaji Nagar,Hadapsar,7.71,71.0,113,26.88,Wed,Night,56.0,Clear,9.0,10.0,0.82,Low,0.0,26.74,20.67,Non-AC,18.0,4.0,32.38,9,42
+PMPML-25,Shuttle,Hadapsar,Hadapsar,19.59,41.0,21,32.08,Sat,Night,19.0,Clear,9.0,19.0,0.64,Low,0.0,21.76,35.53,Non-AC,12.0,2.0,13.84,4,-20
+PMPML-27,Shuttle,Hadapsar,Shivaji Nagar,15.85,15.0,76,32.91,Sat,Evening,26.0,Clear,14.0,15.0,0.57,Medium,1.0,11.66,77.53,Non-AC,3.0,2.0,35.2,8,61
+PMPML-40,Local,Katraj,Baner,18.6,28.0,74,16.85,Sat,Morning,34.0,Cloudy,12.0,16.0,0.92,Low,0.0,34.81,93.61,Electric,6.0,0.0,36.08,3,46
+PMPML-49,Shuttle,Shivaji Nagar,Kharadi,2.8,14.0,101,31.03,Mon,Night,12.0,Cloudy,1.0,7.0,0.94,Medium,1.0,12.86,90.67,Non-AC,6.0,4.0,12.01,1,87
+PMPML-49,Express,Kharadi,Aundh,14.43,25.0,92,36.53,Wed,Afternoon,47.0,Rainy,11.0,8.0,0.62,Low,0.0,34.52,29.93,AC,24.0,0.0,22.87,4,67
+PMPML-8,Shuttle,Shivaji Nagar,Aundh,8.65,72.0,79,17.26,Sun,Morning,50.0,Cloudy,11.0,17.0,0.09,Low,1.0,39.42,82.67,Non-AC,9.0,3.0,5.67,1,7
+PMPML-12,Shuttle,Hinjewadi,Hinjewadi,17.68,36.0,102,14.81,Tue,Night,36.0,Rainy,12.0,14.0,0.13,Medium,1.0,13.14,77.52,AC,2.0,4.0,37.97,9,66
+PMPML-45,Local,Viman Nagar,Katraj,7.13,70.0,49,35.08,Wed,Afternoon,76.0,Clear,3.0,16.0,0.52,Low,1.0,42.58,31.59,Electric,18.0,4.0,32.16,6,-21
+PMPML-38,Express,Aundh,Wagholi,15.09,15.0,71,43.9,Sat,Morning,6.0,Rainy,10.0,7.0,0.85,Low,1.0,35.47,24.04,Electric,17.0,4.0,32.0,7,56
+PMPML-25,Local,Aundh,Kharadi,12.6,29.0,19,41.49,Fri,Evening,37.0,Cloudy,6.0,6.0,0.8,High,0.0,11.04,49.48,Non-AC,18.0,0.0,15.53,3,-10
+PMPML-28,Shuttle,Aundh,Aundh,11.75,51.0,58,20.86,Fri,Evening,75.0,Rainy,1.0,6.0,0.86,High,1.0,16.3,67.83,Non-AC,18.0,3.0,8.82,9,7
+PMPML-11,Local,Shivaji Nagar,Katraj,17.62,17.0,80,33.87,Sun,Afternoon,42.0,Clear,12.0,5.0,0.58,Low,1.0,36.98,53.62,Electric,18.0,0.0,24.38,9,63
+PMPML-32,Local,Kharadi,Hinjewadi,24.15,59.0,36,13.37,Fri,Morning,40.0,Clear,5.0,18.0,0.96,High,0.0,33.33,45.81,AC,5.0,1.0,32.26,5,-23
+PMPML-19,Shuttle,Kothrud,Aundh,6.06,24.0,27,12.78,Thu,Evening,65.0,Clear,3.0,3.0,0.33,Low,0.0,40.5,87.3,Electric,8.0,3.0,5.28,3,3
+PMPML-29,Shuttle,Shivaji Nagar,Aundh,20.62,79.0,87,12.33,Tue,Night,45.0,Clear,9.0,8.0,0.2,Medium,0.0,41.51,56.17,AC,0.0,4.0,36.16,5,8
+PMPML-41,Local,Kharadi,Kharadi,9.12,69.0,48,12.2,Thu,Night,59.0,Rainy,10.0,15.0,0.7,High,0.0,26.26,92.01,Non-AC,12.0,1.0,19.79,7,-21
+PMPML-29,Local,Kharadi,Viman Nagar,18.52,34.0,64,16.79,Fri,Evening,28.0,Clear,2.0,18.0,0.77,Low,1.0,42.43,88.03,Non-AC,6.0,1.0,38.29,8,30
+PMPML-49,Shuttle,Kothrud,Wagholi,24.22,79.0,89,41.35,Thu,Afternoon,44.0,Rainy,3.0,3.0,0.95,Low,0.0,27.16,67.32,Electric,22.0,1.0,8.5,9,10
+PMPML-41,Shuttle,Shivaji Nagar,Kothrud,8.79,67.0,70,28.89,Fri,Night,52.0,Clear,11.0,14.0,0.66,Low,0.0,43.51,35.19,Electric,9.0,0.0,6.51,6,3
+PMPML-12,Express,Kharadi,Kharadi,7.95,16.0,61,12.96,Sun,Night,45.0,Rainy,6.0,17.0,0.81,Low,1.0,49.61,30.76,Electric,8.0,4.0,12.31,3,45
+PMPML-17,Express,Kharadi,Baner,3.83,27.0,29,35.42,Fri,Evening,60.0,Rainy,4.0,17.0,0.02,High,0.0,26.49,57.7,AC,0.0,3.0,19.52,6,2
+PMPML-8,Shuttle,Kharadi,Wagholi,9.1,63.0,111,32.24,Fri,Evening,63.0,Rainy,13.0,15.0,0.3,Medium,1.0,26.58,42.4,AC,9.0,1.0,9.17,6,48
+PMPML-41,Express,Hinjewadi,Hinjewadi,10.59,83.0,42,32.5,Sat,Afternoon,31.0,Clear,0.0,4.0,0.16,Low,1.0,46.64,37.33,Electric,5.0,4.0,17.71,4,-41
+PMPML-25,Local,Katraj,Aundh,10.73,45.0,67,33.3,Sun,Evening,50.0,Clear,2.0,13.0,0.28,Medium,0.0,16.12,28.65,AC,17.0,2.0,31.39,6,22
+PMPML-36,Express,Viman Nagar,Viman Nagar,18.23,27.0,49,33.39,Sat,Night,43.0,Clear,4.0,7.0,0.45,Low,0.0,14.6,74.58,Electric,17.0,1.0,7.52,3,22
+PMPML-27,Express,Katraj,Viman Nagar,20.15,78.0,106,19.3,Sun,Evening,53.0,Cloudy,8.0,7.0,0.71,Low,0.0,37.55,45.68,Non-AC,9.0,2.0,35.06,5,28
+PMPML-20,Express,Aundh,Aundh,22.39,79.0,115,39.51,Sat,Morning,64.0,Clear,10.0,3.0,0.08,Medium,1.0,12.46,93.78,Non-AC,15.0,2.0,38.57,9,36
+PMPML-15,Local,Katraj,Kothrud,4.47,79.0,66,38.86,Fri,Afternoon,45.0,Clear,1.0,10.0,0.23,Low,1.0,42.33,32.93,Electric,15.0,3.0,33.98,3,-13
+PMPML-33,Express,Shivaji Nagar,Kothrud,15.21,53.0,64,35.23,Sun,Evening,19.0,Rainy,7.0,7.0,0.48,Low,1.0,44.92,51.15,Electric,8.0,4.0,24.54,1,11
+PMPML-9,Local,Wagholi,Katraj,11.95,23.0,110,14.06,Thu,Afternoon,49.0,Rainy,9.0,5.0,0.91,Low,0.0,11.24,70.8,Non-AC,4.0,1.0,5.75,0,87
+PMPML-31,Express,Wagholi,Baner,4.69,17.0,82,21.15,Wed,Morning,47.0,Cloudy,13.0,7.0,0.25,Medium,1.0,13.07,52.32,Non-AC,0.0,4.0,36.51,6,65
+PMPML-37,Express,Viman Nagar,Viman Nagar,2.49,34.0,45,35.89,Fri,Evening,58.0,Rainy,10.0,7.0,0.16,Low,0.0,36.63,80.38,Electric,2.0,2.0,20.28,9,11
+PMPML-6,Shuttle,Hinjewadi,Hadapsar,15.91,68.0,99,35.87,Wed,Afternoon,48.0,Rainy,12.0,14.0,0.38,High,0.0,46.01,79.91,Electric,20.0,3.0,6.91,9,31
+PMPML-10,Local,Kothrud,Shivaji Nagar,22.29,30.0,49,39.68,Wed,Night,47.0,Cloudy,10.0,15.0,0.17,Low,0.0,27.71,25.62,Non-AC,18.0,3.0,39.34,4,19
+PMPML-15,Local,Kothrud,Hadapsar,21.98,20.0,65,43.42,Fri,Night,76.0,Rainy,9.0,14.0,0.83,Medium,1.0,44.44,49.76,Electric,8.0,4.0,13.93,4,45
+PMPML-46,Local,Aundh,Kharadi,3.84,33.0,23,32.36,Sat,Afternoon,8.0,Cloudy,9.0,9.0,0.09,Medium,0.0,26.22,56.07,AC,22.0,4.0,29.44,0,-10
+PMPML-16,Local,Viman Nagar,Hinjewadi,18.74,70.0,85,24.46,Sun,Afternoon,61.0,Cloudy,4.0,10.0,0.56,Low,1.0,10.77,22.25,Non-AC,0.0,2.0,10.03,8,15
+PMPML-23,Local,Viman Nagar,Hinjewadi,20.52,72.0,91,14.41,Mon,Morning,48.0,Cloudy,1.0,7.0,0.67,Medium,0.0,43.35,76.97,Non-AC,22.0,1.0,32.08,2,19
+PMPML-50,Express,Kothrud,Shivaji Nagar,19.2,79.0,71,17.4,Tue,Night,64.0,Rainy,4.0,18.0,0.87,Low,1.0,30.13,56.05,AC,16.0,2.0,25.03,3,-8
+PMPML-26,Shuttle,Kothrud,Hinjewadi,10.92,43.0,49,16.23,Sun,Afternoon,22.0,Rainy,4.0,15.0,0.96,High,0.0,44.15,42.36,Non-AC,10.0,1.0,29.65,8,6
+PMPML-29,Express,Katraj,Viman Nagar,13.72,54.0,114,20.58,Tue,Afternoon,14.0,Clear,8.0,6.0,0.52,Medium,0.0,27.36,59.82,Electric,23.0,0.0,34.68,6,60
+PMPML-34,Local,Kothrud,Wagholi,12.2,21.0,30,43.73,Tue,Afternoon,22.0,Rainy,13.0,6.0,0.69,Low,0.0,45.47,69.15,Non-AC,24.0,1.0,27.52,6,9
+PMPML-1,Local,Katraj,Hadapsar,2.8,42.0,50,29.26,Tue,Afternoon,11.0,Cloudy,11.0,7.0,0.47,Low,0.0,46.93,73.49,Non-AC,11.0,1.0,27.72,1,8
+PMPML-4,Local,Katraj,Shivaji Nagar,12.99,22.0,108,16.82,Sat,Afternoon,50.0,Clear,8.0,9.0,0.74,High,1.0,40.68,37.96,Non-AC,5.0,0.0,16.95,7,86
+PMPML-39,Express,Hadapsar,Baner,21.46,83.0,74,19.39,Tue,Night,65.0,Cloudy,12.0,6.0,0.36,Low,0.0,20.07,24.2,Non-AC,14.0,1.0,14.45,4,-9
+PMPML-14,Local,Hadapsar,Kothrud,3.08,26.0,79,28.1,Thu,Evening,21.0,Rainy,1.0,13.0,0.87,Low,1.0,46.28,59.48,AC,1.0,1.0,5.17,7,53
+PMPML-44,Express,Baner,Wagholi,19.47,41.0,81,19.74,Sat,Morning,74.0,Cloudy,8.0,12.0,0.92,Low,0.0,12.19,43.11,Non-AC,20.0,3.0,14.7,9,40
+PMPML-26,Shuttle,Shivaji Nagar,Hinjewadi,2.21,49.0,18,34.06,Sun,Night,43.0,Cloudy,0.0,14.0,0.52,High,1.0,35.44,53.79,AC,18.0,0.0,17.69,7,-31
+PMPML-42,Express,Katraj,Wagholi,10.9,47.0,92,28.97,Wed,Evening,62.0,Clear,9.0,6.0,0.76,High,1.0,10.61,92.03,Non-AC,18.0,0.0,15.97,3,45
+PMPML-17,Shuttle,Aundh,Wagholi,12.86,82.0,103,37.61,,Afternoon,36.0,Clear,1.0,11.0,0.53,Medium,1.0,48.18,79.66,Non-AC,10.0,1.0,39.87,7,21
+PMPML-35,Express,Wagholi,Katraj,12.44,60.0,61,32.35,Fri,Afternoon,26.0,Rainy,2.0,11.0,0.32,High,0.0,25.07,82.95,Non-AC,12.0,2.0,15.74,7,1
+PMPML-49,Local,Aundh,Hadapsar,17.77,51.0,98,37.49,Mon,Morning,61.0,Clear,0.0,4.0,0.93,Low,1.0,44.3,65.89,AC,10.0,0.0,30.15,2,47
+PMPML-21,Local,Viman Nagar,Kharadi,20.99,37.0,61,26.11,Tue,Morning,60.0,Cloudy,6.0,3.0,0.49,Low,1.0,33.85,50.6,AC,12.0,0.0,11.15,9,24
+PMPML-9,Shuttle,Viman Nagar,Aundh,22.3,26.0,16,14.48,Sun,Evening,79.0,Rainy,12.0,6.0,0.67,Medium,1.0,49.56,74.22,AC,11.0,2.0,24.22,6,-10
+PMPML-17,Shuttle,Wagholi,Katraj,20.55,78.0,92,25.04,Thu,Afternoon,9.0,Cloudy,4.0,18.0,0.99,Medium,1.0,42.68,91.31,Electric,10.0,3.0,32.8,8,14
+PMPML-48,Shuttle,Hadapsar,Aundh,18.5,47.0,44,20.41,Thu,Morning,37.0,Rainy,2.0,18.0,0.35,Low,1.0,43.6,67.55,Electric,7.0,4.0,23.22,1,-3
+PMPML-14,Express,Viman Nagar,Baner,8.77,31.0,37,22.16,Sun,Evening,10.0,Clear,9.0,19.0,0.99,High,0.0,40.74,79.59,Non-AC,7.0,3.0,23.23,0,6
+PMPML-9,Express,Kharadi,Shivaji Nagar,20.82,35.0,67,42.5,Sat,Evening,11.0,Rainy,8.0,10.0,0.11,High,1.0,35.1,36.82,Electric,4.0,0.0,28.58,4,32
+PMPML-3,Local,,Hadapsar,16.13,76.0,83,22.92,Fri,Evening,52.0,Clear,5.0,19.0,0.6,Medium,1.0,34.38,57.52,Electric,3.0,0.0,37.79,1,7
+PMPML-47,Local,Wagholi,Katraj,15.04,78.0,54,39.23,Fri,Evening,48.0,Cloudy,12.0,11.0,0.55,High,1.0,44.02,77.21,AC,22.0,0.0,5.28,5,-24
+PMPML-21,Express,Shivaji Nagar,Viman Nagar,7.44,53.0,119,30.83,Sun,Afternoon,11.0,Clear,5.0,3.0,0.13,Medium,0.0,44.79,50.44,Electric,2.0,3.0,24.83,4,66
+PMPML-38,Local,Hinjewadi,Hinjewadi,21.17,80.0,44,10.36,Mon,Evening,69.0,Rainy,11.0,5.0,0.67,Low,0.0,25.95,59.44,AC,19.0,1.0,34.64,5,-36
+PMPML-40,Shuttle,Kharadi,Hadapsar,13.26,54.0,61,29.69,Tue,Morning,49.0,Rainy,7.0,11.0,0.9,Medium,0.0,13.05,80.05,AC,21.0,4.0,7.46,7,7
+PMPML-20,Local,Baner,Viman Nagar,3.69,41.0,59,28.14,Wed,Afternoon,10.0,Cloudy,10.0,13.0,0.46,Medium,0.0,40.45,73.37,AC,17.0,2.0,6.76,6,18
+PMPML-48,Express,Kharadi,Kharadi,20.74,83.0,105,24.88,Thu,Afternoon,70.0,Rainy,7.0,13.0,0.45,Medium,1.0,49.95,72.77,Electric,3.0,1.0,14.57,8,22
+PMPML-26,Local,Kharadi,Viman Nagar,5.15,59.0,37,10.05,Thu,Afternoon,41.0,Cloudy,1.0,6.0,0.94,Medium,0.0,16.72,41.7,AC,20.0,3.0,35.3,7,-22
+PMPML-30,Shuttle,Shivaji Nagar,Hinjewadi,7.85,52.0,105,26.66,Fri,Morning,36.0,Cloudy,8.0,19.0,0.83,Low,1.0,15.46,41.6,Non-AC,22.0,1.0,26.66,7,53
+PMPML-27,Local,Baner,Hadapsar,19.52,64.0,105,40.77,Sat,Evening,41.0,Rainy,1.0,8.0,0.76,Low,0.0,31.6,29.69,AC,23.0,2.0,28.7,2,41
+PMPML-17,Express,Aundh,Hinjewadi,5.61,26.0,118,19.93,Wed,Morning,64.0,Cloudy,2.0,6.0,0.7,High,0.0,23.21,39.42,Electric,8.0,4.0,30.16,7,92
+PMPML-8,Shuttle,Baner,Baner,21.06,33.0,58,31.64,Tue,Evening,29.0,Cloudy,1.0,7.0,0.86,Low,1.0,43.72,98.23,AC,13.0,3.0,38.05,8,25
+PMPML-30,Shuttle,Kothrud,Hadapsar,24.2,39.0,58,12.46,Tue,Afternoon,33.0,Rainy,0.0,15.0,0.56,Low,1.0,21.76,28.9,AC,1.0,2.0,7.5,7,19
+PMPML-19,Express,Viman Nagar,Kharadi,12.43,55.0,41,33.29,Sat,Afternoon,44.0,Clear,13.0,16.0,0.05,Low,1.0,33.17,37.98,Non-AC,19.0,4.0,17.43,4,-14
+PMPML-48,Local,Hadapsar,Wagholi,8.31,17.0,24,42.27,Tue,Night,7.0,Clear,3.0,13.0,0.27,Low,0.0,39.0,37.32,Electric,20.0,2.0,16.97,1,7
+PMPML-10,Local,Katraj,Viman Nagar,5.85,69.0,68,32.44,Fri,Afternoon,77.0,Clear,11.0,17.0,0.86,Low,1.0,16.79,26.55,Non-AC,1.0,0.0,32.41,2,-1
+PMPML-36,Local,Katraj,Hadapsar,6.64,31.0,111,26.06,Mon,Evening,51.0,Cloudy,13.0,9.0,0.68,Medium,1.0,17.16,96.27,Electric,24.0,4.0,35.14,5,80
+PMPML-12,Local,Katraj,Baner,5.59,45.0,22,37.02,Tue,Afternoon,14.0,Rainy,6.0,14.0,0.07,Low,0.0,15.76,98.92,Electric,4.0,4.0,24.04,1,-23
+PMPML-36,Local,Baner,Kothrud,12.15,24.0,19,42.06,Tue,Night,65.0,Rainy,3.0,9.0,0.42,Medium,0.0,30.22,76.39,Non-AC,13.0,3.0,23.48,2,-5
+PMPML-31,Express,Baner,Shivaji Nagar,5.52,57.0,51,26.48,Wed,Evening,44.0,Cloudy,4.0,5.0,0.32,Medium,0.0,23.93,32.43,AC,0.0,1.0,32.94,7,-6
+PMPML-50,Local,Shivaji Nagar,Katraj,16.69,63.0,102,21.99,Thu,Evening,35.0,Clear,14.0,19.0,0.76,Low,0.0,25.76,82.62,AC,22.0,2.0,35.44,2,39
+PMPML-17,Shuttle,Baner,Viman Nagar,17.68,16.0,111,18.88,Sat,Night,57.0,Cloudy,9.0,3.0,0.86,High,0.0,37.09,87.42,Electric,17.0,3.0,6.5,9,95
+PMPML-30,Express,Katraj,Shivaji Nagar,4.31,25.0,18,33.95,Fri,Evening,66.0,Clear,11.0,10.0,0.63,Low,0.0,23.9,56.91,Electric,6.0,2.0,18.88,4,-7
+PMPML-28,Express,Hinjewadi,Kothrud,24.72,33.0,104,30.36,Wed,Evening,69.0,Cloudy,0.0,4.0,0.48,Medium,1.0,38.33,38.31,Non-AC,5.0,0.0,34.84,2,71
+PMPML-33,Express,Baner,Baner,18.5,16.0,44,27.25,Wed,Evening,42.0,Cloudy,8.0,10.0,0.41,Low,0.0,30.74,44.16,Non-AC,21.0,0.0,15.88,0,28
+PMPML-45,Local,Viman Nagar,Baner,20.44,85.0,63,31.68,Wed,Evening,11.0,Cloudy,14.0,14.0,0.17,Low,0.0,35.24,80.05,AC,7.0,4.0,39.63,3,-22
+PMPML-41,Local,Katraj,Shivaji Nagar,7.39,29.0,56,26.97,Thu,Night,12.0,Rainy,11.0,3.0,0.35,Low,0.0,19.16,57.03,Non-AC,22.0,4.0,6.14,3,27
+PMPML-45,Express,Kothrud,Hinjewadi,22.41,12.0,62,39.87,Wed,Night,30.0,Cloudy,12.0,14.0,0.91,Low,1.0,26.74,99.47,AC,16.0,1.0,35.32,4,50
+PMPML-15,Local,Viman Nagar,Kharadi,9.05,59.0,93,30.38,Sat,Afternoon,7.0,Clear,2.0,13.0,0.78,High,0.0,41.62,87.02,Electric,23.0,1.0,10.27,8,34
+PMPML-50,Express,Aundh,Katraj,16.64,27.0,47,23.07,Tue,Afternoon,9.0,Rainy,0.0,13.0,0.52,Low,1.0,20.81,81.91,Non-AC,2.0,4.0,5.75,4,20
+PMPML-47,Local,Baner,Baner,5.53,77.0,36,14.08,Thu,Afternoon,14.0,Clear,9.0,15.0,0.14,Low,0.0,32.21,21.14,Electric,4.0,0.0,29.65,6,-41
+PMPML-29,Local,Hinjewadi,Katraj,14.43,20.0,29,42.01,Thu,Evening,13.0,Cloudy,2.0,19.0,0.23,Low,1.0,26.42,97.16,Electric,17.0,2.0,25.35,0,9
+PMPML-6,Shuttle,Baner,Aundh,16.25,84.0,74,41.29,Mon,Morning,6.0,Clear,12.0,8.0,0.39,Medium,0.0,21.85,73.45,Non-AC,14.0,0.0,39.7,5,-10
+PMPML-22,Express,Kharadi,Viman Nagar,15.01,45.0,101,39.97,Thu,Morning,26.0,Clear,12.0,15.0,0.51,Medium,0.0,48.09,74.9,AC,11.0,4.0,24.84,4,56
+PMPML-31,Shuttle,Shivaji Nagar,Baner,20.21,48.0,62,34.49,Sat,Morning,5.0,Clear,14.0,13.0,0.84,High,1.0,36.79,79.61,AC,18.0,0.0,27.47,8,14
+PMPML-1,Express,Kothrud,Kharadi,6.07,47.0,106,28.64,Wed,Night,64.0,Cloudy,8.0,10.0,0.92,High,1.0,11.92,44.63,Non-AC,0.0,2.0,29.1,1,59
+PMPML-44,Local,Hadapsar,Katraj,14.64,39.0,15,21.13,Mon,Evening,71.0,Clear,5.0,9.0,0.92,Low,1.0,44.43,61.56,Non-AC,3.0,4.0,30.0,0,-24
+PMPML-27,Express,Viman Nagar,Aundh,4.89,84.0,11,34.61,Mon,Morning,27.0,Rainy,11.0,8.0,0.02,Medium,1.0,29.55,97.57,Electric,7.0,3.0,27.81,1,-73
+PMPML-6,Local,Kothrud,Katraj,11.21,49.0,14,42.92,Wed,Evening,73.0,Cloudy,14.0,18.0,0.55,Medium,1.0,23.03,47.23,AC,3.0,4.0,15.58,6,-35
+PMPML-45,Express,Kothrud,Kharadi,8.95,23.0,80,34.07,Wed,Evening,11.0,Cloudy,2.0,4.0,1.0,Medium,0.0,15.99,85.0,Non-AC,14.0,2.0,24.66,6,57
+PMPML-49,Local,Hadapsar,Shivaji Nagar,22.27,87.0,54,33.31,Sat,Evening,51.0,Cloudy,8.0,17.0,0.19,Low,1.0,47.63,33.6,Non-AC,3.0,1.0,29.11,7,-33
+PMPML-16,Shuttle,Viman Nagar,Shivaji Nagar,7.72,89.0,17,23.52,Wed,Evening,44.0,Cloudy,3.0,9.0,0.73,High,0.0,36.97,25.77,AC,9.0,4.0,39.02,7,-72
+PMPML-11,Express,Wagholi,Hadapsar,21.8,72.0,76,17.57,Sun,Afternoon,42.0,Rainy,13.0,7.0,0.77,Low,0.0,15.95,94.58,AC,12.0,2.0,21.31,6,4
+PMPML-16,Local,Viman Nagar,Kharadi,8.62,81.0,103,35.39,Wed,Evening,60.0,Clear,3.0,8.0,0.68,High,1.0,32.86,33.63,Electric,7.0,1.0,33.83,4,22
+PMPML-48,Express,Baner,Aundh,10.32,87.0,36,36.67,Fri,Afternoon,34.0,Rainy,5.0,19.0,0.17,Low,1.0,42.03,79.17,AC,5.0,2.0,15.96,6,-51
+PMPML-33,Express,Wagholi,Kothrud,8.26,25.0,92,14.79,Thu,Evening,64.0,Rainy,12.0,13.0,0.33,Medium,0.0,40.21,77.48,Electric,12.0,4.0,16.34,0,67
+PMPML-35,Shuttle,Wagholi,Wagholi,17.69,24.0,64,21.76,Wed,Evening,35.0,Rainy,3.0,8.0,0.54,Low,1.0,27.77,85.58,AC,23.0,1.0,8.82,9,40
+PMPML-30,Shuttle,Shivaji Nagar,Viman Nagar,5.8,86.0,19,31.46,Sat,Afternoon,43.0,Rainy,11.0,17.0,0.85,Medium,0.0,49.53,69.54,Non-AC,22.0,0.0,20.95,7,-67
+PMPML-31,Local,Baner,Kharadi,17.08,83.0,22,40.12,Tue,Night,69.0,Cloudy,1.0,18.0,0.73,Low,0.0,28.68,69.77,Non-AC,12.0,1.0,8.77,2,-61
+PMPML-36,Local,Kharadi,Kothrud,4.66,85.0,21,31.94,Sat,Night,58.0,Cloudy,4.0,17.0,0.01,Low,1.0,26.23,21.12,Electric,24.0,0.0,37.82,4,-64
+PMPML-10,Express,Baner,Aundh,10.36,65.0,93,12.74,Thu,Evening,35.0,Rainy,5.0,12.0,0.8,Low,1.0,43.09,68.33,AC,7.0,1.0,25.88,8,28
+PMPML-45,Express,Wagholi,Katraj,15.94,61.0,108,28.46,Mon,Morning,38.0,Rainy,8.0,11.0,0.72,Medium,1.0,26.69,36.66,Electric,24.0,3.0,7.26,1,47
+PMPML-21,Express,Katraj,Shivaji Nagar,22.02,23.0,16,43.72,Thu,Morning,5.0,Clear,0.0,17.0,0.67,Low,0.0,10.61,63.03,Electric,3.0,1.0,7.57,4,-7
+PMPML-46,Shuttle,Wagholi,Baner,23.42,64.0,45,30.93,Sat,Evening,37.0,Cloudy,3.0,13.0,0.16,Low,0.0,46.63,24.64,AC,22.0,0.0,10.08,8,-19
+PMPML-43,Express,Katraj,Kharadi,4.49,54.0,42,12.32,Sun,Afternoon,27.0,Rainy,13.0,4.0,0.97,Medium,1.0,27.79,40.6,Electric,1.0,3.0,24.83,3,-12
+PMPML-13,Local,Hadapsar,Viman Nagar,8.9,61.0,15,40.19,Mon,Afternoon,54.0,Cloudy,8.0,16.0,0.58,High,0.0,30.36,95.96,Electric,5.0,2.0,20.45,1,-46
+PMPML-41,Local,Shivaji Nagar,Viman Nagar,24.52,66.0,50,43.38,Tue,Afternoon,31.0,Rainy,3.0,11.0,0.76,Low,0.0,26.66,23.95,Electric,3.0,4.0,7.81,9,-16
+PMPML-15,Shuttle,Viman Nagar,Shivaji Nagar,9.55,72.0,21,42.4,Sun,Afternoon,12.0,Cloudy,5.0,11.0,0.56,Low,0.0,13.34,44.57,AC,8.0,3.0,33.13,3,-51
+PMPML-13,Shuttle,Wagholi,Hinjewadi,15.88,48.0,87,28.83,Tue,Morning,20.0,Cloudy,9.0,7.0,0.55,Medium,0.0,17.74,83.67,Non-AC,24.0,0.0,7.48,3,39
+PMPML-49,Shuttle,Hadapsar,Baner,18.35,84.0,100,17.59,Wed,Afternoon,40.0,Cloudy,2.0,9.0,0.7,Low,0.0,41.92,68.85,Electric,12.0,3.0,31.01,9,16
+PMPML-15,Express,Wagholi,Hadapsar,23.55,80.0,50,42.09,Fri,Morning,8.0,Rainy,5.0,17.0,0.96,High,1.0,36.78,28.3,Electric,18.0,0.0,32.0,7,-30
+PMPML-34,Express,Kharadi,Hadapsar,24.65,30.0,97,36.43,Thu,Morning,66.0,Cloudy,12.0,7.0,0.52,Low,1.0,45.73,85.25,AC,19.0,3.0,29.37,2,67
+PMPML-28,Express,Aundh,Kothrud,13.77,58.0,73,44.16,Fri,Night,27.0,Clear,12.0,18.0,0.23,High,1.0,27.55,97.81,Non-AC,4.0,4.0,18.66,9,15
+PMPML-29,Express,Viman Nagar,Baner,12.07,38.0,71,36.51,Sat,Night,10.0,Rainy,14.0,12.0,0.73,Low,0.0,26.76,89.54,Non-AC,22.0,3.0,19.58,7,33
+PMPML-35,Shuttle,Kothrud,Hadapsar,4.34,53.0,45,23.95,Mon,Morning,16.0,Cloudy,14.0,17.0,0.54,Low,1.0,32.7,94.64,Electric,14.0,3.0,25.35,7,-8
+PMPML-13,Shuttle,Viman Nagar,Aundh,13.95,21.0,19,37.94,Mon,Evening,23.0,Clear,2.0,19.0,0.75,Low,1.0,14.13,68.32,Non-AC,13.0,0.0,20.81,7,-2
+PMPML-4,Express,Shivaji Nagar,Kothrud,17.38,39.0,119,25.74,Tue,Night,6.0,Cloudy,12.0,16.0,0.34,Medium,0.0,46.45,72.09,AC,12.0,3.0,7.93,2,80
+PMPML-15,Local,Hadapsar,Kharadi,19.08,18.0,37,42.73,Tue,Evening,32.0,Cloudy,13.0,18.0,0.96,Medium,0.0,15.57,46.28,Electric,18.0,1.0,14.62,3,19
+PMPML-24,Shuttle,Kharadi,Wagholi,17.13,21.0,76,27.12,Sun,Morning,68.0,Rainy,10.0,8.0,0.36,High,1.0,11.86,95.35,AC,13.0,1.0,21.76,8,55
+PMPML-34,Local,Hinjewadi,Baner,9.1,39.0,64,14.47,Sat,Afternoon,73.0,Clear,2.0,19.0,0.65,Low,0.0,10.64,70.6,AC,14.0,4.0,29.49,8,25
+PMPML-44,Express,Baner,Wagholi,12.7,60.0,117,17.79,Thu,Morning,40.0,Cloudy,5.0,18.0,0.96,High,1.0,24.01,94.72,Non-AC,16.0,1.0,27.03,0,57
+PMPML-13,Local,Kharadi,Katraj,10.43,28.0,38,37.36,Fri,Evening,25.0,Rainy,6.0,19.0,0.16,Medium,0.0,29.58,68.07,AC,1.0,4.0,37.7,2,10
+PMPML-15,Express,Katraj,Kharadi,18.28,36.0,67,28.92,Sun,Morning,19.0,Clear,1.0,11.0,0.64,Medium,1.0,17.6,74.12,Non-AC,10.0,1.0,23.74,3,31
+PMPML-40,Shuttle,Hadapsar,Aundh,8.15,82.0,99,43.36,Sat,Evening,66.0,Rainy,8.0,,0.8,Low,1.0,16.88,26.91,Electric,6.0,3.0,27.41,0,17
+PMPML-49,Shuttle,Wagholi,Wagholi,3.71,67.0,90,34.39,Wed,Morning,18.0,Rainy,14.0,16.0,0.86,Low,1.0,20.12,37.73,Electric,14.0,2.0,38.2,7,23
+PMPML-6,Local,Kharadi,Hinjewadi,10.4,58.0,78,23.46,Tue,Evening,74.0,Cloudy,3.0,8.0,0.56,Low,1.0,29.5,22.12,AC,1.0,0.0,35.55,9,20
+PMPML-20,Express,Shivaji Nagar,Kharadi,19.42,51.0,96,15.7,Sun,Morning,42.0,Cloudy,12.0,14.0,0.46,Low,0.0,10.95,78.03,AC,6.0,2.0,5.08,6,45
+PMPML-2,Shuttle,Hadapsar,Hadapsar,20.32,56.0,96,42.94,Sat,Morning,68.0,Cloudy,0.0,4.0,0.86,Low,1.0,35.82,22.48,Electric,12.0,0.0,39.95,9,40
+PMPML-14,Shuttle,Hinjewadi,Baner,20.95,36.0,85,36.21,Sun,Morning,29.0,Cloudy,0.0,3.0,0.83,Low,0.0,36.38,30.78,Non-AC,24.0,1.0,35.93,3,49
+PMPML-50,Local,Aundh,Hadapsar,14.66,44.0,103,20.79,Sat,Evening,21.0,Clear,7.0,11.0,0.92,Medium,0.0,17.38,78.05,Electric,6.0,3.0,32.85,9,59
+PMPML-12,Shuttle,Aundh,Aundh,7.23,25.0,119,33.17,Sun,Evening,65.0,Rainy,4.0,14.0,0.46,Medium,0.0,32.32,24.67,Non-AC,18.0,4.0,15.27,5,94
+PMPML-24,Local,Kothrud,Hadapsar,14.83,71.0,22,13.94,Sun,Morning,77.0,Clear,10.0,19.0,0.33,High,0.0,35.89,76.1,AC,21.0,4.0,23.44,0,-49
+PMPML-38,Shuttle,Kothrud,Wagholi,13.34,15.0,94,23.79,Thu,Night,25.0,Cloudy,1.0,6.0,0.84,High,1.0,47.13,52.54,Electric,4.0,2.0,11.44,5,79
+PMPML-49,Shuttle,Hinjewadi,Wagholi,24.84,21.0,118,39.68,Tue,Night,6.0,Cloudy,10.0,7.0,0.56,Medium,0.0,17.5,98.28,Non-AC,15.0,1.0,34.27,9,97
+PMPML-10,Express,Hadapsar,Baner,21.22,28.0,95,18.2,Sun,Morning,41.0,Rainy,14.0,9.0,0.84,Low,0.0,22.51,35.44,AC,6.0,4.0,15.47,7,67
+PMPML-28,Express,Viman Nagar,Kharadi,17.99,50.0,37,33.06,Thu,Morning,7.0,Clear,11.0,12.0,0.74,Low,1.0,17.98,54.59,Non-AC,16.0,1.0,9.25,7,-13
+PMPML-22,Express,Kharadi,Hinjewadi,5.83,45.0,99,41.87,Sat,Evening,34.0,Rainy,10.0,8.0,0.61,Low,0.0,48.99,64.35,AC,5.0,3.0,12.64,3,54
+PMPML-7,Shuttle,Kharadi,Kothrud,24.3,19.0,56,10.08,Tue,Night,68.0,Clear,4.0,10.0,0.35,Low,0.0,21.9,57.75,Electric,12.0,4.0,39.8,7,37
+PMPML-22,Express,Hinjewadi,Hinjewadi,18.3,71.0,91,28.68,Sun,Afternoon,74.0,Rainy,2.0,9.0,0.53,Low,1.0,45.43,25.12,AC,20.0,2.0,22.07,9,20
+PMPML-35,Shuttle,Hinjewadi,Baner,4.63,48.0,14,25.92,Mon,Night,62.0,Rainy,3.0,9.0,0.58,Low,0.0,25.35,65.6,Non-AC,19.0,2.0,7.17,2,-34
+PMPML-1,Shuttle,Viman Nagar,Hinjewadi,3.85,83.0,69,34.01,Fri,Night,20.0,Rainy,12.0,11.0,0.43,Medium,0.0,20.12,89.6,Electric,6.0,2.0,35.36,5,-14
+PMPML-36,Shuttle,Katraj,Hinjewadi,22.41,26.0,44,30.94,Sat,Night,22.0,Cloudy,13.0,14.0,0.65,Medium,1.0,28.51,44.65,Electric,11.0,4.0,6.37,9,18
+PMPML-32,Local,Hinjewadi,Hinjewadi,19.47,63.0,24,17.79,Sat,Afternoon,24.0,Clear,8.0,11.0,0.28,High,1.0,12.0,46.69,Electric,19.0,2.0,30.71,4,-39
+PMPML-19,Shuttle,Shivaji Nagar,,17.73,63.0,79,30.93,Thu,Night,62.0,Clear,10.0,17.0,0.82,Low,0.0,48.96,71.59,Electric,24.0,4.0,32.98,5,16
+PMPML-14,Shuttle,Shivaji Nagar,Hinjewadi,23.77,52.0,106,33.46,Wed,Afternoon,59.0,Cloudy,0.0,5.0,0.32,Medium,0.0,12.76,55.65,Non-AC,8.0,4.0,25.32,3,54
+PMPML-15,Express,Hadapsar,Katraj,12.95,10.0,48,25.2,Tue,Afternoon,47.0,Cloudy,1.0,11.0,0.76,Low,0.0,31.3,30.5,AC,9.0,1.0,39.28,0,38
+PMPML-4,Shuttle,Shivaji Nagar,Wagholi,15.78,29.0,100,11.78,Fri,Morning,77.0,Clear,5.0,4.0,0.55,Low,1.0,12.95,41.32,AC,1.0,,11.39,4,71
+PMPML-33,Shuttle,Kothrud,Hinjewadi,15.45,29.0,93,23.42,Sun,Evening,75.0,Rainy,4.0,10.0,0.66,High,0.0,34.97,34.25,Non-AC,8.0,2.0,32.1,5,64
+PMPML-19,Shuttle,Shivaji Nagar,Baner,24.57,67.0,102,32.91,Thu,Afternoon,15.0,Cloudy,3.0,14.0,0.22,Medium,0.0,37.16,56.83,Electric,1.0,4.0,27.59,1,35
+PMPML-10,Express,Viman Nagar,Shivaji Nagar,16.3,16.0,49,10.5,Wed,Afternoon,59.0,Rainy,0.0,15.0,0.66,Low,1.0,14.22,24.45,AC,2.0,0.0,39.54,0,33
+PMPML-38,Local,Kothrud,Baner,21.16,26.0,70,29.19,Wed,Morning,57.0,Clear,1.0,17.0,0.04,Low,1.0,12.77,42.21,AC,4.0,4.0,12.41,7,44
+PMPML-45,Local,Kharadi,Baner,12.35,83.0,79,32.6,Tue,Afternoon,50.0,Cloudy,1.0,6.0,0.92,Low,1.0,38.23,97.49,AC,16.0,3.0,13.67,6,-4
+PMPML-26,Local,Katraj,Viman Nagar,18.38,70.0,22,43.61,Mon,Evening,46.0,Clear,7.0,8.0,0.36,Low,0.0,41.59,25.74,Non-AC,23.0,4.0,15.53,4,-48
+PMPML-26,Express,Kharadi,Hinjewadi,11.29,45.0,61,32.75,Sun,Afternoon,17.0,Cloudy,4.0,10.0,0.34,Low,0.0,30.75,75.16,Electric,9.0,1.0,8.35,2,16
+PMPML-7,Express,Katraj,Kharadi,17.82,10.0,45,33.73,Thu,Morning,64.0,Clear,8.0,18.0,0.54,Low,0.0,26.95,48.06,Electric,6.0,2.0,36.65,9,35
+PMPML-13,Local,Wagholi,Hadapsar,3.53,67.0,54,29.43,Sat,Evening,78.0,Clear,2.0,18.0,0.57,Low,0.0,15.26,27.15,Electric,10.0,3.0,13.74,9,-13
+PMPML-26,Express,Viman Nagar,Viman Nagar,17.33,74.0,46,30.82,Sat,Night,53.0,Cloudy,13.0,5.0,0.82,Low,1.0,48.57,78.14,AC,9.0,4.0,22.02,9,-28
+PMPML-28,Express,Katraj,Kharadi,19.96,81.0,44,30.06,Wed,Afternoon,62.0,Rainy,0.0,7.0,0.82,High,0.0,22.39,63.0,Electric,21.0,0.0,26.75,8,-37
+PMPML-13,Shuttle,Kharadi,Shivaji Nagar,8.73,42.0,45,21.08,Sun,Afternoon,9.0,Clear,7.0,4.0,0.37,Medium,1.0,37.18,31.31,Non-AC,15.0,1.0,28.63,1,3
+PMPML-5,Local,Kothrud,Kothrud,6.35,60.0,91,31.55,Tue,Night,45.0,Rainy,0.0,5.0,0.89,High,1.0,25.82,79.73,Non-AC,14.0,2.0,23.81,5,31
+PMPML-36,Express,Katraj,Aundh,7.12,70.0,106,25.77,Fri,Night,69.0,Rainy,6.0,16.0,0.17,High,0.0,13.27,72.58,Non-AC,4.0,3.0,12.59,4,36
+PMPML-14,Shuttle,Baner,Viman Nagar,12.02,84.0,42,38.45,Thu,Afternoon,19.0,Clear,7.0,6.0,0.05,Medium,0.0,31.71,59.95,AC,17.0,2.0,16.36,3,-42
+PMPML-1,Shuttle,Katraj,Baner,19.34,19.0,99,12.75,Thu,Evening,29.0,Cloudy,5.0,5.0,0.69,Low,0.0,24.97,82.44,Non-AC,22.0,1.0,27.74,0,80
+PMPML-1,Shuttle,Shivaji Nagar,Katraj,18.64,73.0,37,26.89,Tue,Afternoon,58.0,Cloudy,7.0,6.0,0.08,Low,1.0,26.32,40.39,AC,0.0,2.0,12.32,2,-36
+PMPML-34,Local,Kharadi,Wagholi,23.35,37.0,102,15.72,Thu,Morning,25.0,Rainy,7.0,8.0,0.01,Low,1.0,19.45,94.91,Non-AC,20.0,1.0,24.19,5,65
+PMPML-20,Express,Shivaji Nagar,Aundh,4.34,16.0,14,11.19,Sat,Night,12.0,Rainy,3.0,7.0,0.02,Medium,0.0,25.65,45.15,Electric,24.0,0.0,13.85,5,-2
+PMPML-44,Shuttle,Baner,Baner,21.7,62.0,55,44.49,Mon,Night,18.0,Cloudy,14.0,5.0,0.89,Low,1.0,34.3,87.23,Electric,15.0,1.0,29.22,0,-7
+PMPML-23,Local,Baner,Kharadi,11.5,65.0,69,43.7,Thu,Night,6.0,Cloudy,8.0,8.0,0.56,Low,1.0,23.08,57.72,Electric,14.0,4.0,38.57,9,4
+PMPML-8,Local,Hinjewadi,Kothrud,22.58,28.0,36,29.31,Wed,Morning,10.0,Rainy,3.0,18.0,0.11,Low,1.0,40.55,56.7,Non-AC,7.0,1.0,7.22,3,8
+PMPML-36,Express,Hinjewadi,Katraj,12.59,62.0,97,39.56,Mon,Morning,78.0,Rainy,7.0,5.0,0.44,Low,1.0,32.84,79.4,AC,11.0,2.0,22.77,7,35
+PMPML-42,Express,Hadapsar,Katraj,6.33,52.0,24,40.98,Tue,Night,14.0,Clear,5.0,4.0,0.76,Medium,1.0,18.72,85.0,AC,21.0,4.0,18.36,7,-28
+PMPML-17,Local,Kothrud,Kharadi,16.12,35.0,58,43.39,Sat,Morning,62.0,Rainy,11.0,3.0,0.69,High,0.0,39.4,61.57,Non-AC,16.0,3.0,32.64,3,23
+PMPML-43,Express,Kothrud,Hadapsar,2.54,80.0,102,19.01,Tue,Evening,12.0,Rainy,3.0,11.0,0.66,Low,1.0,18.42,94.53,AC,7.0,4.0,21.14,8,22
+PMPML-31,Shuttle,Wagholi,Katraj,6.78,46.0,23,38.94,Sat,Night,65.0,Clear,10.0,12.0,0.28,High,1.0,49.94,40.91,AC,8.0,0.0,26.55,4,-23
+PMPML-47,Local,Aundh,Aundh,3.42,75.0,32,12.44,Thu,Evening,50.0,Clear,4.0,10.0,0.67,Medium,1.0,37.47,79.36,Non-AC,6.0,4.0,17.76,8,-43
+PMPML-34,Local,Hinjewadi,Viman Nagar,17.88,85.0,66,26.42,Thu,Evening,41.0,Rainy,7.0,16.0,0.37,High,0.0,33.19,78.29,Electric,6.0,3.0,12.08,0,-19
+PMPML-43,Local,Wagholi,Baner,10.6,37.0,79,21.18,Sun,Morning,36.0,Clear,0.0,3.0,0.16,Low,0.0,19.41,92.58,Non-AC,18.0,3.0,7.03,0,42
+PMPML-26,Express,Kharadi,Baner,19.8,50.0,105,13.6,Fri,Afternoon,24.0,Cloudy,9.0,18.0,0.68,Medium,0.0,15.97,41.06,Electric,12.0,3.0,28.15,3,55
+PMPML-40,Local,Baner,Baner,11.56,89.0,97,16.38,Sun,Evening,79.0,Cloudy,5.0,12.0,0.48,High,0.0,20.68,81.3,AC,10.0,3.0,16.42,0,8
+PMPML-11,Express,Kharadi,Hinjewadi,13.7,81.0,115,44.26,Sat,Evening,28.0,Rainy,3.0,12.0,0.3,High,0.0,27.81,97.28,Non-AC,9.0,2.0,37.35,7,34
+PMPML-28,Shuttle,Katraj,Baner,17.96,60.0,14,11.8,Thu,Afternoon,46.0,Cloudy,6.0,19.0,0.69,Low,0.0,36.7,69.54,Non-AC,11.0,1.0,38.02,9,-46
+PMPML-31,Shuttle,Hadapsar,Hadapsar,8.65,59.0,119,38.07,Sat,Night,31.0,Clear,2.0,8.0,0.58,High,1.0,19.98,74.51,AC,15.0,2.0,25.72,8,60
+PMPML-15,Shuttle,Wagholi,Baner,7.76,48.0,50,26.37,Thu,Evening,47.0,Rainy,4.0,10.0,0.88,Medium,1.0,41.64,85.61,Electric,15.0,1.0,25.08,8,2
+PMPML-39,Shuttle,Kothrud,Hadapsar,13.57,76.0,108,40.7,Tue,Afternoon,19.0,Clear,11.0,8.0,0.46,Low,0.0,29.57,90.26,AC,11.0,3.0,14.74,8,32
+PMPML-30,Express,Shivaji Nagar,Kothrud,11.22,35.0,18,20.4,Thu,Afternoon,14.0,Clear,13.0,9.0,0.16,Low,1.0,24.37,31.56,AC,12.0,1.0,23.52,0,-17
+PMPML-38,Shuttle,Aundh,Wagholi,14.86,45.0,89,15.71,Fri,Night,44.0,Clear,5.0,10.0,0.15,High,1.0,27.92,43.47,AC,0.0,1.0,8.92,1,44
+PMPML-35,Shuttle,Kharadi,Shivaji Nagar,2.72,26.0,17,13.68,Sun,Night,12.0,Cloudy,3.0,15.0,0.61,High,1.0,47.22,91.75,Non-AC,15.0,2.0,34.38,3,-9
+PMPML-20,Local,Wagholi,Shivaji Nagar,19.33,70.0,60,10.08,Thu,Morning,9.0,Clear,2.0,13.0,0.01,Low,1.0,32.82,88.72,Electric,23.0,0.0,39.49,4,-10
+PMPML-3,Shuttle,Kothrud,Kothrud,9.39,74.0,80,32.2,Mon,Afternoon,10.0,Cloudy,8.0,3.0,0.92,Low,0.0,30.42,47.99,Electric,3.0,4.0,20.08,5,6
+PMPML-26,Express,Baner,Baner,2.2,57.0,97,26.66,Tue,Morning,45.0,Cloudy,4.0,4.0,0.75,High,0.0,48.3,58.19,AC,22.0,0.0,26.64,4,40
+PMPML-36,Local,Aundh,Katraj,21.12,39.0,117,10.76,Mon,Afternoon,42.0,Clear,11.0,18.0,0.14,Medium,1.0,37.19,76.54,AC,10.0,4.0,6.58,1,78
+PMPML-50,Local,Hinjewadi,Katraj,6.28,52.0,82,44.37,Sun,Night,50.0,Clear,5.0,6.0,0.42,High,0.0,45.5,43.69,Electric,15.0,1.0,17.51,0,30
+PMPML-50,Shuttle,Kharadi,Kharadi,13.41,26.0,30,42.82,Tue,Morning,45.0,Clear,1.0,13.0,0.77,Low,0.0,31.63,54.36,Non-AC,17.0,1.0,8.57,2,4
+PMPML-31,Express,Wagholi,Kharadi,6.15,88.0,70,33.26,Wed,Evening,13.0,Clear,2.0,6.0,0.16,Medium,0.0,11.9,73.94,Electric,23.0,0.0,34.88,8,-18
+PMPML-40,Shuttle,Shivaji Nagar,Hinjewadi,11.01,17.0,55,41.14,Sat,Morning,34.0,Cloudy,11.0,9.0,0.46,Low,0.0,37.73,70.24,Electric,2.0,4.0,32.19,1,38
+PMPML-13,Local,Kharadi,Baner,24.13,55.0,86,27.14,Sat,Evening,11.0,Cloudy,10.0,14.0,0.01,High,0.0,20.72,37.25,Electric,22.0,0.0,7.01,8,31
+PMPML-42,Shuttle,Kharadi,Hadapsar,14.62,63.0,59,12.68,Thu,Morning,35.0,Rainy,4.0,7.0,0.82,Medium,0.0,14.83,60.4,Electric,15.0,4.0,9.94,7,-4
+PMPML-16,Local,Viman Nagar,Baner,3.29,23.0,104,25.83,Mon,Night,26.0,Clear,2.0,10.0,0.33,High,1.0,27.9,98.2,AC,21.0,0.0,29.21,8,81
+PMPML-42,Shuttle,Hinjewadi,Viman Nagar,9.4,11.0,64,20.31,Wed,Morning,57.0,Rainy,2.0,8.0,0.73,High,1.0,25.22,89.82,Non-AC,12.0,4.0,37.51,1,53
+PMPML-26,Local,Wagholi,Wagholi,15.67,17.0,48,24.14,Sun,Evening,44.0,Rainy,10.0,8.0,0.36,Medium,1.0,48.84,76.67,AC,7.0,0.0,36.8,1,31
+PMPML-34,Local,Hinjewadi,Wagholi,15.15,55.0,113,21.44,Fri,Evening,35.0,Cloudy,11.0,15.0,0.9,Medium,1.0,36.77,58.75,Non-AC,10.0,3.0,25.85,2,58
+PMPML-31,Express,Wagholi,Kothrud,3.87,31.0,48,43.87,Fri,Morning,49.0,Clear,7.0,13.0,0.69,High,1.0,48.26,47.22,Electric,8.0,4.0,26.84,8,17
+PMPML-40,Local,Viman Nagar,Baner,13.01,20.0,40,35.1,Mon,Evening,11.0,Rainy,8.0,9.0,0.47,High,1.0,12.71,84.5,Electric,12.0,4.0,17.72,1,20
+PMPML-39,Shuttle,Hadapsar,Kothrud,2.4,52.0,78,29.09,Thu,Evening,55.0,Rainy,7.0,9.0,0.97,Low,0.0,26.04,66.67,AC,18.0,2.0,32.77,8,26
+PMPML-2,Express,Shivaji Nagar,Katraj,21.17,49.0,113,34.92,Sat,Afternoon,56.0,Clear,10.0,10.0,0.71,High,1.0,36.13,96.08,AC,18.0,3.0,33.65,7,64
+PMPML-48,Shuttle,Kothrud,Hadapsar,18.83,29.0,42,24.5,Mon,Evening,48.0,Rainy,10.0,10.0,0.11,Low,1.0,48.86,46.18,Electric,13.0,3.0,17.17,2,13
+PMPML-25,Local,Aundh,Hinjewadi,13.52,68.0,84,42.08,Sun,Afternoon,58.0,Cloudy,13.0,12.0,0.5,Low,1.0,41.61,24.52,Electric,15.0,3.0,33.48,3,16
+PMPML-13,Express,Wagholi,Katraj,14.64,89.0,82,21.73,Fri,Morning,20.0,Cloudy,1.0,17.0,0.23,Low,1.0,47.19,73.7,Electric,7.0,2.0,35.89,2,-7
+PMPML-2,Shuttle,Shivaji Nagar,Katraj,5.45,29.0,111,10.25,Wed,Night,75.0,Rainy,10.0,12.0,0.05,Medium,0.0,49.87,45.24,Electric,15.0,1.0,17.88,4,82
+PMPML-22,Local,Hinjewadi,Shivaji Nagar,12.05,14.0,29,19.33,Fri,Afternoon,27.0,Cloudy,4.0,4.0,0.76,Medium,0.0,18.3,43.78,Non-AC,22.0,1.0,33.34,0,15
+PMPML-27,Local,Shivaji Nagar,Kothrud,8.83,71.0,31,17.56,Mon,Morning,13.0,Rainy,9.0,17.0,0.66,Medium,0.0,38.19,37.65,Non-AC,7.0,1.0,19.85,4,-40
+PMPML-3,Shuttle,Shivaji Nagar,Baner,12.23,75.0,94,38.32,Tue,Night,77.0,Rainy,12.0,10.0,0.57,High,0.0,31.78,88.96,AC,18.0,1.0,28.89,2,19
+PMPML-6,Local,Hadapsar,Baner,7.8,16.0,23,25.52,Thu,Afternoon,24.0,Clear,5.0,4.0,0.61,Low,1.0,38.7,26.55,AC,18.0,3.0,12.89,0,7
+PMPML-8,Shuttle,Viman Nagar,Hadapsar,23.94,31.0,78,43.01,Wed,Afternoon,74.0,Clear,11.0,18.0,0.68,High,0.0,49.32,70.34,Non-AC,4.0,3.0,12.32,0,47
+PMPML-33,Shuttle,Katraj,Wagholi,6.28,67.0,46,13.02,Thu,Night,36.0,Clear,2.0,17.0,0.39,Low,1.0,23.32,96.2,Non-AC,4.0,1.0,13.28,3,-21
+PMPML-38,Local,Kharadi,Kothrud,22.47,14.0,60,10.07,Sun,Morning,58.0,Rainy,14.0,17.0,0.06,Low,1.0,43.17,80.9,AC,9.0,3.0,39.77,0,46
+PMPML-49,Local,Katraj,Shivaji Nagar,20.96,11.0,71,18.15,Wed,Morning,32.0,Rainy,11.0,14.0,0.12,Low,0.0,37.95,21.02,AC,6.0,0.0,19.93,3,60
+PMPML-14,Express,Katraj,Shivaji Nagar,14.75,34.0,51,24.45,Tue,Afternoon,7.0,Cloudy,3.0,7.0,0.81,High,1.0,16.07,75.05,Electric,10.0,1.0,27.54,8,17
+PMPML-17,Local,Kothrud,Hadapsar,12.56,24.0,64,24.81,Sat,Night,67.0,Rainy,11.0,6.0,0.95,High,1.0,12.08,57.68,Electric,23.0,3.0,25.05,1,40
+PMPML-10,Shuttle,Aundh,Kothrud,13.45,30.0,38,21.91,Sun,Night,79.0,Clear,3.0,6.0,0.93,High,1.0,35.29,87.21,Non-AC,12.0,0.0,32.13,2,8
+PMPML-22,Local,Baner,Wagholi,19.39,84.0,56,24.77,Mon,Afternoon,33.0,Clear,6.0,15.0,0.95,Medium,0.0,28.15,54.45,Non-AC,21.0,1.0,20.72,0,-28
+PMPML-18,Express,Aundh,Shivaji Nagar,9.96,40.0,80,44.31,Fri,Morning,19.0,Clear,13.0,17.0,0.45,Medium,0.0,35.4,81.7,AC,17.0,3.0,33.89,6,40
+PMPML-2,Local,Baner,Viman Nagar,18.85,40.0,112,31.37,Tue,Evening,54.0,Rainy,13.0,5.0,0.3,Medium,1.0,49.24,74.74,Non-AC,13.0,4.0,39.53,9,72
+PMPML-2,Express,Viman Nagar,Katraj,7.87,41.0,114,27.15,Fri,Night,75.0,Rainy,5.0,10.0,0.69,High,1.0,36.53,86.99,Non-AC,16.0,3.0,7.89,2,73
+PMPML-38,Shuttle,Kothrud,Katraj,20.67,52.0,55,31.49,Wed,Afternoon,60.0,Clear,12.0,12.0,0.26,High,1.0,35.59,25.57,Non-AC,6.0,0.0,28.93,0,3
+PMPML-20,Shuttle,Aundh,Hinjewadi,14.69,61.0,88,38.58,Wed,Afternoon,44.0,Rainy,6.0,15.0,0.88,Low,1.0,48.76,62.37,Electric,1.0,4.0,31.04,2,27
+PMPML-34,Local,Hadapsar,Kharadi,3.8,29.0,107,36.76,Wed,Night,62.0,Cloudy,3.0,13.0,0.86,Medium,1.0,34.12,50.9,Electric,20.0,0.0,21.15,5,78
+PMPML-50,Local,Kharadi,Kharadi,23.42,65.0,60,18.26,Tue,Evening,36.0,Rainy,7.0,8.0,0.72,Low,1.0,10.61,46.06,Non-AC,6.0,0.0,17.13,4,-5
+PMPML-34,Express,Kothrud,Baner,18.48,22.0,42,25.5,Thu,Evening,67.0,Cloudy,10.0,16.0,0.54,High,0.0,45.82,91.98,Non-AC,21.0,4.0,35.04,7,20
+PMPML-14,Local,Viman Nagar,Wagholi,13.96,52.0,78,25.78,Thu,Evening,62.0,Cloudy,7.0,12.0,0.25,High,0.0,32.44,25.18,Non-AC,8.0,0.0,34.53,6,26
+PMPML-36,Shuttle,Kothrud,Viman Nagar,6.97,24.0,38,29.88,Sun,Night,29.0,Cloudy,14.0,5.0,0.87,Low,1.0,17.24,73.69,AC,20.0,4.0,9.85,9,14
+PMPML-40,Express,Viman Nagar,Shivaji Nagar,13.42,47.0,92,34.03,Tue,Evening,53.0,Rainy,6.0,12.0,0.08,Medium,0.0,25.88,34.25,Electric,0.0,1.0,13.09,0,45
+PMPML-29,Local,Baner,Wagholi,12.98,74.0,95,18.04,Sun,Afternoon,71.0,Clear,12.0,5.0,0.07,Medium,0.0,19.86,21.65,Electric,9.0,2.0,34.37,3,21
+PMPML-6,Shuttle,Wagholi,Hadapsar,8.64,45.0,43,38.23,Fri,Evening,50.0,Clear,5.0,14.0,0.21,Medium,1.0,35.64,43.11,Non-AC,5.0,3.0,10.34,9,-2
+PMPML-32,Shuttle,Hadapsar,Hinjewadi,16.13,32.0,70,34.51,Tue,Morning,12.0,Cloudy,5.0,3.0,0.99,Medium,1.0,12.68,78.65,AC,10.0,0.0,34.06,5,38
+PMPML-21,Local,Aundh,Hinjewadi,22.75,22.0,10,10.48,Fri,Evening,28.0,Rainy,6.0,10.0,0.64,Low,0.0,39.28,81.73,AC,7.0,4.0,31.94,4,-12
+PMPML-37,Shuttle,Katraj,Kothrud,10.43,20.0,36,31.65,Sat,Morning,32.0,Rainy,2.0,7.0,0.56,Low,0.0,26.18,69.68,Non-AC,22.0,0.0,5.89,6,16
+PMPML-35,Local,Baner,Hinjewadi,19.3,56.0,16,25.19,Mon,Morning,44.0,Rainy,4.0,8.0,0.52,Low,0.0,45.2,57.04,AC,16.0,0.0,16.03,5,-40
+PMPML-21,Shuttle,Baner,Kharadi,4.62,70.0,23,18.93,Wed,Afternoon,19.0,Rainy,13.0,11.0,0.67,Low,0.0,11.99,91.55,AC,0.0,3.0,26.52,9,-47
+PMPML-12,Local,Shivaji Nagar,Viman Nagar,11.74,89.0,17,36.81,Fri,Afternoon,29.0,Clear,14.0,12.0,0.47,Low,1.0,30.41,23.61,Non-AC,8.0,4.0,28.78,2,-72
+PMPML-26,Local,Wagholi,Viman Nagar,22.12,56.0,24,18.71,Sat,Afternoon,5.0,Cloudy,3.0,19.0,0.56,Low,0.0,33.38,84.09,Electric,10.0,2.0,23.32,3,-32
+PMPML-11,Local,Kharadi,Shivaji Nagar,22.69,47.0,58,37.26,Thu,Night,79.0,Rainy,8.0,4.0,0.3,Low,1.0,28.15,42.19,AC,8.0,3.0,17.03,7,11
+PMPML-35,Express,Hinjewadi,Hinjewadi,15.62,85.0,108,21.47,Fri,Night,40.0,Cloudy,4.0,6.0,0.0,Low,1.0,44.44,37.56,Electric,9.0,1.0,36.13,3,23
+PMPML-2,Local,Shivaji Nagar,Aundh,7.47,54.0,17,21.42,Tue,Afternoon,53.0,Clear,11.0,12.0,0.89,High,1.0,24.72,29.38,AC,6.0,1.0,19.69,4,-37
+PMPML-19,Express,Katraj,Hadapsar,10.93,66.0,58,25.74,Thu,Morning,69.0,Rainy,7.0,11.0,0.07,Low,0.0,25.88,64.57,AC,19.0,0.0,11.16,5,-8
+PMPML-4,Express,Kharadi,Hadapsar,13.45,63.0,81,11.09,Tue,Afternoon,52.0,Cloudy,5.0,19.0,0.2,Medium,1.0,18.4,25.12,AC,21.0,0.0,31.51,9,18
+PMPML-10,Local,Kharadi,Aundh,20.67,45.0,32,23.93,Sat,Morning,23.0,Rainy,14.0,14.0,0.2,Low,0.0,33.43,51.09,Electric,19.0,4.0,24.69,2,-13
+PMPML-48,Local,Viman Nagar,Hadapsar,17.0,19.0,52,29.71,Thu,Morning,50.0,Cloudy,2.0,15.0,0.22,Low,0.0,29.49,91.0,Non-AC,3.0,3.0,7.38,1,33
+PMPML-48,Express,Katraj,Katraj,22.75,14.0,119,28.63,Tue,Evening,24.0,Clear,3.0,7.0,0.14,Low,1.0,27.85,55.38,Non-AC,20.0,2.0,27.27,3,105
+PMPML-46,Shuttle,Baner,Kothrud,14.62,69.0,10,38.84,Sun,Night,8.0,Clear,6.0,8.0,0.1,Low,1.0,43.14,84.68,Non-AC,2.0,3.0,22.14,0,-59
+PMPML-34,Express,Shivaji Nagar,Katraj,10.96,65.0,50,21.43,Tue,Evening,67.0,Cloudy,8.0,12.0,0.02,Low,1.0,30.37,75.86,AC,5.0,0.0,22.8,5,-15
+PMPML-27,Express,Katraj,Aundh,4.06,25.0,48,38.3,Mon,Morning,45.0,Clear,14.0,11.0,0.37,Medium,0.0,20.43,54.33,Electric,12.0,2.0,12.77,0,23
+PMPML-26,Shuttle,Viman Nagar,Baner,23.86,59.0,99,15.11,Sun,Evening,32.0,Clear,1.0,18.0,0.14,Low,0.0,28.88,65.0,AC,0.0,0.0,18.8,2,40
+PMPML-43,Express,Katraj,Hinjewadi,24.69,12.0,111,11.66,Wed,Night,60.0,Clear,9.0,10.0,0.87,Low,1.0,39.12,98.02,AC,22.0,4.0,13.54,1,99
+PMPML-4,Shuttle,Viman Nagar,Hadapsar,13.46,28.0,94,41.36,Mon,Morning,71.0,Cloudy,5.0,4.0,0.88,High,0.0,18.91,27.37,AC,8.0,2.0,21.81,3,66
+PMPML-34,Shuttle,Viman Nagar,Hadapsar,12.73,15.0,38,38.73,Thu,Night,27.0,Cloudy,6.0,19.0,0.46,High,0.0,30.66,78.41,Electric,20.0,0.0,20.41,7,23
+PMPML-2,Local,Aundh,Kharadi,19.78,11.0,32,16.32,Sat,Afternoon,49.0,Cloudy,13.0,15.0,0.47,Low,1.0,25.55,45.74,Electric,3.0,2.0,19.74,7,21
+PMPML-21,Shuttle,Shivaji Nagar,Shivaji Nagar,7.63,38.0,79,21.22,Fri,Evening,76.0,Clear,11.0,17.0,0.66,Low,1.0,20.87,71.15,Electric,6.0,3.0,29.21,4,41
+PMPML-27,Shuttle,Hadapsar,Kharadi,3.64,60.0,38,17.52,Tue,Morning,10.0,Clear,5.0,3.0,0.94,Low,0.0,13.24,84.27,Non-AC,10.0,3.0,33.59,8,-22
+PMPML-32,Local,Aundh,Hinjewadi,21.67,47.0,105,14.53,Sat,Afternoon,5.0,Cloudy,8.0,9.0,0.45,High,0.0,21.71,94.45,AC,13.0,4.0,37.15,9,58
+PMPML-26,Shuttle,Wagholi,Katraj,17.14,37.0,26,40.21,Sat,Morning,66.0,Clear,5.0,16.0,0.39,High,1.0,13.82,74.54,Electric,24.0,3.0,32.49,3,-11
+PMPML-32,Shuttle,Katraj,Baner,22.9,40.0,16,28.47,Sat,Morning,47.0,Cloudy,8.0,9.0,0.18,Low,1.0,22.32,20.62,Electric,21.0,0.0,27.81,1,-24
+PMPML-4,Shuttle,Aundh,Baner,5.76,50.0,64,22.73,Sun,Afternoon,30.0,Clear,1.0,15.0,0.76,High,0.0,25.77,84.67,Electric,14.0,1.0,33.98,9,14
+PMPML-24,Shuttle,Hinjewadi,Hadapsar,15.46,70.0,10,30.09,Thu,Night,62.0,Clear,3.0,7.0,0.26,High,0.0,38.01,89.48,Electric,10.0,1.0,27.33,3,-60
+PMPML-9,Local,Katraj,Wagholi,18.09,43.0,50,11.29,Wed,Afternoon,52.0,Clear,4.0,4.0,0.35,Medium,0.0,13.51,62.93,Electric,23.0,2.0,25.87,7,7
+PMPML-39,Express,Viman Nagar,Katraj,4.96,83.0,53,22.91,Fri,Evening,79.0,Clear,10.0,9.0,0.54,Medium,1.0,20.34,66.5,Electric,4.0,0.0,27.02,2,-30
+PMPML-13,Express,Katraj,Katraj,20.63,12.0,14,11.89,Fri,Afternoon,21.0,Rainy,4.0,19.0,0.96,Low,1.0,16.38,46.7,Non-AC,4.0,0.0,31.56,3,2
+PMPML-36,Shuttle,Kothrud,Baner,21.08,73.0,22,12.35,Sun,Afternoon,76.0,Rainy,13.0,12.0,0.17,Medium,0.0,32.15,83.2,Non-AC,4.0,1.0,33.88,4,-51
+PMPML-43,Express,Kharadi,Aundh,11.69,81.0,70,28.38,Mon,Afternoon,40.0,Clear,1.0,17.0,0.71,Medium,0.0,14.38,98.16,Electric,6.0,1.0,28.93,4,-11
+PMPML-12,Local,Kharadi,Hadapsar,10.13,53.0,14,15.22,Fri,Evening,60.0,Cloudy,5.0,10.0,0.85,Low,1.0,20.82,71.36,Non-AC,7.0,2.0,20.39,7,-39
+PMPML-49,Express,Katraj,Baner,16.04,30.0,67,21.21,Sat,Evening,9.0,Clear,12.0,5.0,0.95,Medium,1.0,42.59,90.69,Electric,19.0,0.0,6.0,0,37
+PMPML-31,Local,Katraj,Viman Nagar,16.12,36.0,35,38.45,Sat,Morning,15.0,Cloudy,0.0,4.0,0.43,Medium,1.0,14.36,42.19,Electric,20.0,2.0,6.21,0,-1
+PMPML-42,Shuttle,Viman Nagar,Wagholi,7.58,77.0,42,31.21,Sat,Evening,6.0,Clear,12.0,17.0,0.89,Low,1.0,43.31,68.31,AC,24.0,0.0,35.97,0,-35
+PMPML-25,Local,Kharadi,Kharadi,10.21,30.0,97,12.62,Tue,Evening,75.0,Cloudy,5.0,19.0,0.6,High,0.0,14.72,34.66,Non-AC,20.0,2.0,13.04,8,67
+PMPML-34,Local,Hadapsar,Kothrud,3.45,75.0,46,37.68,Fri,Morning,32.0,Rainy,7.0,9.0,0.12,Low,0.0,,45.24,Non-AC,24.0,3.0,18.45,5,-29
+PMPML-11,Express,Kharadi,Wagholi,15.21,30.0,41,29.35,Tue,Afternoon,45.0,Rainy,7.0,10.0,0.47,Low,0.0,19.99,58.66,Electric,11.0,2.0,36.54,8,11
+PMPML-35,Express,Kothrud,Hadapsar,20.77,25.0,28,44.73,Wed,Evening,35.0,Cloudy,2.0,19.0,0.27,Medium,0.0,25.55,24.7,AC,6.0,0.0,37.1,8,3
+PMPML-50,Local,Wagholi,Kharadi,5.33,55.0,104,38.16,Fri,Night,69.0,Clear,6.0,18.0,0.29,Low,1.0,13.92,65.19,Non-AC,13.0,4.0,29.38,6,49
+PMPML-7,Shuttle,Baner,Hadapsar,7.13,87.0,58,24.49,Fri,Evening,74.0,Cloudy,4.0,12.0,0.62,Medium,1.0,44.29,33.03,AC,3.0,1.0,7.76,7,-29
+PMPML-4,Express,Katraj,Hinjewadi,2.89,65.0,70,38.18,Thu,Morning,37.0,Clear,9.0,17.0,0.16,Low,1.0,19.69,78.43,Electric,24.0,3.0,17.75,4,5
+PMPML-40,Local,Hadapsar,Hadapsar,4.49,83.0,88,40.97,Sat,Evening,52.0,Cloudy,7.0,3.0,0.07,Low,1.0,16.05,34.13,Non-AC,18.0,2.0,7.95,9,5
+PMPML-12,Express,Wagholi,Baner,11.32,47.0,40,10.14,Sat,Evening,38.0,Rainy,7.0,17.0,0.73,Low,1.0,35.94,85.98,Electric,1.0,1.0,28.5,3,-7
+PMPML-30,Local,Viman Nagar,Aundh,3.98,46.0,65,41.78,Sat,Afternoon,12.0,Clear,1.0,11.0,0.63,Low,1.0,16.51,53.42,Electric,13.0,3.0,27.6,5,19
+PMPML-40,Express,Katraj,Hadapsar,14.71,50.0,81,23.93,Tue,Morning,58.0,Clear,5.0,10.0,0.12,Low,1.0,33.33,21.41,Electric,2.0,4.0,14.12,8,31
+PMPML-4,Express,Kharadi,Kothrud,9.13,17.0,43,24.61,Sun,Evening,46.0,Cloudy,3.0,17.0,0.6,Medium,0.0,44.05,68.7,Electric,10.0,0.0,19.2,6,26
+PMPML-28,Local,Baner,Aundh,3.59,19.0,43,42.05,Sat,Night,73.0,Rainy,10.0,13.0,0.71,Low,0.0,31.73,45.2,AC,14.0,1.0,18.95,5,24
+PMPML-23,Shuttle,Kharadi,Katraj,14.78,65.0,57,40.65,Sun,Evening,17.0,Rainy,12.0,10.0,0.39,High,1.0,12.33,91.56,AC,19.0,3.0,17.06,5,-8
+PMPML-27,Local,Wagholi,Viman Nagar,11.99,86.0,30,24.59,Sat,Morning,53.0,Rainy,12.0,18.0,0.34,Low,0.0,16.29,26.12,Electric,15.0,4.0,20.18,9,-56
+PMPML-41,Express,Wagholi,Shivaji Nagar,9.36,28.0,29,22.89,Fri,Morning,63.0,Rainy,4.0,7.0,0.93,Medium,1.0,18.02,86.14,Non-AC,14.0,4.0,38.42,6,1
+PMPML-23,Express,Wagholi,Viman Nagar,5.69,33.0,63,22.09,Sat,Night,76.0,Rainy,10.0,5.0,0.43,Low,0.0,12.62,69.27,Non-AC,18.0,4.0,12.58,2,30
+PMPML-4,Shuttle,Hinjewadi,Aundh,24.78,38.0,15,31.03,Wed,Evening,38.0,Clear,8.0,9.0,0.37,Medium,0.0,17.65,50.1,Electric,9.0,2.0,5.07,1,-23
+PMPML-35,Local,Hadapsar,Baner,19.78,33.0,14,26.56,Sat,Morning,28.0,Clear,5.0,9.0,0.99,Low,0.0,22.82,66.14,AC,2.0,1.0,25.19,4,-19
+PMPML-50,Express,Shivaji Nagar,Wagholi,15.48,68.0,25,36.34,Sat,Afternoon,31.0,Clear,3.0,15.0,0.1,High,1.0,33.27,40.51,Non-AC,21.0,3.0,6.76,5,-43
+PMPML-25,Express,Aundh,Wagholi,23.37,18.0,108,44.09,Mon,Morning,74.0,Rainy,6.0,15.0,0.78,Low,0.0,30.62,77.74,Non-AC,6.0,4.0,15.27,3,90
+PMPML-15,Local,Katraj,Wagholi,21.11,70.0,33,11.88,Sun,Evening,22.0,Rainy,11.0,13.0,0.86,Low,1.0,38.61,26.78,AC,2.0,1.0,21.13,3,-37
+PMPML-23,Local,Wagholi,Kothrud,7.42,85.0,46,19.71,Thu,Morning,40.0,Cloudy,12.0,4.0,0.42,High,1.0,30.5,25.71,Non-AC,12.0,1.0,22.08,5,-39
+PMPML-1,Shuttle,Viman Nagar,Shivaji Nagar,13.14,55.0,56,34.27,Sat,Morning,55.0,Clear,8.0,10.0,0.72,High,1.0,20.13,95.27,Non-AC,9.0,4.0,19.97,3,1
+PMPML-14,Local,Hadapsar,Katraj,2.77,53.0,75,29.14,Fri,Morning,32.0,Rainy,12.0,13.0,0.94,Low,0.0,27.49,78.3,Electric,19.0,1.0,39.67,2,22
+PMPML-45,Local,Wagholi,Hadapsar,4.39,19.0,118,43.06,Mon,Afternoon,19.0,Rainy,4.0,7.0,0.19,Low,1.0,31.92,89.72,AC,9.0,3.0,37.56,8,99
+PMPML-29,Local,Hadapsar,Baner,19.49,83.0,24,17.97,Sun,Morning,71.0,Clear,5.0,15.0,0.87,Low,1.0,35.38,20.46,AC,18.0,2.0,29.6,3,-59
+PMPML-45,Shuttle,Hinjewadi,Kothrud,19.07,87.0,84,34.56,Sat,Morning,26.0,Cloudy,10.0,10.0,0.15,Low,0.0,15.31,88.94,AC,4.0,3.0,35.74,5,-3
+PMPML-41,Local,Aundh,Viman Nagar,24.46,58.0,105,41.2,Mon,Afternoon,71.0,Cloudy,5.0,4.0,0.02,Medium,0.0,12.4,70.37,Electric,21.0,4.0,38.14,5,47
+PMPML-6,Local,Viman Nagar,Hadapsar,7.23,28.0,63,31.43,Wed,Morning,14.0,Cloudy,1.0,16.0,0.45,Low,0.0,35.03,52.76,Non-AC,13.0,4.0,27.22,8,35
+PMPML-21,Local,Viman Nagar,Katraj,11.42,21.0,31,17.3,Wed,Afternoon,76.0,Cloudy,10.0,15.0,0.8,Medium,1.0,35.61,32.32,Non-AC,10.0,0.0,20.09,1,10
+PMPML-42,Local,Viman Nagar,Hadapsar,7.48,38.0,19,16.62,Wed,Morning,5.0,Cloudy,14.0,8.0,0.85,Low,1.0,23.23,28.49,Non-AC,11.0,3.0,15.67,7,-19
+PMPML-20,Local,Baner,Viman Nagar,7.37,15.0,110,,Mon,Morning,29.0,Rainy,12.0,9.0,0.97,Medium,1.0,26.59,68.51,Electric,12.0,0.0,32.5,7,95
+PMPML-26,Local,Kharadi,Viman Nagar,21.63,19.0,99,32.36,Mon,Afternoon,6.0,Cloudy,12.0,3.0,0.97,Low,1.0,30.61,37.14,Electric,18.0,0.0,28.5,9,80
+PMPML-28,Shuttle,Wagholi,Wagholi,8.51,53.0,45,41.68,Mon,Evening,51.0,Clear,5.0,19.0,0.68,High,0.0,22.47,24.15,AC,4.0,3.0,23.91,3,-8
+PMPML-22,Local,Katraj,Baner,24.93,77.0,59,28.15,Wed,Morning,18.0,Clear,9.0,15.0,0.94,High,1.0,36.52,53.17,AC,8.0,1.0,14.23,5,-18
+PMPML-20,Shuttle,Hadapsar,Wagholi,16.09,25.0,24,37.43,Wed,Afternoon,56.0,Clear,5.0,12.0,0.49,High,1.0,11.98,80.83,Non-AC,1.0,3.0,30.9,9,-1
+PMPML-41,Express,Wagholi,Hinjewadi,18.21,66.0,118,27.5,Sat,Morning,8.0,Rainy,8.0,19.0,0.95,High,1.0,32.42,59.59,Non-AC,12.0,1.0,29.48,8,52
+PMPML-15,Express,Hinjewadi,Katraj,2.62,44.0,52,14.72,Sun,Morning,67.0,Cloudy,0.0,18.0,0.82,Low,0.0,32.76,27.75,Electric,7.0,4.0,38.69,3,8
+PMPML-46,Local,Wagholi,Katraj,22.04,68.0,62,23.49,Sat,Night,36.0,Rainy,13.0,15.0,0.17,Low,0.0,23.84,35.86,AC,19.0,0.0,34.15,4,-6
+PMPML-36,Local,Kothrud,Aundh,7.01,19.0,34,33.14,Fri,Afternoon,45.0,Cloudy,12.0,14.0,0.2,Medium,1.0,36.17,61.01,Electric,19.0,1.0,23.57,8,15
+PMPML-12,Local,Viman Nagar,Viman Nagar,24.19,59.0,96,34.52,Mon,Morning,34.0,Cloudy,0.0,13.0,0.31,High,0.0,34.31,71.46,AC,14.0,2.0,14.34,8,37
+PMPML-28,Shuttle,Kothrud,Shivaji Nagar,8.81,71.0,109,41.15,Fri,Night,37.0,Rainy,11.0,7.0,0.23,Medium,0.0,18.55,41.23,Electric,16.0,2.0,19.52,9,38
+PMPML-24,Shuttle,Baner,Aundh,5.17,82.0,13,38.92,Tue,Morning,12.0,Cloudy,13.0,15.0,0.8,Medium,0.0,22.03,91.3,Electric,11.0,0.0,13.38,1,-69
+PMPML-36,Shuttle,Aundh,Hadapsar,14.89,24.0,40,16.0,Sun,Evening,41.0,Cloudy,12.0,11.0,0.13,Low,0.0,14.03,66.22,AC,11.0,0.0,21.15,9,16
+PMPML-3,Local,Hinjewadi,Hinjewadi,13.1,39.0,35,25.64,Thu,Morning,25.0,Clear,12.0,14.0,0.35,Medium,1.0,36.1,94.68,AC,15.0,2.0,27.81,6,-4
+PMPML-45,Express,Shivaji Nagar,Hinjewadi,14.12,79.0,75,27.43,Sun,Morning,23.0,Rainy,11.0,4.0,0.95,Low,1.0,46.33,46.58,Non-AC,18.0,4.0,26.05,4,-4
+PMPML-23,Express,Shivaji Nagar,Viman Nagar,11.23,53.0,25,19.83,Fri,Night,37.0,Cloudy,11.0,14.0,0.51,Medium,1.0,15.81,63.66,AC,4.0,3.0,14.96,8,-28
+PMPML-35,Local,Wagholi,Shivaji Nagar,5.33,21.0,23,43.93,Fri,Night,26.0,Cloudy,14.0,19.0,0.74,Medium,1.0,20.1,47.21,Electric,14.0,3.0,28.82,4,2
+PMPML-23,Local,Baner,Kharadi,24.25,34.0,104,24.94,Wed,Evening,69.0,Cloudy,11.0,5.0,0.5,High,0.0,12.62,62.82,AC,23.0,2.0,35.57,7,70
+PMPML-7,Express,Wagholi,Shivaji Nagar,15.38,80.0,99,34.57,Mon,Night,36.0,Rainy,10.0,17.0,0.15,Low,1.0,16.23,42.36,Electric,9.0,0.0,37.59,6,19
+PMPML-30,Shuttle,Hinjewadi,Hinjewadi,6.31,43.0,74,24.37,Sat,Evening,48.0,Cloudy,10.0,5.0,0.94,Low,0.0,44.33,38.69,Non-AC,23.0,4.0,37.92,1,31
+PMPML-26,Express,Aundh,Hadapsar,3.16,73.0,95,41.12,Thu,Afternoon,15.0,Clear,8.0,14.0,0.94,Medium,1.0,45.69,21.01,Electric,1.0,0.0,39.8,0,22
+PMPML-7,Express,Hadapsar,Shivaji Nagar,7.4,28.0,18,14.35,Mon,Morning,59.0,Cloudy,1.0,7.0,0.5,Low,0.0,38.96,98.56,AC,6.0,0.0,22.82,5,-10
+PMPML-7,Shuttle,Kharadi,Baner,3.08,67.0,57,30.29,Wed,Morning,34.0,Rainy,4.0,8.0,0.27,Medium,0.0,22.26,45.51,Electric,16.0,4.0,8.81,2,-10
+PMPML-48,Shuttle,Hadapsar,Hinjewadi,18.13,79.0,39,21.63,Tue,Evening,15.0,Rainy,10.0,15.0,0.35,High,0.0,30.53,58.67,AC,24.0,1.0,38.64,0,-40
+PMPML-39,Express,Aundh,Kharadi,13.78,31.0,61,14.41,Sun,Morning,37.0,Clear,10.0,13.0,0.04,Medium,1.0,45.15,83.68,Electric,9.0,0.0,16.43,4,30
+PMPML-2,Express,Baner,Kothrud,16.47,24.0,10,11.3,Fri,Morning,16.0,Rainy,14.0,3.0,0.67,Low,0.0,21.65,50.28,Electric,0.0,2.0,16.06,3,-14
+PMPML-5,Local,Hinjewadi,Wagholi,24.17,51.0,35,42.11,Sun,Night,8.0,Rainy,4.0,10.0,0.4,Low,0.0,47.93,44.85,AC,13.0,2.0,18.81,3,-16
+PMPML-18,Shuttle,Aundh,Hadapsar,19.36,43.0,82,16.48,Wed,Evening,12.0,Rainy,4.0,8.0,0.97,Low,1.0,19.13,26.4,Non-AC,20.0,0.0,22.6,3,39
+PMPML-20,Express,Katraj,Shivaji Nagar,21.08,68.0,27,43.72,Sat,Afternoon,28.0,Rainy,0.0,9.0,0.1,Medium,1.0,42.15,31.23,AC,14.0,3.0,23.43,9,-41
+PMPML-16,Shuttle,Hinjewadi,Hinjewadi,14.61,68.0,79,32.74,Thu,Morning,20.0,Clear,4.0,5.0,0.56,Low,0.0,44.34,47.47,Non-AC,7.0,1.0,7.69,3,11
+PMPML-38,Local,Katraj,Aundh,14.94,35.0,10,23.13,Sun,Night,39.0,Clear,1.0,14.0,0.62,Medium,0.0,46.38,56.04,Non-AC,22.0,1.0,25.55,2,-25
+PMPML-4,Express,Katraj,Katraj,10.74,78.0,66,25.96,Thu,Night,12.0,Cloudy,0.0,17.0,0.47,Medium,1.0,42.81,31.84,Electric,10.0,4.0,16.12,7,-12
+PMPML-10,Local,Kothrud,Wagholi,17.52,58.0,98,28.85,Sun,Afternoon,32.0,Rainy,6.0,13.0,0.22,Low,1.0,11.66,65.94,AC,15.0,4.0,22.69,9,40
+PMPML-7,Local,Kothrud,Viman Nagar,14.94,80.0,48,31.99,Sun,Morning,50.0,Cloudy,10.0,7.0,0.76,Medium,1.0,45.38,94.48,Electric,18.0,3.0,10.42,8,-32
+PMPML-6,Shuttle,Katraj,Baner,24.04,87.0,28,16.81,Sun,Morning,62.0,Rainy,11.0,17.0,0.35,Medium,0.0,30.63,68.15,AC,6.0,4.0,24.47,6,-59
+PMPML-16,Shuttle,Hinjewadi,Aundh,19.04,59.0,39,28.41,Wed,Morning,79.0,Clear,0.0,18.0,0.3,Low,1.0,12.25,31.95,Electric,18.0,2.0,35.93,8,-20
+PMPML-17,Express,Kothrud,Wagholi,16.24,81.0,98,15.12,Mon,Morning,34.0,Rainy,14.0,7.0,0.04,High,0.0,34.0,42.57,Electric,4.0,4.0,23.52,6,17
+PMPML-40,Shuttle,Shivaji Nagar,Wagholi,5.75,68.0,89,21.89,Wed,Afternoon,43.0,Cloudy,7.0,5.0,0.57,Medium,1.0,20.01,41.73,AC,20.0,3.0,19.32,1,21
+PMPML-40,Express,Aundh,Viman Nagar,24.79,62.0,80,19.17,Thu,Morning,53.0,Cloudy,11.0,10.0,0.31,Low,1.0,16.22,25.65,Electric,9.0,3.0,21.56,0,18
+PMPML-30,Shuttle,Wagholi,Shivaji Nagar,2.31,61.0,70,16.05,,Evening,67.0,Cloudy,12.0,14.0,0.67,Medium,0.0,12.01,67.83,AC,10.0,1.0,32.07,7,9
+PMPML-48,Local,Baner,Katraj,12.22,36.0,107,44.71,Wed,Night,74.0,Clear,11.0,19.0,0.4,Low,1.0,30.33,84.99,AC,17.0,3.0,13.04,8,71
+PMPML-36,Express,Shivaji Nagar,Baner,6.21,23.0,54,24.93,Wed,Evening,63.0,Rainy,11.0,9.0,0.96,Medium,1.0,10.7,76.48,AC,15.0,2.0,8.31,8,31
+PMPML-41,Express,Baner,Hadapsar,24.28,26.0,35,24.96,Mon,Morning,61.0,Rainy,11.0,6.0,0.53,Low,1.0,41.72,65.66,AC,13.0,4.0,28.75,9,9
+PMPML-50,Express,Shivaji Nagar,Katraj,4.15,77.0,82,34.75,Mon,Afternoon,59.0,Rainy,12.0,16.0,0.84,Medium,1.0,20.27,59.34,AC,24.0,1.0,14.52,0,5
+PMPML-3,Shuttle,Aundh,Hadapsar,14.69,80.0,22,23.14,Tue,Afternoon,18.0,Cloudy,2.0,6.0,0.88,Medium,1.0,36.16,52.79,Non-AC,20.0,4.0,12.43,1,-58
+PMPML-6,Express,Hadapsar,Hadapsar,20.89,64.0,82,22.54,Thu,Evening,71.0,Clear,13.0,15.0,0.03,Medium,0.0,41.3,20.56,Non-AC,2.0,0.0,27.76,2,18
+PMPML-32,Express,Katraj,Hinjewadi,22.77,11.0,87,25.03,Mon,Morning,35.0,Cloudy,0.0,16.0,0.72,High,1.0,17.73,99.17,Electric,9.0,0.0,5.74,7,76
+PMPML-35,Express,Viman Nagar,Kharadi,13.72,41.0,82,11.37,Tue,Night,69.0,Clear,8.0,7.0,0.81,Low,1.0,30.32,99.25,AC,5.0,4.0,38.73,1,41
+PMPML-15,Express,Baner,Viman Nagar,15.47,12.0,46,17.63,Mon,Night,43.0,Clear,12.0,8.0,0.05,Low,0.0,32.75,58.48,AC,1.0,4.0,21.37,9,34
+PMPML-32,Local,Kharadi,Aundh,6.77,89.0,71,13.98,Thu,Afternoon,40.0,Clear,11.0,17.0,0.78,Low,0.0,41.82,24.66,Non-AC,19.0,0.0,29.02,5,-18
+PMPML-34,Local,Kothrud,Baner,13.68,81.0,94,31.36,Wed,Night,18.0,Rainy,2.0,18.0,0.97,Low,1.0,12.33,71.64,Non-AC,8.0,4.0,10.14,6,13
+PMPML-30,Shuttle,Aundh,Hinjewadi,22.32,69.0,66,37.21,Thu,Afternoon,69.0,Clear,14.0,8.0,0.63,Low,0.0,24.01,25.16,Non-AC,1.0,1.0,11.94,0,-3
+PMPML-25,Shuttle,Katraj,Baner,11.02,63.0,22,23.88,Sat,Morning,65.0,Clear,11.0,19.0,0.71,Low,1.0,30.71,78.5,AC,14.0,0.0,9.68,7,-41
+PMPML-32,Shuttle,Wagholi,Wagholi,8.86,70.0,45,13.95,Sat,Night,11.0,Cloudy,3.0,14.0,0.82,Medium,1.0,34.6,86.57,AC,11.0,2.0,15.23,8,-25
+PMPML-10,Express,Kharadi,Baner,12.54,48.0,32,41.5,Wed,Evening,50.0,Cloudy,12.0,15.0,0.91,Low,1.0,36.11,48.19,AC,5.0,0.0,6.44,4,-16
+PMPML-24,Shuttle,Wagholi,Kothrud,4.11,68.0,32,43.94,Sun,Morning,52.0,Rainy,6.0,8.0,0.96,Low,0.0,34.45,40.52,Non-AC,20.0,4.0,5.81,3,-36
+PMPML-21,Shuttle,Kharadi,Aundh,24.91,38.0,25,41.8,Thu,Afternoon,6.0,Clear,12.0,5.0,0.02,High,0.0,30.87,36.38,Electric,2.0,3.0,25.05,5,-13
+PMPML-44,Express,Katraj,Kharadi,11.36,73.0,20,27.54,Tue,Afternoon,37.0,Clear,6.0,17.0,0.17,High,0.0,35.78,78.21,Electric,5.0,4.0,16.32,4,-53
+PMPML-17,Local,Shivaji Nagar,Aundh,17.73,69.0,27,19.81,Sat,Night,41.0,Rainy,11.0,8.0,0.59,Medium,0.0,29.72,72.33,Non-AC,5.0,1.0,10.33,7,-42
+PMPML-44,Express,Hinjewadi,Aundh,10.45,68.0,95,44.44,Sun,Morning,53.0,Cloudy,9.0,17.0,0.12,Low,1.0,30.82,46.59,Electric,5.0,3.0,35.13,2,27
+PMPML-30,Shuttle,Katraj,Hadapsar,7.29,54.0,63,30.76,Mon,Afternoon,35.0,Cloudy,1.0,17.0,0.93,High,0.0,42.26,32.22,Non-AC,17.0,4.0,8.97,5,9
+PMPML-27,Express,Katraj,Kothrud,5.4,12.0,96,35.2,Wed,Morning,37.0,Clear,8.0,6.0,0.84,High,1.0,14.96,84.55,Electric,2.0,3.0,23.19,4,84
+PMPML-35,Express,Kothrud,Baner,6.61,61.0,69,43.33,Wed,Night,43.0,Clear,14.0,5.0,0.39,Medium,0.0,36.27,22.55,AC,19.0,2.0,32.74,3,8
+PMPML-18,Shuttle,Aundh,Viman Nagar,11.83,25.0,36,41.44,Sun,Afternoon,25.0,Clear,6.0,4.0,0.62,Low,1.0,44.74,30.82,Electric,24.0,4.0,29.32,0,11
+PMPML-43,Local,Aundh,Katraj,24.25,67.0,67,35.23,Wed,Evening,16.0,Rainy,13.0,11.0,0.41,Low,0.0,43.62,56.1,AC,23.0,3.0,15.37,2,0
+PMPML-21,Local,Aundh,Hinjewadi,18.43,66.0,51,41.38,Wed,Morning,34.0,Clear,2.0,15.0,0.35,Low,1.0,40.41,90.48,Non-AC,4.0,4.0,6.84,7,-15
+PMPML-26,Shuttle,Kharadi,Hadapsar,15.31,70.0,106,29.24,Wed,Night,7.0,Cloudy,11.0,6.0,0.35,Medium,1.0,28.94,39.53,Non-AC,7.0,4.0,9.73,4,36
+PMPML-12,Local,Shivaji Nagar,Katraj,11.19,69.0,24,16.95,Fri,Night,57.0,Rainy,3.0,3.0,0.46,High,1.0,19.3,99.59,Non-AC,14.0,1.0,12.0,6,-45
+PMPML-14,Local,Aundh,Hadapsar,3.21,25.0,75,18.07,Sun,Evening,41.0,Rainy,6.0,4.0,0.86,Low,0.0,32.95,55.48,AC,8.0,4.0,31.22,5,50
+PMPML-6,Shuttle,Katraj,Viman Nagar,11.79,66.0,16,34.81,Sat,Afternoon,35.0,Cloudy,9.0,3.0,0.87,Low,1.0,18.4,23.16,Electric,17.0,1.0,26.77,4,-50
+PMPML-41,Local,Hinjewadi,Baner,12.56,75.0,17,44.75,Wed,Afternoon,58.0,Cloudy,7.0,3.0,0.34,Low,0.0,44.38,59.22,Electric,13.0,2.0,16.39,5,-58
+PMPML-18,Express,Baner,Kothrud,22.57,13.0,33,16.63,Wed,Afternoon,7.0,Rainy,7.0,16.0,0.6,High,1.0,19.59,39.73,AC,19.0,1.0,18.87,7,20
+PMPML-46,Shuttle,Aundh,Hinjewadi,20.92,86.0,75,17.62,Wed,Afternoon,25.0,Rainy,9.0,15.0,0.46,Low,0.0,14.09,53.68,Non-AC,19.0,1.0,21.53,2,-11
+PMPML-44,Shuttle,Baner,Aundh,5.28,86.0,78,30.93,Sat,Morning,60.0,Cloudy,4.0,3.0,0.09,Medium,1.0,24.67,84.81,Electric,13.0,4.0,6.76,0,-8
+PMPML-20,Local,Kharadi,Shivaji Nagar,11.94,28.0,56,38.46,Thu,Afternoon,57.0,Clear,8.0,12.0,0.95,Low,1.0,11.9,98.8,Electric,13.0,0.0,20.81,4,28
+PMPML-44,Express,Shivaji Nagar,Katraj,9.9,10.0,46,24.53,Tue,Evening,23.0,Rainy,0.0,7.0,0.34,High,1.0,23.69,71.31,AC,0.0,3.0,32.78,8,36
+PMPML-10,Express,Katraj,Hinjewadi,4.32,17.0,37,12.94,Fri,Afternoon,5.0,Rainy,10.0,14.0,0.76,Low,0.0,36.22,27.16,AC,3.0,2.0,10.15,5,20
+PMPML-11,Local,Hinjewadi,Shivaji Nagar,2.06,72.0,107,22.04,Mon,Morning,50.0,Rainy,2.0,6.0,0.52,Low,0.0,31.1,54.65,AC,4.0,2.0,32.7,0,35
+PMPML-24,Express,Katraj,Hinjewadi,2.55,85.0,26,39.4,Tue,Afternoon,54.0,Clear,7.0,15.0,0.85,Medium,0.0,41.93,77.83,Electric,11.0,3.0,31.38,7,-59
+PMPML-32,Shuttle,Baner,Kharadi,20.7,74.0,55,21.58,Thu,Morning,18.0,Rainy,6.0,8.0,0.22,Low,0.0,30.63,47.19,AC,14.0,2.0,19.79,3,-19
+PMPML-49,Local,Katraj,Kharadi,5.76,31.0,73,38.58,Fri,Afternoon,68.0,Cloudy,7.0,17.0,0.72,Low,0.0,35.55,83.54,Non-AC,23.0,0.0,29.95,0,42
+PMPML-11,Local,Shivaji Nagar,Wagholi,6.64,88.0,98,11.21,Tue,Morning,45.0,Clear,8.0,14.0,0.54,Medium,1.0,36.48,59.56,Electric,0.0,2.0,34.33,0,10
+PMPML-33,Shuttle,Hadapsar,Kharadi,20.01,43.0,27,37.75,Wed,Evening,59.0,Clear,11.0,13.0,0.56,Low,0.0,42.8,77.0,Electric,23.0,3.0,18.1,2,-16
+PMPML-6,Shuttle,Aundh,Katraj,4.8,24.0,32,20.16,Wed,Night,8.0,Cloudy,0.0,3.0,0.41,Low,0.0,18.9,30.55,Electric,11.0,4.0,33.04,5,8
+PMPML-30,Local,Kothrud,Kothrud,20.56,77.0,73,26.41,Thu,Night,9.0,Rainy,7.0,15.0,0.06,Medium,1.0,20.82,60.13,Non-AC,21.0,1.0,16.98,5,-4
+PMPML-1,Express,Shivaji Nagar,Shivaji Nagar,8.85,13.0,47,31.94,Mon,Morning,77.0,Clear,6.0,6.0,0.25,Low,0.0,34.45,59.92,Electric,15.0,4.0,18.48,8,34
+PMPML-9,Local,Katraj,Viman Nagar,12.42,51.0,20,18.59,Fri,Afternoon,72.0,Rainy,4.0,19.0,0.37,Low,1.0,33.28,95.64,Electric,24.0,2.0,27.39,6,-31
+PMPML-46,Shuttle,Katraj,Viman Nagar,21.61,50.0,99,25.72,Thu,Evening,38.0,Cloudy,10.0,7.0,0.89,Medium,0.0,16.94,42.79,Non-AC,12.0,1.0,14.64,6,49
+PMPML-32,Shuttle,Kothrud,Hadapsar,20.78,57.0,80,28.99,Fri,Afternoon,40.0,Clear,2.0,14.0,0.88,Low,1.0,49.89,84.85,Electric,13.0,3.0,32.08,3,23
+PMPML-41,Express,Shivaji Nagar,Wagholi,3.46,44.0,22,37.97,Fri,Night,17.0,Clear,4.0,9.0,0.35,Medium,0.0,20.09,97.22,Electric,22.0,1.0,6.1,7,-22
+PMPML-11,Local,Hinjewadi,Wagholi,8.37,80.0,26,27.98,Fri,Morning,63.0,Clear,11.0,7.0,0.85,High,1.0,25.44,70.49,Non-AC,10.0,1.0,28.05,1,-54
+PMPML-28,Local,Kothrud,Aundh,21.24,44.0,112,10.6,Fri,Night,70.0,Cloudy,9.0,14.0,0.68,High,1.0,45.19,26.26,AC,15.0,0.0,8.25,1,68
+PMPML-34,Local,Kothrud,Katraj,5.97,15.0,74,28.05,Tue,Evening,31.0,Rainy,10.0,4.0,0.19,Medium,1.0,47.19,78.66,AC,9.0,4.0,8.64,4,59
+PMPML-39,Local,Hadapsar,Hadapsar,9.23,20.0,101,38.73,Mon,Night,47.0,Clear,5.0,10.0,0.91,High,1.0,40.56,57.91,Non-AC,10.0,3.0,16.19,6,81
+PMPML-48,Local,Baner,Hinjewadi,18.59,78.0,63,27.59,Sat,Evening,60.0,Cloudy,7.0,12.0,0.08,Low,0.0,49.02,79.61,AC,1.0,1.0,32.41,9,-15
+PMPML-40,Express,Baner,Baner,24.51,84.0,23,34.6,Sat,Afternoon,42.0,Rainy,9.0,14.0,0.25,Low,0.0,45.49,23.74,AC,14.0,0.0,39.05,0,-61
+PMPML-42,Local,Viman Nagar,Hadapsar,16.49,28.0,117,33.28,Sat,Night,19.0,Clear,7.0,19.0,0.04,High,1.0,44.48,59.23,Non-AC,5.0,0.0,9.58,2,89
+PMPML-19,Express,Kharadi,Aundh,4.48,42.0,106,41.48,Fri,Evening,49.0,Clear,10.0,3.0,0.73,High,1.0,21.89,76.04,AC,24.0,4.0,15.41,7,64
+PMPML-35,Shuttle,Viman Nagar,Kharadi,12.44,82.0,84,37.76,Thu,Morning,76.0,Rainy,9.0,9.0,0.78,Low,1.0,26.46,38.8,Non-AC,6.0,1.0,18.23,7,2
+PMPML-39,Shuttle,Shivaji Nagar,Wagholi,9.25,75.0,35,36.25,Thu,Night,44.0,Rainy,5.0,10.0,0.79,High,0.0,20.04,80.26,Electric,0.0,3.0,33.79,1,-40
+PMPML-50,Express,Wagholi,Katraj,5.34,33.0,28,29.32,Thu,Afternoon,7.0,Rainy,13.0,15.0,0.41,Low,1.0,15.03,27.13,Electric,7.0,0.0,34.24,2,-5
+PMPML-19,Local,Wagholi,Viman Nagar,9.22,12.0,18,40.95,Fri,Afternoon,76.0,Clear,1.0,16.0,0.13,Medium,0.0,48.45,51.97,Non-AC,21.0,0.0,13.47,9,6
+PMPML-49,Shuttle,Kothrud,Viman Nagar,15.98,59.0,66,14.02,Sat,Morning,52.0,Rainy,14.0,11.0,0.75,Medium,1.0,11.83,34.42,AC,20.0,1.0,34.8,7,7
+PMPML-30,Express,Shivaji Nagar,Viman Nagar,8.87,26.0,58,44.75,Mon,Afternoon,28.0,Clear,8.0,13.0,0.73,Medium,1.0,15.74,86.07,AC,15.0,3.0,31.83,7,32
+PMPML-11,Local,Shivaji Nagar,Hadapsar,10.8,72.0,34,17.57,Sat,Night,6.0,Cloudy,6.0,10.0,0.5,Medium,1.0,29.84,82.81,AC,19.0,4.0,16.79,5,-38
+PMPML-13,Express,Hadapsar,Viman Nagar,4.67,73.0,15,37.99,Wed,Night,10.0,Cloudy,13.0,6.0,0.84,Low,0.0,12.5,70.65,Electric,0.0,0.0,21.09,3,-58
+PMPML-5,Shuttle,Hinjewadi,Viman Nagar,13.97,14.0,35,36.32,Thu,Morning,16.0,Clear,3.0,19.0,0.6,Medium,0.0,49.09,52.07,Non-AC,15.0,2.0,9.42,8,21
+PMPML-49,Express,Hadapsar,Kharadi,19.83,52.0,15,17.3,Mon,Afternoon,70.0,Cloudy,6.0,19.0,0.74,High,0.0,48.7,57.9,Electric,21.0,0.0,9.0,2,-37
+PMPML-1,Shuttle,Baner,Hadapsar,24.28,17.0,18,29.09,Tue,Evening,75.0,Rainy,11.0,3.0,0.65,High,1.0,27.22,76.61,Electric,21.0,3.0,6.22,3,1
+PMPML-25,Express,Shivaji Nagar,Kharadi,5.45,53.0,92,22.13,Thu,Evening,51.0,Cloudy,12.0,7.0,0.19,High,0.0,35.27,68.55,AC,5.0,2.0,22.15,0,39
+PMPML-24,Local,Kothrud,Viman Nagar,4.26,29.0,98,38.19,Wed,Afternoon,76.0,Clear,4.0,19.0,0.27,Low,1.0,43.38,91.33,AC,5.0,1.0,37.56,9,69
+PMPML-27,Local,Hinjewadi,Viman Nagar,15.19,54.0,43,31.0,Mon,Evening,11.0,Cloudy,10.0,18.0,0.71,Low,0.0,23.0,73.73,Non-AC,9.0,3.0,26.6,5,-11
+PMPML-16,Express,Kharadi,Viman Nagar,20.1,83.0,31,16.64,Sun,Afternoon,33.0,Rainy,3.0,12.0,0.56,Medium,1.0,18.83,36.88,AC,4.0,0.0,18.33,1,-52
+PMPML-11,Local,Baner,Aundh,6.88,84.0,87,30.67,Thu,Night,29.0,Clear,0.0,15.0,0.54,Medium,1.0,25.17,23.02,Electric,3.0,3.0,10.34,6,3
+PMPML-23,Local,Hadapsar,Wagholi,18.43,13.0,97,26.24,Sun,Afternoon,20.0,Clear,5.0,12.0,0.99,Low,1.0,40.62,55.45,Non-AC,8.0,0.0,30.05,5,84
+PMPML-25,Local,Baner,Aundh,7.47,50.0,112,11.74,Mon,Evening,14.0,Rainy,3.0,11.0,0.13,High,0.0,26.89,25.24,Electric,19.0,2.0,31.76,0,62
+PMPML-25,Local,Wagholi,Kharadi,18.71,64.0,50,38.47,Mon,Morning,21.0,Clear,2.0,15.0,0.39,Low,0.0,22.4,92.92,Non-AC,15.0,3.0,24.89,7,-14
+PMPML-36,Express,Katraj,Wagholi,17.74,48.0,106,15.53,Wed,Night,35.0,Rainy,6.0,7.0,0.39,Medium,0.0,38.08,30.46,Non-AC,17.0,2.0,16.99,2,58
+PMPML-9,Shuttle,Kharadi,Shivaji Nagar,17.67,74.0,74,12.57,Thu,Evening,73.0,Rainy,11.0,9.0,0.74,Low,1.0,13.4,39.87,Electric,6.0,4.0,28.47,8,0
+PMPML-10,Express,Kothrud,Hadapsar,10.31,77.0,37,18.24,Sun,Afternoon,12.0,Rainy,14.0,8.0,0.16,Low,0.0,32.03,28.39,Non-AC,13.0,3.0,23.74,4,-40
+PMPML-15,Express,Kharadi,Kothrud,19.74,72.0,46,20.31,Sat,Night,79.0,Rainy,1.0,13.0,0.82,High,0.0,47.1,82.03,Electric,13.0,3.0,38.17,4,-26
+PMPML-6,Local,Shivaji Nagar,Shivaji Nagar,18.99,51.0,100,25.76,Fri,Night,54.0,Cloudy,8.0,18.0,0.14,Low,0.0,25.6,64.79,Electric,22.0,0.0,20.99,8,49
+PMPML-3,Shuttle,Wagholi,Baner,23.17,83.0,66,12.4,Fri,Night,45.0,Clear,13.0,10.0,0.7,Low,1.0,33.85,46.3,AC,18.0,2.0,5.83,6,-17
+PMPML-34,Shuttle,Kothrud,Baner,23.84,51.0,103,32.37,Tue,Afternoon,29.0,Clear,7.0,11.0,0.04,High,1.0,29.74,46.65,Non-AC,12.0,2.0,14.5,9,52
+PMPML-47,Local,Baner,Kothrud,8.1,89.0,85,15.45,Mon,Evening,68.0,Cloudy,0.0,19.0,0.13,Low,0.0,10.7,35.06,Non-AC,3.0,4.0,33.31,7,-4
+PMPML-37,Express,Kharadi,Shivaji Nagar,15.43,24.0,100,11.15,Fri,Morning,67.0,Rainy,9.0,13.0,0.07,Medium,1.0,31.49,24.92,Electric,10.0,1.0,23.77,9,76
+PMPML-48,Express,Katraj,Hinjewadi,17.22,50.0,69,15.46,Fri,Evening,13.0,Cloudy,1.0,18.0,0.91,Medium,0.0,21.9,47.02,Non-AC,0.0,1.0,17.02,7,19
+PMPML-4,Local,Katraj,Shivaji Nagar,12.99,22.0,108,16.82,Sat,Afternoon,50.0,Clear,8.0,9.0,0.74,High,1.0,40.68,37.96,Non-AC,5.0,0.0,16.95,7,86
+PMPML-40,Shuttle,Baner,Hadapsar,24.32,21.0,15,24.89,Sun,Afternoon,79.0,Rainy,0.0,5.0,0.23,Medium,0.0,18.45,72.14,Electric,5.0,2.0,13.86,0,-6
+PMPML-38,Express,Wagholi,Katraj,17.66,43.0,109,10.53,Tue,Afternoon,8.0,Clear,0.0,6.0,0.3,Low,1.0,18.82,98.04,AC,2.0,0.0,38.01,0,66
+PMPML-13,Express,Shivaji Nagar,Kothrud,14.17,58.0,16,24.19,Sun,Morning,23.0,Rainy,7.0,4.0,0.83,Low,0.0,13.52,69.57,AC,5.0,1.0,21.89,5,-42
+PMPML-22,Shuttle,Wagholi,Aundh,2.18,33.0,56,38.03,Sat,Afternoon,14.0,Cloudy,1.0,11.0,0.79,Low,0.0,11.58,84.97,AC,20.0,1.0,33.09,5,23
+PMPML-1,Shuttle,Aundh,Katraj,12.58,10.0,17,15.16,Sat,Afternoon,46.0,Clear,12.0,11.0,0.36,Low,1.0,36.09,80.78,AC,4.0,0.0,18.07,1,7
+PMPML-37,Shuttle,Baner,Kothrud,4.2,81.0,56,25.58,Sat,Evening,44.0,Cloudy,11.0,5.0,0.73,Low,0.0,31.0,27.5,AC,23.0,3.0,37.43,9,-25
+PMPML-50,Shuttle,Viman Nagar,Wagholi,21.62,20.0,110,40.12,Tue,Afternoon,28.0,Rainy,5.0,5.0,0.29,Low,1.0,42.14,39.34,AC,11.0,4.0,5.71,0,90
+PMPML-44,Shuttle,Hinjewadi,Shivaji Nagar,5.22,60.0,119,33.12,Mon,Afternoon,35.0,Cloudy,0.0,17.0,0.08,Medium,0.0,18.34,40.95,AC,12.0,2.0,25.67,5,59
+PMPML-16,Local,Katraj,Hadapsar,22.29,15.0,98,13.99,Tue,Evening,30.0,Clear,11.0,15.0,0.45,Low,0.0,13.85,29.67,AC,1.0,2.0,10.91,2,83
+PMPML-48,Shuttle,Aundh,Wagholi,4.91,41.0,84,20.19,Sat,Afternoon,18.0,Clear,14.0,15.0,0.38,Medium,1.0,32.0,60.51,Electric,13.0,4.0,36.82,3,43
+PMPML-9,Shuttle,Viman Nagar,Kothrud,21.07,23.0,79,29.94,Fri,Afternoon,27.0,Rainy,0.0,5.0,0.77,Low,0.0,26.36,34.79,Non-AC,21.0,3.0,8.97,6,56
+PMPML-24,Express,Hadapsar,Aundh,9.87,34.0,56,39.92,Sun,Evening,5.0,Clear,0.0,8.0,0.46,Medium,1.0,28.5,66.63,Non-AC,23.0,4.0,18.6,7,22
+PMPML-37,Local,Hadapsar,Katraj,20.36,31.0,54,25.67,Mon,Morning,27.0,Cloudy,2.0,17.0,0.82,Low,1.0,21.19,82.3,Non-AC,8.0,0.0,17.36,4,23
+PMPML-29,Express,Kothrud,Aundh,18.41,76.0,79,28.35,Wed,Morning,70.0,Cloudy,7.0,10.0,0.89,Low,0.0,49.01,36.94,AC,0.0,4.0,5.3,4,3
+PMPML-2,Express,Baner,Kothrud,16.47,24.0,10,11.3,Fri,Morning,16.0,Rainy,14.0,3.0,0.67,Low,0.0,21.65,50.28,Electric,0.0,2.0,16.06,3,-14
+PMPML-2,Shuttle,Kharadi,Hinjewadi,8.12,85.0,20,13.73,Fri,Afternoon,11.0,Rainy,13.0,16.0,0.97,Medium,1.0,47.33,28.75,AC,6.0,2.0,15.77,9,-65
+PMPML-44,Express,Wagholi,Kothrud,4.92,61.0,73,42.25,Sun,Night,38.0,Cloudy,10.0,6.0,0.22,Low,1.0,39.75,76.73,Non-AC,2.0,3.0,32.22,2,12
+PMPML-30,Local,Kothrud,Kothrud,3.73,83.0,93,17.43,Tue,Evening,29.0,Cloudy,4.0,8.0,0.82,Low,1.0,45.38,29.03,AC,22.0,3.0,35.7,7,10
+PMPML-50,Shuttle,Kharadi,Katraj,19.73,36.0,45,10.35,Tue,Morning,42.0,Cloudy,9.0,9.0,0.99,Low,1.0,34.47,39.27,AC,16.0,1.0,34.14,9,9
+PMPML-42,Shuttle,Kharadi,Hadapsar,14.62,63.0,59,12.68,Thu,Morning,35.0,Rainy,4.0,7.0,0.82,Medium,0.0,14.83,60.4,Electric,15.0,4.0,9.94,7,-4
+PMPML-16,Shuttle,Kharadi,Viman Nagar,9.09,43.0,60,40.96,Fri,Afternoon,24.0,Clear,1.0,3.0,0.31,High,1.0,41.75,54.12,AC,18.0,2.0,5.04,0,17
+PMPML-28,Local,Kharadi,Katraj,15.47,31.0,104,15.55,Wed,Morning,78.0,Rainy,8.0,7.0,0.34,Low,0.0,47.67,67.48,AC,0.0,4.0,34.18,3,73
+PMPML-33,Local,Wagholi,Kharadi,2.71,16.0,27,35.48,Tue,Evening,44.0,Rainy,5.0,16.0,0.78,Medium,0.0,31.54,69.99,Electric,5.0,0.0,12.48,3,11
+PMPML-45,Express,Viman Nagar,Kothrud,14.59,21.0,116,40.08,Wed,Morning,54.0,Clear,8.0,19.0,0.8,Low,1.0,16.19,52.64,Electric,3.0,4.0,21.13,1,95
+PMPML-3,Express,Katraj,Kothrud,22.62,40.0,98,40.1,Thu,Afternoon,33.0,Rainy,6.0,8.0,0.37,Medium,1.0,16.98,96.16,AC,5.0,2.0,39.77,2,58
+PMPML-39,Express,Katraj,Kharadi,6.56,14.0,89,20.19,Tue,Evening,17.0,Clear,11.0,4.0,0.59,Low,1.0,30.94,84.96,Electric,1.0,2.0,13.0,9,75
+PMPML-44,Express,Katraj,Viman Nagar,14.93,83.0,109,32.34,Sun,Afternoon,55.0,Rainy,13.0,4.0,0.24,High,1.0,29.29,23.88,AC,15.0,2.0,34.11,8,26
+PMPML-10,Shuttle,Hinjewadi,Hadapsar,13.33,86.0,113,32.16,Fri,Evening,6.0,Rainy,4.0,8.0,0.5,Medium,1.0,25.15,37.87,Electric,5.0,4.0,12.32,8,27
+PMPML-9,Shuttle,Viman Nagar,Viman Nagar,20.56,29.0,74,33.16,Sun,Afternoon,54.0,Clear,0.0,7.0,0.04,Low,0.0,38.17,48.71,Non-AC,7.0,2.0,18.99,7,45
+PMPML-25,Shuttle,Viman Nagar,Kothrud,23.99,63.0,102,36.54,Sat,Morning,71.0,Clear,10.0,7.0,0.95,Medium,1.0,36.58,94.17,AC,2.0,1.0,28.67,6,39
+PMPML-12,Express,Hadapsar,Aundh,21.3,77.0,19,35.03,Sun,Night,56.0,Cloudy,8.0,6.0,0.56,Medium,1.0,43.33,57.31,AC,18.0,1.0,34.81,8,-58
+PMPML-17,Express,Kothrud,Kharadi,14.06,71.0,22,22.46,Sun,Night,35.0,Clear,7.0,6.0,0.43,Medium,1.0,23.03,73.23,Electric,14.0,1.0,18.84,1,-49
+PMPML-50,Express,Aundh,Baner,4.04,67.0,21,37.24,Sun,Night,20.0,Clear,11.0,3.0,0.71,High,0.0,22.55,46.02,AC,4.0,4.0,35.24,3,-46
+PMPML-30,Shuttle,Shivaji Nagar,Katraj,15.05,86.0,99,43.29,Sun,Evening,42.0,Clear,3.0,16.0,0.1,Low,0.0,31.47,50.39,Non-AC,7.0,3.0,6.57,9,13
+PMPML-37,Local,Baner,Shivaji Nagar,7.04,30.0,94,11.51,Wed,Afternoon,50.0,Cloudy,10.0,5.0,0.6,Low,1.0,10.83,27.04,AC,12.0,1.0,18.82,4,64
+PMPML-29,Shuttle,Katraj,Viman Nagar,15.54,67.0,26,21.19,Sun,Evening,66.0,Clear,4.0,4.0,0.32,Low,1.0,41.99,45.22,AC,3.0,0.0,30.69,2,-41
+PMPML-47,Local,Kothrud,Hinjewadi,14.29,69.0,111,19.13,Mon,Afternoon,66.0,Clear,5.0,16.0,0.13,Medium,1.0,20.59,78.25,Non-AC,17.0,0.0,29.53,2,42
+PMPML-12,Shuttle,Wagholi,Hinjewadi,22.28,89.0,60,17.46,Tue,Night,66.0,Rainy,1.0,12.0,0.18,Low,0.0,45.17,79.48,AC,3.0,2.0,20.59,8,-29
+PMPML-45,Shuttle,Aundh,Katraj,15.27,34.0,24,33.39,Thu,Morning,35.0,Cloudy,2.0,14.0,0.34,,0.0,20.25,24.05,Electric,14.0,3.0,34.16,2,-10
+PMPML-1,Express,Hadapsar,Kothrud,24.64,31.0,26,27.74,Sat,Night,38.0,Rainy,5.0,10.0,0.37,Medium,0.0,21.1,45.68,Non-AC,6.0,1.0,13.96,2,-5
+PMPML-33,Local,Aundh,Hadapsar,23.15,37.0,93,42.33,Mon,Evening,56.0,Cloudy,4.0,4.0,0.17,Medium,1.0,29.76,52.65,Electric,24.0,2.0,16.25,1,56
+PMPML-19,Express,Baner,Shivaji Nagar,3.17,76.0,76,44.78,Fri,Evening,69.0,Cloudy,2.0,19.0,0.84,Medium,0.0,44.63,66.76,Non-AC,15.0,1.0,11.01,0,0
+PMPML-11,Shuttle,Kharadi,Hinjewadi,23.2,85.0,113,22.87,Tue,Night,64.0,Clear,6.0,5.0,0.42,Low,0.0,47.25,85.4,AC,16.0,0.0,17.99,8,28
+PMPML-27,Express,Wagholi,Kothrud,19.27,51.0,92,28.54,Wed,Afternoon,53.0,Clear,11.0,10.0,0.76,Low,1.0,20.62,89.83,Non-AC,23.0,1.0,33.14,9,41
+PMPML-42,Shuttle,Wagholi,Kharadi,6.64,44.0,21,24.34,Sun,Night,53.0,Cloudy,8.0,14.0,0.07,Medium,0.0,35.27,35.5,Electric,,0.0,27.69,5,-23
+PMPML-17,Local,Hinjewadi,Baner,2.88,22.0,72,13.4,Sun,Evening,6.0,Cloudy,0.0,11.0,0.04,Medium,1.0,22.57,41.24,Electric,8.0,2.0,30.66,6,50
+PMPML-9,Shuttle,Hadapsar,Shivaji Nagar,20.58,40.0,50,38.82,Wed,Afternoon,28.0,Clear,1.0,12.0,0.82,Medium,1.0,44.53,86.63,Electric,20.0,2.0,5.33,3,10
+PMPML-33,Express,Hadapsar,Wagholi,10.66,31.0,61,29.42,Mon,Evening,17.0,Cloudy,12.0,11.0,0.78,Low,0.0,44.59,88.09,Non-AC,0.0,1.0,30.75,8,30
+PMPML-46,Express,Shivaji Nagar,Baner,15.9,69.0,70,29.61,Fri,Afternoon,33.0,Rainy,5.0,17.0,0.57,Low,1.0,12.22,42.31,Non-AC,2.0,0.0,14.53,0,1
+PMPML-10,Express,Baner,Kothrud,3.26,55.0,42,17.12,Sat,Afternoon,43.0,Clear,2.0,3.0,0.18,Low,0.0,40.4,54.71,Non-AC,10.0,2.0,16.25,3,-13
+PMPML-30,Shuttle,Shivaji Nagar,Shivaji Nagar,6.91,71.0,78,44.37,Wed,Evening,68.0,Rainy,8.0,18.0,0.64,Low,0.0,46.21,69.37,Electric,3.0,1.0,11.31,5,7
+PMPML-19,Local,Kharadi,Wagholi,16.79,74.0,109,30.98,Sat,Morning,61.0,Clear,5.0,13.0,0.03,Low,1.0,43.38,74.44,AC,5.0,1.0,37.05,1,35
+PMPML-41,Local,Wagholi,Kharadi,20.52,64.0,117,27.88,Tue,Night,45.0,Rainy,10.0,16.0,0.36,High,0.0,33.87,51.72,Electric,11.0,1.0,24.61,8,53
+PMPML-8,Express,Hadapsar,Hinjewadi,24.76,46.0,54,37.68,Sat,Afternoon,5.0,Rainy,1.0,5.0,0.98,Low,0.0,24.82,90.15,AC,4.0,1.0,27.63,5,8
+PMPML-24,Local,Aundh,Katraj,23.49,19.0,78,30.07,Sun,Evening,17.0,Rainy,10.0,13.0,0.33,Medium,0.0,37.94,55.74,Non-AC,6.0,0.0,11.1,3,59
+PMPML-37,Local,Kothrud,Baner,16.06,21.0,87,14.02,Mon,Night,71.0,Clear,2.0,13.0,0.94,Low,1.0,40.36,72.1,AC,3.0,1.0,36.6,4,66
+PMPML-46,Shuttle,Wagholi,Hinjewadi,16.3,78.0,45,37.07,Mon,Morning,44.0,Rainy,1.0,13.0,0.82,Low,0.0,44.66,25.33,AC,14.0,4.0,32.0,3,-33
+PMPML-41,Express,Kothrud,Baner,10.38,42.0,43,37.4,Fri,Night,31.0,Clear,2.0,5.0,0.96,Medium,1.0,16.73,52.77,Non-AC,23.0,2.0,38.06,0,1
+PMPML-33,Local,Kharadi,Viman Nagar,8.79,53.0,100,30.8,Tue,Afternoon,73.0,Clear,8.0,4.0,0.91,Low,0.0,37.75,64.92,AC,2.0,2.0,10.29,3,47
+PMPML-35,Express,Kothrud,Hadapsar,20.77,25.0,28,44.73,Wed,Evening,35.0,Cloudy,2.0,19.0,0.27,Medium,0.0,25.55,24.7,AC,6.0,0.0,37.1,8,3
+PMPML-28,Express,Viman Nagar,Hadapsar,8.88,47.0,68,37.97,Fri,Night,47.0,Clear,2.0,14.0,0.95,High,1.0,44.69,45.91,Electric,2.0,1.0,20.09,1,21
+PMPML-10,Shuttle,Viman Nagar,Kothrud,11.79,44.0,106,28.64,Fri,Evening,48.0,Cloudy,13.0,16.0,0.32,Low,1.0,11.2,82.99,Electric,24.0,3.0,21.09,3,62
+PMPML-28,Express,Shivaji Nagar,Baner,8.33,66.0,46,35.97,Sun,Night,71.0,Cloudy,6.0,17.0,0.26,Medium,1.0,25.78,71.82,Electric,2.0,0.0,8.33,1,-20
+PMPML-4,Local,Kharadi,Kharadi,13.35,35.0,98,32.61,Sun,Afternoon,34.0,Cloudy,13.0,17.0,0.1,Low,0.0,26.46,69.47,Non-AC,17.0,0.0,14.2,8,63
+PMPML-25,Shuttle,Shivaji Nagar,Kharadi,23.69,53.0,12,24.14,Thu,Morning,53.0,Rainy,2.0,6.0,0.25,Medium,0.0,35.82,36.32,AC,4.0,1.0,13.15,2,-41
+PMPML-38,Shuttle,Baner,Katraj,19.62,48.0,58,41.12,Fri,Night,26.0,Rainy,11.0,13.0,0.02,Medium,1.0,16.83,86.62,Non-AC,2.0,4.0,38.87,1,10
+PMPML-49,Shuttle,Viman Nagar,Shivaji Nagar,4.07,69.0,92,27.43,Thu,Morning,57.0,Cloudy,0.0,18.0,0.03,High,0.0,31.05,46.63,Electric,18.0,2.0,39.37,2,23
+PMPML-19,Shuttle,Shivaji Nagar,Baner,23.9,33.0,11,29.29,Sun,Morning,6.0,Cloudy,1.0,18.0,0.78,Low,1.0,11.98,32.45,Electric,14.0,0.0,35.74,4,-22
+PMPML-29,Shuttle,Hinjewadi,Baner,7.36,39.0,53,43.94,Thu,Morning,25.0,Rainy,7.0,14.0,0.87,Medium,0.0,31.65,22.54,Non-AC,19.0,0.0,5.94,6,14
+PMPML-24,Shuttle,Viman Nagar,Aundh,20.48,86.0,43,31.8,Wed,Evening,48.0,Rainy,0.0,6.0,0.35,Low,0.0,47.58,59.2,Non-AC,15.0,1.0,33.6,5,-43
+PMPML-42,Express,Katraj,Kothrud,24.83,89.0,36,23.1,Sun,Morning,68.0,Rainy,9.0,13.0,0.89,High,1.0,21.78,27.67,AC,21.0,2.0,35.9,6,-53
+PMPML-1,Shuttle,Wagholi,Shivaji Nagar,17.62,32.0,105,22.82,Sat,Afternoon,54.0,Cloudy,8.0,18.0,0.34,Low,1.0,19.97,88.28,Non-AC,8.0,1.0,10.44,8,73
+PMPML-39,Shuttle,Shivaji Nagar,Katraj,14.61,14.0,12,16.38,Sun,Night,48.0,Clear,12.0,5.0,0.34,High,1.0,20.22,99.59,Non-AC,24.0,2.0,14.77,0,-2
+PMPML-13,Shuttle,Viman Nagar,Viman Nagar,16.49,75.0,59,25.93,Fri,Evening,72.0,Clear,5.0,17.0,0.07,Low,1.0,11.59,31.14,Non-AC,1.0,4.0,19.85,0,-16
+PMPML-21,Express,Viman Nagar,Baner,17.63,26.0,49,11.5,Sun,Morning,71.0,Cloudy,10.0,14.0,0.01,Low,0.0,43.19,56.34,Non-AC,23.0,3.0,5.78,7,23
+PMPML-33,Shuttle,Hinjewadi,Shivaji Nagar,21.21,14.0,110,11.86,Wed,Night,71.0,Clear,13.0,16.0,0.3,High,1.0,14.45,39.16,Electric,18.0,0.0,26.23,9,96
+PMPML-26,Shuttle,Wagholi,Hinjewadi,19.3,73.0,85,21.84,Fri,Evening,65.0,Rainy,11.0,9.0,0.97,Medium,0.0,43.52,42.96,Electric,20.0,3.0,7.13,4,12
+PMPML-18,Express,Hadapsar,Baner,22.55,54.0,56,38.42,Sat,Afternoon,37.0,Clear,4.0,16.0,0.3,Medium,0.0,37.89,95.32,Electric,16.0,1.0,32.71,0,2
+PMPML-14,Express,Viman Nagar,Katraj,10.8,61.0,106,17.83,Sun,Evening,5.0,Clear,11.0,19.0,0.03,Low,0.0,11.63,67.4,Non-AC,13.0,2.0,9.7,3,45
+PMPML-22,Express,Baner,Hinjewadi,21.72,39.0,87,39.86,Tue,Morning,43.0,Cloudy,8.0,16.0,0.58,Low,0.0,31.62,22.12,Electric,7.0,2.0,8.63,2,48
+PMPML-34,Shuttle,Shivaji Nagar,Hinjewadi,2.98,36.0,87,16.17,Fri,Evening,75.0,Clear,0.0,14.0,0.64,Medium,1.0,20.61,54.95,Electric,9.0,3.0,32.55,4,51
+PMPML-44,Express,Wagholi,Shivaji Nagar,5.87,20.0,36,32.86,Sun,Evening,43.0,Rainy,2.0,13.0,0.9,Medium,0.0,29.82,75.08,Non-AC,2.0,3.0,32.1,1,16
+PMPML-29,Shuttle,Wagholi,Hadapsar,24.9,12.0,12,18.85,Mon,Evening,70.0,Clear,14.0,13.0,0.95,Medium,1.0,19.17,,Electric,4.0,2.0,7.93,2,0
+PMPML-3,Local,Wagholi,Katraj,11.68,22.0,66,36.94,Wed,Evening,7.0,Cloudy,1.0,3.0,0.77,Low,1.0,48.58,99.6,Non-AC,16.0,2.0,34.77,7,44
+PMPML-37,Local,Viman Nagar,Wagholi,23.7,23.0,63,19.15,Fri,Evening,46.0,Clear,3.0,15.0,0.7,Low,1.0,48.32,34.82,AC,4.0,2.0,18.06,3,40
+PMPML-41,Local,Katraj,Katraj,2.32,26.0,19,10.82,Wed,Night,16.0,Cloudy,12.0,14.0,0.78,Low,1.0,31.34,92.76,AC,5.0,3.0,15.93,8,-7
+PMPML-47,Express,Kharadi,Aundh,13.84,79.0,78,31.53,Thu,Night,26.0,Rainy,5.0,14.0,0.95,Low,0.0,38.11,54.31,AC,2.0,2.0,34.17,9,-1
+PMPML-45,Shuttle,Hadapsar,Kharadi,3.71,76.0,17,27.1,Sat,Evening,15.0,Cloudy,10.0,5.0,0.35,Low,0.0,44.27,47.58,Electric,11.0,3.0,8.58,3,-59
+PMPML-3,Express,Kharadi,Shivaji Nagar,3.24,54.0,52,14.73,Mon,Morning,37.0,Rainy,4.0,17.0,0.6,Low,0.0,27.16,48.06,Electric,5.0,2.0,26.61,1,-2
+PMPML-31,Local,Katraj,Katraj,17.56,43.0,75,17.03,Sun,Morning,40.0,Clear,9.0,15.0,0.47,Low,1.0,39.01,33.49,Non-AC,4.0,1.0,12.54,7,32
+PMPML-3,Local,Hadapsar,Kharadi,5.45,73.0,67,19.85,Wed,Evening,34.0,Rainy,14.0,9.0,0.19,Low,1.0,29.76,97.46,Non-AC,15.0,1.0,25.93,1,-6
+PMPML-33,Local,Viman Nagar,Kothrud,17.83,53.0,68,12.84,Mon,Evening,59.0,Clear,6.0,15.0,0.96,Medium,1.0,32.55,88.1,Non-AC,10.0,1.0,29.03,9,15
+PMPML-44,Shuttle,Katraj,Aundh,3.15,13.0,79,32.65,Fri,Night,44.0,Rainy,2.0,13.0,0.96,Medium,0.0,31.43,30.82,Non-AC,7.0,1.0,27.04,4,66
+PMPML-18,Local,Baner,Kharadi,24.87,48.0,41,22.69,Sat,Morning,21.0,Cloudy,0.0,15.0,0.59,Medium,0.0,45.08,59.9,Non-AC,9.0,0.0,20.92,2,-7
+PMPML-41,Express,Viman Nagar,Wagholi,13.16,42.0,10,24.45,Sat,Afternoon,38.0,Rainy,8.0,16.0,0.69,Low,0.0,17.48,82.91,AC,5.0,0.0,9.44,1,-32
+PMPML-31,Shuttle,Hadapsar,Hadapsar,3.08,18.0,99,38.77,Fri,Evening,9.0,Cloudy,12.0,12.0,0.49,Low,0.0,37.44,48.23,Non-AC,24.0,4.0,10.92,8,81
+PMPML-10,Shuttle,Hadapsar,Baner,12.81,71.0,45,37.4,Tue,Afternoon,62.0,Clear,7.0,6.0,0.51,Medium,1.0,35.69,38.57,Non-AC,0.0,2.0,18.86,6,-26
+PMPML-14,Express,Hadapsar,Viman Nagar,9.53,29.0,38,23.74,Mon,Night,70.0,Rainy,2.0,17.0,0.73,Low,0.0,30.34,29.5,AC,2.0,0.0,32.71,7,9
+PMPML-23,Express,Kharadi,Aundh,16.04,70.0,39,25.05,Sun,Night,48.0,Cloudy,9.0,8.0,0.73,Medium,0.0,41.89,38.14,Electric,7.0,1.0,8.01,1,-31
+PMPML-7,Express,Aundh,Shivaji Nagar,15.78,54.0,70,15.65,Sun,Night,15.0,Cloudy,7.0,6.0,0.04,Medium,1.0,18.52,52.67,AC,2.0,0.0,29.52,3,16
+PMPML-11,Express,Wagholi,Wagholi,22.36,77.0,27,28.24,Wed,Evening,56.0,Cloudy,5.0,16.0,0.67,Low,1.0,35.13,52.85,AC,17.0,4.0,25.3,0,-50
+PMPML-46,Local,Shivaji Nagar,Hinjewadi,2.42,75.0,80,35.54,Thu,Afternoon,35.0,Cloudy,2.0,12.0,0.58,Low,0.0,25.71,22.86,Electric,19.0,1.0,7.94,1,5
+PMPML-40,Express,Hinjewadi,Baner,14.99,29.0,109,40.65,Thu,Night,16.0,Cloudy,7.0,13.0,0.28,Low,1.0,43.52,31.03,Non-AC,7.0,3.0,36.74,6,80
+PMPML-32,Express,Baner,Hadapsar,15.6,54.0,12,11.51,Sun,Evening,46.0,Cloudy,0.0,7.0,0.36,Low,1.0,22.35,35.23,AC,3.0,0.0,12.42,0,-42
+PMPML-9,Shuttle,Wagholi,Aundh,20.16,75.0,67,19.85,Sat,Night,26.0,Cloudy,8.0,11.0,0.89,Low,0.0,34.82,59.15,Non-AC,22.0,0.0,22.14,6,-8
+PMPML-8,Shuttle,Viman Nagar,Kothrud,22.49,16.0,42,38.13,Thu,Morning,74.0,Cloudy,3.0,13.0,0.55,Low,1.0,41.12,62.98,AC,7.0,2.0,7.91,8,26
+PMPML-1,Local,Hinjewadi,Viman Nagar,24.05,63.0,32,24.47,Thu,Afternoon,43.0,Cloudy,2.0,6.0,0.78,High,0.0,16.55,34.55,AC,14.0,2.0,33.12,9,-31
+PMPML-34,Shuttle,Aundh,Kharadi,6.12,21.0,42,39.57,Tue,Night,51.0,Clear,7.0,4.0,0.33,Low,0.0,11.26,62.03,Non-AC,9.0,3.0,19.87,8,21
+PMPML-2,Shuttle,Wagholi,Viman Nagar,18.61,24.0,80,41.28,Fri,Night,79.0,Clear,5.0,17.0,0.75,Low,0.0,18.67,29.7,Electric,21.0,3.0,26.42,3,56
+PMPML-26,Shuttle,Kharadi,Hadapsar,19.4,17.0,59,33.76,Tue,Evening,46.0,Rainy,3.0,15.0,0.17,Low,1.0,29.95,57.78,AC,5.0,1.0,27.77,7,42
+PMPML-26,Shuttle,Kharadi,Hadapsar,15.31,70.0,106,29.24,Wed,Night,7.0,Cloudy,11.0,6.0,0.35,Medium,1.0,28.94,39.53,Non-AC,7.0,4.0,9.73,4,36
+PMPML-17,Express,Viman Nagar,Aundh,18.38,26.0,68,13.13,Mon,Evening,76.0,Rainy,12.0,7.0,0.34,Low,0.0,12.46,43.95,Electric,21.0,1.0,20.55,6,42
+PMPML-49,Shuttle,Shivaji Nagar,Hadapsar,13.38,48.0,57,20.42,Tue,Evening,62.0,Cloudy,14.0,14.0,0.84,Low,0.0,18.4,23.91,Electric,2.0,4.0,10.07,6,9
+PMPML-28,Local,Hadapsar,Shivaji Nagar,16.87,72.0,17,31.54,Mon,Night,65.0,Cloudy,8.0,18.0,0.75,Low,0.0,48.07,96.1,Electric,12.0,1.0,14.67,8,-55
+PMPML-11,Local,Shivaji Nagar,Wagholi,21.31,59.0,92,24.49,Fri,Evening,69.0,Cloudy,9.0,8.0,0.44,Low,1.0,33.56,38.23,Electric,5.0,3.0,36.05,6,33
+PMPML-10,Shuttle,Baner,Kharadi,9.67,89.0,75,30.19,Tue,Evening,75.0,Clear,2.0,15.0,0.25,Medium,1.0,12.77,63.16,Non-AC,14.0,3.0,8.72,7,-14
+PMPML-14,Shuttle,Katraj,Wagholi,21.43,73.0,104,27.55,Fri,Night,58.0,Clear,5.0,12.0,0.65,High,0.0,25.81,86.95,Non-AC,3.0,4.0,37.34,5,31
+PMPML-24,Express,Baner,Viman Nagar,16.02,71.0,79,11.84,Wed,Morning,25.0,Rainy,12.0,3.0,0.48,Low,0.0,34.23,59.0,Electric,4.0,2.0,10.75,0,8
+PMPML-13,Express,Baner,Kharadi,14.21,40.0,33,12.88,Wed,Evening,17.0,Rainy,8.0,5.0,0.44,Low,0.0,19.76,86.48,Electric,16.0,4.0,19.59,1,-7
+PMPML-46,Local,Kothrud,Hadapsar,22.67,77.0,53,43.47,Mon,Morning,45.0,Clear,12.0,18.0,0.65,Low,0.0,44.51,82.68,Electric,24.0,4.0,36.01,5,-24
+PMPML-36,Local,Katraj,Kharadi,16.08,14.0,50,44.86,Wed,Morning,57.0,Rainy,7.0,18.0,0.6,Low,1.0,18.94,82.94,AC,3.0,2.0,23.92,7,36
+PMPML-11,Local,Hinjewadi,Wagholi,8.37,80.0,26,27.98,Fri,Morning,63.0,Clear,11.0,7.0,0.85,High,1.0,25.44,70.49,Non-AC,10.0,1.0,28.05,1,-54
+PMPML-42,Local,Shivaji Nagar,Hinjewadi,20.91,58.0,79,44.9,Sat,Night,77.0,Rainy,6.0,14.0,0.05,Low,0.0,41.36,66.37,AC,1.0,2.0,25.8,8,21
+PMPML-11,Shuttle,Hadapsar,Wagholi,2.39,44.0,78,34.47,Mon,Morning,75.0,Cloudy,10.0,13.0,0.85,High,1.0,37.8,69.8,AC,9.0,1.0,9.72,9,34
+PMPML-1,Local,Wagholi,Katraj,6.21,16.0,109,11.61,Sun,Night,29.0,Rainy,3.0,9.0,0.91,Medium,1.0,15.87,99.77,AC,20.0,3.0,27.81,8,93
+PMPML-36,Local,Shivaji Nagar,Shivaji Nagar,11.18,61.0,71,41.51,Thu,Morning,58.0,Cloudy,11.0,3.0,0.18,Low,1.0,25.13,42.93,Electric,0.0,1.0,6.53,0,10
+PMPML-31,Local,Katraj,Baner,8.28,47.0,29,16.37,Tue,Evening,66.0,Cloudy,12.0,7.0,0.47,Low,0.0,46.29,24.1,Non-AC,15.0,2.0,29.27,7,-18
+PMPML-3,Shuttle,Aundh,Baner,17.61,71.0,114,18.62,Sat,Evening,20.0,Clear,13.0,3.0,0.82,Medium,1.0,39.56,49.18,Non-AC,21.0,0.0,24.14,1,43
+PMPML-29,Express,Wagholi,Viman Nagar,14.03,70.0,60,28.06,Wed,Evening,42.0,Clear,2.0,17.0,0.07,Medium,1.0,24.47,73.26,Non-AC,6.0,2.0,16.22,9,-10
+PMPML-39,Local,Katraj,Wagholi,7.22,56.0,35,13.34,Wed,Night,72.0,Rainy,10.0,7.0,0.2,Medium,0.0,,93.5,AC,9.0,4.0,32.14,5,-21
+PMPML-34,Shuttle,Hadapsar,Katraj,10.04,23.0,74,35.06,Sun,Night,33.0,Cloudy,14.0,4.0,0.24,Low,1.0,16.16,69.03,Electric,10.0,4.0,6.9,4,51
+PMPML-43,Local,Viman Nagar,Kharadi,23.83,76.0,63,29.81,Tue,Evening,23.0,Rainy,8.0,9.0,0.27,Medium,0.0,47.63,40.7,Non-AC,15.0,0.0,38.58,2,-13
+PMPML-17,Shuttle,Aundh,Baner,6.33,71.0,91,19.88,Sat,Evening,38.0,Clear,1.0,11.0,0.99,High,0.0,39.67,24.38,Electric,12.0,1.0,30.17,8,20
+PMPML-6,Shuttle,Kharadi,Kothrud,21.02,63.0,42,15.45,Sun,Morning,24.0,Clear,9.0,5.0,0.43,Low,0.0,46.28,31.96,Non-AC,19.0,2.0,21.86,5,-21
+PMPML-6,Express,Viman Nagar,Kothrud,12.72,89.0,101,33.27,Tue,Morning,69.0,Clear,9.0,9.0,0.42,Low,1.0,39.16,65.94,Electric,12.0,4.0,11.76,3,12
+PMPML-47,Local,Wagholi,Baner,15.87,33.0,99,25.34,Wed,Night,15.0,Rainy,12.0,9.0,0.2,High,0.0,39.43,78.17,Electric,21.0,1.0,24.96,4,66
+PMPML-15,Local,Hadapsar,Shivaji Nagar,9.23,51.0,111,15.06,Mon,Afternoon,79.0,Rainy,5.0,19.0,0.65,High,0.0,33.25,89.54,AC,15.0,0.0,26.7,5,60
+PMPML-44,Shuttle,Hadapsar,Shivaji Nagar,20.53,63.0,17,27.1,Thu,Morning,75.0,Rainy,0.0,3.0,0.75,Low,1.0,17.92,55.72,Electric,10.0,3.0,22.51,8,-46
+PMPML-42,Express,Viman Nagar,Hadapsar,8.44,16.0,54,18.07,Sat,Afternoon,73.0,Clear,9.0,12.0,0.02,High,0.0,30.71,98.71,Non-AC,8.0,3.0,29.74,2,38
+PMPML-42,Express,Viman Nagar,Wagholi,3.83,23.0,36,31.01,Fri,Night,13.0,Cloudy,8.0,19.0,0.28,Low,0.0,10.32,96.55,Electric,23.0,3.0,38.18,6,13
+PMPML-31,Express,Viman Nagar,Hinjewadi,22.08,36.0,93,33.65,Fri,Night,47.0,Cloudy,13.0,16.0,0.49,Low,1.0,12.21,57.86,AC,24.0,0.0,37.29,8,57
+PMPML-5,Express,Katraj,Viman Nagar,24.48,36.0,112,16.45,Sun,Night,48.0,Cloudy,5.0,15.0,0.34,Low,0.0,14.16,86.03,Non-AC,1.0,1.0,11.57,4,76
+PMPML-23,Local,Baner,Kothrud,22.62,86.0,103,19.61,Fri,Evening,57.0,Clear,12.0,12.0,0.03,Medium,0.0,28.31,39.34,Non-AC,21.0,3.0,28.35,5,17
+PMPML-48,Shuttle,Baner,Viman Nagar,7.13,12.0,117,26.52,Thu,Night,38.0,Rainy,4.0,16.0,0.26,Low,0.0,32.29,99.07,AC,19.0,1.0,21.2,5,105
+PMPML-17,Local,Shivaji Nagar,Shivaji Nagar,13.14,31.0,15,17.73,Wed,Night,60.0,Cloudy,1.0,16.0,0.52,Low,0.0,12.75,92.59,AC,18.0,4.0,37.16,2,-16
+PMPML-4,Local,Wagholi,Baner,5.4,68.0,30,28.38,Sun,Afternoon,32.0,Rainy,13.0,18.0,0.72,High,0.0,37.19,27.01,Electric,4.0,2.0,37.93,7,-38
+PMPML-35,Express,Kothrud,Kharadi,7.25,51.0,43,37.37,Wed,Morning,31.0,Rainy,8.0,12.0,0.05,Low,0.0,18.38,22.1,Non-AC,3.0,1.0,23.78,2,-8
+PMPML-35,Local,Kharadi,Katraj,10.34,,88,29.6,Wed,Morning,41.0,Clear,8.0,18.0,0.9,Medium,1.0,32.37,56.88,Non-AC,6.0,0.0,14.83,1,5
+PMPML-20,Shuttle,Wagholi,Aundh,4.05,29.0,20,26.51,Sun,Afternoon,67.0,Cloudy,11.0,14.0,0.73,High,1.0,30.14,53.9,Electric,6.0,2.0,31.72,8,-9
+PMPML-33,Express,Shivaji Nagar,Hinjewadi,14.98,42.0,33,38.39,Mon,Evening,59.0,Cloudy,2.0,15.0,0.23,Low,0.0,40.68,30.76,AC,9.0,1.0,14.5,7,-9
+PMPML-29,Local,Kothrud,Katraj,10.67,72.0,72,39.98,Tue,Night,70.0,Clear,11.0,12.0,0.13,Medium,1.0,25.14,33.97,Electric,5.0,1.0,12.89,1,0
+PMPML-12,Express,Kothrud,Shivaji Nagar,7.34,89.0,65,36.63,Sun,Night,48.0,Rainy,12.0,5.0,0.06,Low,1.0,21.67,59.55,AC,24.0,2.0,27.29,2,-24
+PMPML-25,Express,Hadapsar,Baner,13.79,60.0,40,18.77,Wed,Evening,68.0,Clear,6.0,16.0,0.1,Low,0.0,20.63,46.52,AC,19.0,2.0,15.21,8,-20
+PMPML-4,Express,Hadapsar,Viman Nagar,22.85,13.0,16,31.94,Wed,Night,78.0,Cloudy,11.0,4.0,0.65,High,0.0,39.72,66.51,Non-AC,14.0,2.0,30.03,2,3
+PMPML-18,Express,Hinjewadi,Katraj,24.5,71.0,91,23.79,Sun,Morning,63.0,Clear,3.0,8.0,0.86,Low,1.0,27.38,77.85,AC,5.0,0.0,18.95,6,20
+PMPML-6,Local,Aundh,Hinjewadi,11.63,39.0,31,43.43,Thu,Evening,40.0,Clear,3.0,19.0,0.01,High,1.0,44.8,55.6,AC,12.0,4.0,19.52,4,-8
+PMPML-23,Shuttle,Shivaji Nagar,Hadapsar,22.47,58.0,22,44.4,Mon,Morning,59.0,Clear,9.0,9.0,0.35,Low,1.0,34.66,25.69,Electric,10.0,1.0,10.42,1,-36
+PMPML-36,Local,Aundh,Wagholi,15.81,12.0,74,15.87,Tue,Evening,79.0,Rainy,13.0,4.0,0.14,Low,1.0,48.08,68.75,Electric,5.0,2.0,28.83,5,62
+PMPML-44,Shuttle,Hinjewadi,Viman Nagar,10.14,54.0,32,32.92,Sun,Night,63.0,Cloudy,4.0,8.0,0.66,Low,0.0,41.83,79.86,Non-AC,9.0,2.0,23.07,6,-22
+PMPML-45,Express,Wagholi,Hinjewadi,20.5,67.0,52,26.75,Fri,Evening,62.0,Cloudy,6.0,5.0,0.2,Low,0.0,37.09,28.58,Electric,16.0,1.0,7.65,0,-15
+PMPML-7,Shuttle,Kharadi,Aundh,12.21,70.0,97,25.18,Mon,Evening,71.0,Rainy,4.0,19.0,0.71,Low,1.0,13.85,95.24,Electric,10.0,4.0,33.66,2,27
+PMPML-31,Shuttle,Wagholi,Wagholi,20.28,88.0,20,11.35,Thu,Night,45.0,Clear,8.0,19.0,0.65,Low,0.0,10.46,78.91,Non-AC,12.0,3.0,19.89,9,-68
+PMPML-15,Local,Wagholi,Baner,24.1,86.0,32,22.72,Tue,Evening,48.0,Cloudy,4.0,8.0,0.29,Medium,0.0,17.69,85.8,AC,14.0,2.0,15.53,3,-54
+PMPML-29,Local,Hadapsar,Katraj,6.64,22.0,112,34.83,Fri,Evening,33.0,Cloudy,14.0,14.0,0.16,Low,0.0,37.57,52.29,Non-AC,1.0,4.0,27.15,3,90
+PMPML-38,Shuttle,Wagholi,Baner,2.78,71.0,14,33.12,Thu,Evening,37.0,Clear,6.0,10.0,0.5,High,1.0,20.15,30.12,Non-AC,7.0,2.0,24.66,7,-57
+PMPML-20,Local,Wagholi,Kothrud,7.69,83.0,81,30.13,Mon,Morning,12.0,Rainy,0.0,8.0,0.24,Medium,0.0,33.13,34.36,AC,23.0,4.0,25.57,8,-2
+PMPML-6,Shuttle,Hinjewadi,Katraj,4.41,52.0,105,41.46,Thu,Night,74.0,Rainy,0.0,6.0,0.33,Medium,0.0,19.9,40.38,AC,0.0,4.0,26.3,2,53
+PMPML-48,Express,Baner,Wagholi,7.66,50.0,53,21.22,Sun,Afternoon,32.0,Cloudy,4.0,6.0,0.45,Low,1.0,25.65,36.85,Electric,5.0,4.0,26.3,9,3
+PMPML-45,Shuttle,Kothrud,Kothrud,10.37,55.0,50,37.56,Tue,Morning,72.0,Clear,0.0,10.0,0.69,Medium,1.0,33.68,63.47,Electric,8.0,3.0,33.25,5,-5
+PMPML-19,Shuttle,Wagholi,Hinjewadi,17.73,55.0,64,16.25,Fri,Night,12.0,Cloudy,8.0,3.0,0.81,Low,0.0,20.65,53.54,AC,16.0,1.0,31.28,6,9
+PMPML-19,Local,Aundh,Hadapsar,4.19,66.0,82,29.51,Thu,Night,17.0,Rainy,8.0,15.0,0.97,High,0.0,15.0,58.97,Electric,6.0,4.0,38.13,7,16
+PMPML-42,Express,Shivaji Nagar,Kharadi,17.23,34.0,63,14.92,Sun,Afternoon,73.0,Cloudy,8.0,12.0,0.8,Low,1.0,49.39,83.83,AC,10.0,0.0,28.43,7,29
