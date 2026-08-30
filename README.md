@@ -657,6 +657,8 @@ Fuel Analysis	fuel_consumption_liters
 Complaint Analysis	complaint_count
 Stop Analysis	start_stop, end_stop, stop_count
 Cost Analysis	ticket_price_inr
+
+
 📌 EDA Business Questions
 
 The EDA was designed to answer questions such as:
@@ -676,6 +678,7 @@ How does speed reduction relate to delay?
 Which starting and ending stops are most frequently used?
 How is ticket pricing distributed?
 Are there unusual values or outliers in the numerical variables?
+
 💡 EDA Key Findings
 
 The EDA provides a foundation for the Power BI dashboard by highlighting:
@@ -694,6 +697,7 @@ Speed-reduction relationships.
 Potential numerical outliers.
 
 Note: Exact numerical findings should be added after running the notebook on the final dataset.
+
 
 📸 EDA Screenshots
 
