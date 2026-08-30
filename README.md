@@ -1004,7 +1004,7 @@ If latitude and longitude are added to the dataset later, the dashboard can prov
 
 Add your Python EDA screenshots inside the `Images` folder.
 
-```markdown
+markdown
 <img src="Images/EDA_Route_Distribution.png" width="800">
 
 <img src="Images/EDA_Delay_Analysis.png" width="800">
@@ -1012,9 +1012,8 @@ Add your Python EDA screenshots inside the `Images` folder.
 <img src="Images/EDA_Passenger_Analysis.png" width="800">
 
 <img src="Images/EDA_Correlation_Heatmap.png" width="800">
-```
 
----
+
 
 # 📸 Power BI Dashboard Preview
 
