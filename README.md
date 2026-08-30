@@ -1005,13 +1005,23 @@ If latitude and longitude are added to the dataset later, the dashboard can prov
 Add your Python EDA screenshots inside the `Images` folder.
 
 markdown
-<img src="Images/EDA_Route_Distribution.png" width="800">
+<img width="1077" height="1306" alt="image" src="https://github.com/user-attachments/assets/1d0dc3e0-aac0-4090-9f09-3adc5f5d6730" />
 
-<img src="Images/EDA_Delay_Analysis.png" width="800">
+<img width="884" height="580" alt="image" src="https://github.com/user-attachments/assets/98685d5c-afc5-4bca-8158-444532d63f03" />
+<img width="919" height="580" alt="image" src="https://github.com/user-attachments/assets/e092b411-4d8a-4289-849b-e4011c7c313d" />
+<img width="1080" height="700" alt="image" src="https://github.com/user-attachments/assets/094f972b-f924-4b42-8919-c02350c030c9" />
+<img width="665" height="633" alt="image" src="https://github.com/user-attachments/assets/ea4ff10d-d4df-4543-a5a5-3ba6369e565b" />
+<img width="639" height="608" alt="image" src="https://github.com/user-attachments/assets/b8b42aa8-786b-49c1-990c-116bf1e2d3b4" />
+<img width="639" height="608" alt="image" src="https://github.com/user-attachments/assets/104d2436-a0f4-40a5-a800-5d194ba865fe" />
+<img width="639" height="608" alt="image" src="https://github.com/user-attachments/assets/301743ed-8987-4174-9a04-660aad6b2c0a" />
+<img width="648" height="608" alt="image" src="https://github.com/user-attachments/assets/cfa36176-5740-4bd9-bc24-50cb34f752e5" />
 
-<img src="Images/EDA_Passenger_Analysis.png" width="800">
 
-<img src="Images/EDA_Correlation_Heatmap.png" width="800">
+
+
+
+
+
 
 
 
