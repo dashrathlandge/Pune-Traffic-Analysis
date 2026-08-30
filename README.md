@@ -703,24 +703,38 @@ Recommended files:
 
 Images/
 │
-├── EDA_Risk_Level.png
-├── EDA_Start_Stop.png
-├── EDA_End_Stop.png
-├── EDA_Driver_Experience.png
-├── EDA_Bus_Type.png
-├── EDA_Ticket_Price.png
-├── EDA_Route_Distribution.png
-├── EDA_Complaints.png
-├── EDA_Distance_vs_Delay.png
-├── EDA_Delay_by_Day.png
-├── EDA_Peak_Hour.png
-├── EDA_Weather.png
-├── EDA_Correlation_Heatmap.png
-├── EDA_Numerical_Distributions.png
-└── EDA_Outliers.png
-```
+├──<img width="892" height="708" alt="image" src="https://github.com/user-attachments/assets/f1762a49-45f7-4c44-b019-9c8dbc5bf7bd" />
 
----
+├──<img width="884" height="580" alt="image" src="https://github.com/user-attachments/assets/9c5ad336-8902-439e-921d-5cb5fae21f15" />
+
+├── <img width="919" height="580" alt="image" src="https://github.com/user-attachments/assets/24816093-57ec-49c5-bdaf-cc5ececef304" />
+
+├── <img width="1080" height="700" alt="image" src="https://github.com/user-attachments/assets/7b0ff4d1-115f-44c5-b111-c211a6814df7" />
+
+├── <img width="892" height="677" alt="image" src="https://github.com/user-attachments/assets/c273a6fa-a7b7-46fa-a6dd-e47fbca482f8" />
+
+├── <img width="880" height="708" alt="image" src="https://github.com/user-attachments/assets/ff4f3695-38d6-44a3-a8fe-5d361e348f79" />
+
+├── <img width="863" height="769" alt="image" src="https://github.com/user-attachments/assets/f446d55e-1e41-46c0-b3fa-bc3da989c330" />
+
+├── <img width="863" height="700" alt="image" src="https://github.com/user-attachments/assets/5589af6f-45d8-4cf0-83a7-ed32dd647815" />
+
+├── <img width="897" height="675" alt="image" src="https://github.com/user-attachments/assets/e7bfc445-14e4-4573-9086-2fbda8595a68" />
+
+├──<img width="848" height="728" alt="image" src="https://github.com/user-attachments/assets/dc2590be-a102-4a9e-a73a-fcfb1d556b76" />
+
+├──<img width="665" height="633" alt="image" src="https://github.com/user-attachments/assets/6bf49ae6-db0f-467f-a317-554bff3656f4" />
+
+├── <img width="648" height="608" alt="image" src="https://github.com/user-attachments/assets/1b69185c-44bf-41a2-9e44-d1bded167724" />
+
+├── <img width="1077" height="1306" alt="image" src="https://github.com/user-attachments/assets/86277c99-4712-43a5-9480-d852b0dad208" />
+
+├── <img width="938" height="2151" alt="image" src="https://github.com/user-attachments/assets/5420fc50-31bc-467c-b239-5eec90aebe9f" />
+
+└──<img width="1991" height="1122" alt="image" src="https://github.com/user-attachments/assets/48697c15-b642-4ecb-91b0-34d83e92cd35" />
+
+``
+
 
 # 💡 EDA Key Findings
 
